@@ -1,0 +1,25 @@
+\section{Operational Transformations for the Redis List}  \label{section:rlist-ot}
+
+%%%%%%%%%% tbl:rlist-ops %%%%%
+\input{tables/rlist-ops}
+%%%%%%%%%% tbl:rlist-ops %%%%%
+
+According to the official document,
+a Redis list supports 17 operations~\cite{rlist}.
+Among the 14 non-blocking operations, 
+we study the following ones:
+\lpush, \rpush, \lpushx, \rpushx,
+\lpop, \rpop, \linsert, \lset, \ltrim, and \lrem.
+We also consider \ldel{} and \lins,
+deletions and insertions by indices.
+Table~\ref{tbl:rlist-ops} presents the (informal) sequential specification
+of these 16 Redis list operations.
+
+%%%%%%%%%% fig:rlist-ot %%%%%
+\begin{figure}[t]
+  \centering
+  \input{algs/rlist-ot}
+  \caption{Operational Transformations for the Redis List.}
+  \label{fig:rlist-ot}
+\end{figure}
+%%%%%%%%%% fig:rlist-ot %%%%%

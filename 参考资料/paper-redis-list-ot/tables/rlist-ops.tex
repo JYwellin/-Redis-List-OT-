@@ -1,0 +1,18 @@
+\begin{table*}[t]
+  \centering
+  \caption{Redis list operations.}
+  \label{tbl:rlist-ops}
+  \begin{tabular}{|c|c|c|c|}
+    \hline
+    Operations & Parameters & Return Value & Notes 
+    \\ \hline
+    \lins & \parafont{index} & &
+    \\ \hline
+    \ldel & \parafont{index} & &
+    \\ \hline
+    \lset & \parafont{index} & &
+    \\ \hline
+    \ltrim & \parafont{start}, \parafont{stop} & $L[\parafont{start}] \ldots L[\parafont{stop}]$ & $-1$ means the last element
+    \\ \hline
+  \end{tabular}
+\end{table*}

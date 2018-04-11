@@ -1,0 +1,35 @@
+%%%%%%%%%% rlist-ot.tex %%%%%%%%%% 
+\begin{align}
+  % ins vs. ins
+  \ot{\lins(i_1, e_1, p_1)}{\lins(i_2, e_2, p_2)} &= \begin{cases}
+    & i_1 < i_2 \\
+    & i_1 > i_2 \\
+    & i_1 = i_2 \land e_1 = e_2 \\
+    & i_1 = i_2 \land e_1 \neq e_2 \land p_1 > p_2 \\
+    & i_1 = i_2 \land e_1 \neq e_2 \land p_1 \le p_2
+  \end{cases}\\
+  % trim vs. trim
+  \ot{\ltrim(i,j)}{\ltrim(m,n)} &= \begin{cases}
+    \ltrim(0,-1)	& (i,j) \cap (m,n) = \emptyset	\\
+    & \ldots
+  \end{cases}\\
+  % trim vs. del
+  \ot{\ltrim(i,j)}{\ldel(k)} &= \begin{cases}
+    \ltrim(i-1, j-1) 	& k < i \le j	\\
+    \ltrim(i, j-1) 	& k = i < j	\\
+    \ltrim(0, -1)	& k = i = j	\\
+    \ltrim(i, j-1)	& i < k < j	\\
+    \ltrim(i, j-1)	& i < k = j	\\
+    & \ldots
+  \end{cases}\\
+  % del vs. trim
+  \ot{\ldel(k)}{\ltrim(i,j)} &= \begin{cases}
+    \ldel(k)	& k < i \le j 	\\
+    \ldel(k)	& k = i < j	\\
+    \ldel(0)	& k = i = j	\\
+    \ldel(k-i)	& i < k < j	\\
+    \ldel(k-i)	& i < k = j	\\
+    & \ldots
+  \end{cases}\\
+\end{align}
+%%%%%%%%%% rlist-ot.tex %%%%%%%%%% 

@@ -1,0 +1,36 @@
+%%%%%%%%%% fonts %%%%%%%%%% 
+\newcommand{\parafont}[1]{\textsf{#1}}
+\newcommand{\opfont}[1]{\textsc{#1}}
+%%%%%%%%%% fonts %%%%%%%%%% 
+
+ %%%%%%%%%% rlist commands %%%%%%%%%% 
+  % updates (9)
+\newcommand{\lpush}{\opfont{Lpush}}	% LPUSH
+\newcommand{\rpush}{\opfont{Rpush}}	% RPUSH
+\newcommand{\lpushx}{\opfont{Lpushx}}	% LPUSHX
+\newcommand{\rpushx}{\opfont{Rpushx}}	% RPUSHX
+\newcommand{\lpop}{\opfont{Lpop}}	% LPOP
+\newcommand{\rpop}{\opfont{Rpop}}	% RPOP
+\newcommand{\linsert}{\opfont{Insert}}	% INSERT
+\newcommand{\lset}{\opfont{Set}}	% SET
+\newcommand{\ltrim}{\opfont{Trim}}	% TRIM
+  % added: del/ins by indices (2)
+\newcommand{\ldel}{\opfont{Del}}	% DEL
+\newcommand{\lins}{\opfont{Ins}}	% INS
+  % multiple elements updates (2)
+\newcommand{\lrem}{\opfont{Rem}}	% REM
+\newcommand{\rpoplpush}{\opfont{RPOPLPUSH}}
+  % blocking updates (3)
+\newcommand{\blpop}{\opfont{BLPOP}}
+\newcommand{\brpop}{\opfont{BRPOP}}
+\newcommand{\brpoplpush}{\opfont{BRPOPLPUSH}}
+  % read-only (3)
+\newcommand{\llen}{\opfont{LEN}}
+\newcommand{\lindex}{\opfont{INDEX}}
+\newcommand{\lrange}{\opfont{RANGE}}
+%%%%%%%%%% rlist commands %%%%%%%%%% 
+
+% 
+\newcommand{\ldelop}[2]{\ldel\left(#1, #2\right)}  % #1: index, #2: priority
+\newcommand{\linsop}[3]{\lins\left(#1, #2, #3\right)}  % #1: index, #2: element, #3: priority
+\newcommand{\ot}[2]{\text{OT}\left(#1, #2\right)}
