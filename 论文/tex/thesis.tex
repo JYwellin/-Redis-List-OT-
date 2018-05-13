@@ -1,0 +1,112 @@
+\documentclass[bachelor,oneside,winfonts]{njuthesis}
+\usepackage{epsfig}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+\usepackage{amsmath}
+\usepackage[noend]{algpseudocode}
+\usepackage{tikz}
+\SetKwBlock{Begin}{Upon}{end}
+\makeatletter
+\def\BState{\State\hskip-\ALG@thistlm}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置论文的中文封面
+
+% 论文标题，不可换行
+\title{面向Redis list的OT函数的设计与验证}
+% 如果论文标题过长，可以分两行，第一行用\titlea{}定义，第二行用\titleb{}定义，将上面的\title{}注释掉
+%\titlea{分布式移动计算中数据共享技术研究}
+%\titleb{}
+
+% 论文作者姓名
+\author{纪业}
+% 论文作者联系电话
+\telphone{18362917059}
+% 论文作者电子邮件地址
+\email{451686157@qq.com}
+% 论文作者学生证号
+\studentnum{141220044}
+% 论文作者入学年份（年级）
+\grade{2014}
+% 导师姓名职称
+\supervisor{魏恒峰~讲师}
+% 导师的联系电话
+\supervisortelphone{}
+% 论文作者的学科与专业方向
+\major{计算机软件与理论}
+% 论文作者的研究方向
+\researchfield{分布式算法}
+% 论文作者所在院系的中文名称
+\department{计算机科学与技术系}
+% 论文作者所在学校或机构的名称。此属性可选，默认值为``南京大学''。
+\institute{南京大学}
+% 论文的提交日期，需设置年、月、日。
+\submitdate{2018年6月20日}
+% 论文的答辩日期，需设置年、月、日。
+\defenddate{2018年6月7日}
+% 论文的定稿日期，需设置年、月、日。此属性可选，默认值为最后一次编译时的日期，精确到日。
+%% \date{2013年5月1日}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 设置论文的英文封面-
+
+% 论文的英文标题，不可换行
+\englishtitle{Design and verification of OT function for Redis List}
+% 论文作者姓名的拼音
+\englishauthor{Ji Ye}
+% 导师姓名职称的英文
+\englishsupervisor{Professor Wei Henfeng}
+
+% 论文作者学科与专业的英文名
+\englishmajor{Computer Software and Theory}
+% 论文作者所在院系的英文名称
+\englishdepartment{Department of Computer Science and Technology}
+% 论文作者所在学校或机构的英文名称。此属性可选，默认值为``Nanjing University''。
+\englishinstitute{Nanjing University}
+% 论文完成日期的英文形式，它将出现在英文封面下方。需设置年、月、日。日期格式使用美国的日期
+% 格式，即``Month day, year''，其中``Month''为月份的英文名全称，首字母大写；``day''为
+% 该月中日期的阿拉伯数字表示；``year''为年份的四位阿拉伯数字表示。此属性可选，默认值为最后
+% 一次编译时的日期。
+\englishdate{\today}
+
+
+\begin{document}
+	
+	% 制作中文封面
+	\maketitle
+	% 制作英文封面
+	\makeenglishtitle
+	
+	%%%%%%%%%%%
+	% 开始前言部分
+	\frontmatter
+	
+	%摘要
+	\input{chapters/abstract}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% 生成论文目次
+	\tableofcontents
+	
+	%%%%%%%%%%
+	% 开始正文部分
+	\mainmatter
+	
+	
+	%前言
+	\input{chapters/preface}
+	%相关工作
+	\input{chapters/related_work}
+	%OT函数设计
+	\input{chapters/design}
+	%OT函数验证
+	\input{chapters/proof}
+	%实验
+	\input{chapters/experiment}
+	%结论与未来工作
+	\input{chapters/conclusion_future_work}
+	%参考文献
+	\bibliography{thesis}
+	%致谢
+	\input{chapters/acknowledgement}
+\end{document}

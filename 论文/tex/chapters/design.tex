@@ -1,0 +1,221 @@
+\chapter{Redis List OT 函数设计}
+\section{Redis List API 分类}
+\subsection{Redis List API简介}
+\par 由于本次毕业设计是针对Redis系统的List命令进行的，首先对Redis中的列表(List)及其相关命令进行一个简要的介绍。
+Redis中的列表是字符串列表，按照插入的顺序进行排序，一个列表可以包含的最多元素为$2^{32}-1(4294967295)$个。
+
+\par 列表相关的基本命令共有17个，其中3个为阻塞性操作（即没有元素时会阻塞列表直至等待到有元素可以执行该命令），即其余14种为非阻塞性操作，即下面列出的14个命令。\\
+
+\begin{itemize}
+\item LINDEX  key index:通过索引index来获取列表key中的元素
+\item LINSERT key BEFORE(AFTER) pivot value:在列表key某个元素pivot的前面(BEFORE)或者后面（AFTER)插入元素value，若元素不在列表中或者列表不存在则不执行任何操作
+\item LLEN key:获取列表key的长度,若key不存在则返回0，如果key不为列表类型则出错
+\item LPOP key:用于移除并返回列表的第一个元素
+\item LPUSH key value1 [value2]:将一个值(value1)或者多个值(value1,value2..)插入到列表key头部，若key不存在则创建一个新列表并执行操作
+\item LPUSHX key value:将一个值(value)插入到列表key头部，若列表key不存在则操作无效
+\item LRANGE key start stop:返回列表key中指定区间[start,stop]内的元素
+\item LREM key count value:根据count的值，移除列表key中与value值相等的元素（即删除count个）
+若$count > 0$从表头开始搜索，若$count < 0$从表尾开始搜索，若$count = 0$则移除key中所有与value相等的元素
+\item LSET key index value:通过索引index来设置列表key中元素的值为value
+\item LTRIM key start stop:对列表key进行修剪，只保留[start,stop]之间的元素，不在该区间的元素全部删除
+\item RPOP key:移除并获取列表key中的最后一个元素
+\item RPOPLPUSH source destination:移除并获取列表source中的最后一个元素，并添加到另一个列表destination中，返回该列表
+\item RPUSH key value1 [value2]:将一个值(value1)或者多个值(value1,value2..)插入到列表key尾部，若key不存在则创建一个新列表并执行操作
+\item RPUSHX key value:将一个值(value)插入到列表key尾部，若列表key不存在则操作无效
+\end{itemize}
+
+\par 而其中LRANGE,LLEN和LINDEX这三个命令与list的内容修改无关，因此在本文中不考虑这两个命令的相关OT操作。本文中只考虑剩余这11个命令的OT函数的设计和验证。
+\subsection{Redis List API分类}
+\par 经过分析，这12个命令可以根据操作类型和作用范围分为以下这三类。
+\begin{itemize}
+\item 单个元素的删除、修改、插入：$ Ins(pos,ele),Del(pos),Set(pos,ele)$\\
+\item 单个区间的删除、插入：$Ins(pos,str),Del(pos,len)$\\
+\item 多个区间的删除：$ Del(pos1,len1;pos2,len2;...;posk,lenk) $\\
+\end{itemize}
+\par 具体来说，就是
+\begin{itemize}
+\item 第一类命令：
+	\begin{itemize}
+	\item $LPUSHX -> Ins(0,ele)$
+	\item $RPUSHX -> Ins(len,ele)$
+	\item $LINSERT -> Ins(pos,ele)$
+	\item $LPOP -> Del(0)$
+	\item $RPOP -> Del(len-1)$
+	\item $RPOPLPUSH  -> Del(len-1)$
+	\item $LSET -> Set(pos,ele)$
+	\end{itemize}
+\item 第二类命令：
+	\begin{itemize}
+	\item $LPUSH -> Ins(0,str)$
+	\item $RPUSH -> Ins(len,str)$
+	\end{itemize}
+\item 第三类命令：
+	\begin{itemize}
+	\item $LTRIM -> Del(0,pos1-1;pos2+1,len-pos2-1)$
+	\item $LREM ->  Del(pos1,len1;pos2,len2;...;posk,lenk)$
+	\end{itemize}
+\end{itemize}
+
+\section{第一类 OT 函数的设计}
+\par 我们定义第一类函数为第一类命令之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
+\begin{equation}
+\begin{aligned}
+Set \begin{cases}
+OT(set (i,x), set (j,y)) =\begin{cases}
+    no-op \quad &pr1 > pr2 \quad i=j\\
+	{set (i,x)} \quad &else \end{cases} \\ 
+OT(Set(i,x),Ins(j,y))=\begin{cases}
+{Set(i,x)}  \quad &i<j\\
+{Set(i+1,x)} \quad  &i\ge j \end{cases} \\
+OT(Set(i,x),Del(j))=\begin{cases}
+{Set(i,x)} \quad &i<j\\
+{no-op} \quad & i=j\\
+{Set(i-1,x)} \quad &i>j \end{cases} \\
+\end{cases}
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+Ins \begin{cases}
+OT(Ins(i,x), set (j,y)) =
+{Ins(i,x)}\\
+OT(ins (i,x), ins (j,y)) =\begin{cases}
+	{ins(i+1, x)}   \quad & i > j\\
+	{ins(i, x)}    \quad & i < j\\
+	{ins(i+1, x)}   \quad  & i = j \quad pr1 < pr2\\
+	{ins(i, x)}   \quad  & i = j \quad pr1 > pr2 \end{cases} \\
+OT(Ins(i,x),Del(j))=\begin{cases}
+{Ins(i,x)}  \quad i \le j\\
+{Ins(i-1,x)} \quad i>j \end{cases}\\
+\end{cases}
+\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}
+Del \begin{cases}
+OT(Del (i), Set (j,x)) =
+	{Del(i)}\\
+OT(Del (i), Ins (j,x)) =\begin{cases}
+	{Del (i+1)}  \quad &i \ge j\\
+	{Del (i)}   \quad &i < j\\ \end{cases}\\
+OT(del (i), del (j)) =\begin{cases}
+	{Del (i-1)} \quad &i > j\\
+	{Del (i)} \quad &i < j\\
+	{no-op}   \quad &i = j \end{cases}\\
+\end{cases}
+\end{aligned}
+\end{equation}
+
+\section{第二类 OT 函数设计}
+我们定义第二类函数为第二类命令之间的OT函数，即Ins,Del两种命令之间的OT函数，共2*2=4个。
+\begin{equation}
+OT(Ins(p1,s1),Ins(p1,s2))= \begin{cases}
+Ins(p1,s1) \quad & p1<p2 \\
+Ins(p1+ |s2|,s1) \quad & p1>p2 \\
+Ins(p1+ |s2|,s1) \quad & p1=p2 \quad pr1<pr2 \\
+Ins(p1,s1) \quad & p1=p2 \quad pr1>pr2
+ \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Ins(p1,s1),Del(p2,l1))= \begin{cases}
+Ins(p1,s1) \quad & p1 \le p2 \\
+no-op \quad & p2<p1<p2+l1\\
+Ins(p1-l1,s1) \quad & p1 \ge p2+l1 \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Del(p1,l1),Ins(p2,s1))= \begin{cases}
+Del(p1,l1) \quad & p1 + l1 \le p2 \\
+Del(p1,l1+|s1|) \quad & p1<p2<p1+l1 \\
+Ins(p1+ |s1|,l1) \quad & p1 \ge p2 \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Del(p1,l1),Del(p2,l2))= \begin{cases}
+Del(p1,l1) \quad & p1<p2 \quad p1+l1 \le p2 \\
+Del(p1,p2-p1) \quad & p1<p2 \quad p2<p1+l1 \le p2+l2\\
+Del(p1,l1-l2) \quad & p1<p2 \quad p2+l2<p1+l1\\
+no-op \quad & p2 \le p1 < p2+l2 \quad p1+l1 \le p2+l2\\
+Del(p2,p1+l1-p2-l2) \quad & p2 \le p1 <p2+l2 \quad  p1+l1>p2+l2\\
+Del(p1-l2,l1) \quad & p1 \ge p2+l2  \end{cases}\\
+\end{equation}
+
+\section{第三类 OT 函数设计}
+\par 我们定义第三类函数为第三类的Del命令与第二类命令中的Ins操作之间的OT函数，以及第三类Del命令自身的OT函数，共2+1=3个。
+\par 首先考虑第三类的Del命令与第二类命令中的Ins操作之间的OT函数，显然，我们需要按Ins操作的插入位置和Del操作的删除区间之间的关系进行分类，进行函数的设计。
+\par Ins操作对于Del操作的转换，如果是插入位置位于删除区间中，则Ins操作转换为NOP，否则插入的位置要减去删除操作在该位置之前删除区间的总长度。\\
+$OT(Ins(p_{k+1},s_{k+1}),Del(p_1,l_1;p_2,l_2;...;p_k,l_k))$\\
+\begin{equation}
+= \begin{cases}
+Ins(p_{k+1},s_{k+1}) \quad & p_{k+1} \le p_1 \\
+no-op \quad & p_i<p_{k+1}<p_i+l_i\\
+Ins(p_{k+1}-l_1-l_2-...-l_i,s_{k+1}) \quad & p_i+l_i \le p_{k+1} \le p_{i+1}\\
+Ins(p_{k+1}-l_1-l_2-...-l_k,s_{k+1}) \quad & p_{k+1} \ge pk+lk \end{cases}\\
+\end{equation}
+
+\par Del操作对于Del操作的转换，如果是插入位置位于删除区间中，则该区间删除长度增加$|s|$,之前的区间不变，之后的区间都向后移动$|s|$单位长度
+\par 如果插入位置不在删除区间中，那么在插入位置之前的区间不变，之后的区间都向后移动$|s|$单位长度\\
+$OT(Del(p_1,l_1;p_2,l_2;...;p_k,l_k),Ins(p_{k+1},s_{k+1}))$\\
+\begin{equation}
+= \begin{cases}
+Del(p_1+|s_{k+1}|,l_1;p_2+|s_{k+1}|,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) & \quad p_{k+1} \le p_1 \\
+Del(p_1,l_1;p_2,l_2;...;p_{i-1},l_{i-1};p_i,l_i+|s_{k+1}|;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) &\quad p_i<p_{k+1} < pi+li \\
+Del(p_1,l_1;p_2,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) & \quad p_i+l_i \le p_{k+1} \le p_{i+1}\\
+Del(p_1,l_1;p_2,l_2;...;p_k,l_k) &\quad P_k+l_k \le p_{k+1} \\
+ \end{cases}\\
+\end{equation}
+
+\par Del操作自身的转换时最为复杂的，一开始想要将要转换的Del操作中所有的区间一起转换，发现这样不仅做起来难度很大，而且写公式和用代码表达都很容易出错，但如果是将每个区间都用某个公式来转换，然后将转换后的新区间合并为新的删除操作，就可以方便的实现第三类Del操作自身的转换了。
+\par 转变思路后，第三类Del自身的转换就可以用第二类Del操作对于第三类Del操作的转换来代替了，减少了公式的复杂度，同时也增加了可读性。
+\par 与前面的设计类似，由删除区间与删除区间之间的位置关系进行函数的设计。\\
+\newpage
+$OT(Del(p_{k+1},l_{k+1}),Del(p_1,l_1;p_2,l_2;...;p_k,l_k))$\\
+\begin{equation}
+= \begin{cases}
+Del(p_{k+1},l_{k+1}) \quad &p_{k+1} < p_1 \quad p_{k+1}+l_{k+1} \le p_1 \\
+Del(p_{k+1},p_j-l_1-l_2-...-l_{j-1}-p_{k+1}) \quad &p_{k+1} < p_1 \quad p_j < p_{k+1}+l_{k+1} \le p_j+l_j \\
+Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_j) \quad &p_{k+1} < p_1 \quad p_j+l_j < p_{k+1}+l_{k+1} \le p_{j+1} \\
+Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_k) \quad &p_{k+1} < p_1 \quad p_{k+1}+l_{k+1} > P_k+l_k  \\
+
+Del(p_i-l_1-l_2-...-l_{i-1},p_j-p_i-l_i-l_{i+1}...-l_{j-1})        \quad &p_i \le p_{k+1} < p_i+l_i \quad \\ &p_j < p_{k+1}+l_{k+1} \le p_j+l_j \\
+Del(p_i-l_1-l_2-...-l_{i-1},p_{k+1}+l_{k+1}-p_i-l_i-l_{i+1}-...-l_j) \quad &p_i \le p_{k+1} < p_i+l_i \quad \\& p_j+l_j < p_{k+1}+l_{k+1} \le p_{j+1} \\
+Del(p_i-l_1-l_2-...-l_{i-1},p_{k+1}+l_{k+1}-p_i-l_i-l_{i+1}-...-l_k) \quad &p_i \le p_{k+1} < p_i+l_i \quad \\& p_{k+1}+l_{k+1} > P_k+l_k  \\
+
+
+Del(p_{k+1}-l_1-l_2-...-l_{i-1},p_j-p_{k+1}-l_{i+1}-l_{i+2}-...-l_{j-1})    \quad &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\& p_j < p_{k+1}+l_{k+1} \le p_j+l_j \\
+Del(p_{k+1}-l_1-l_2-...-l_{i-1},l_{k+1}-l_{i+1}-l_{i+2}-...-l_j)    \quad &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\& p_j+l_j < p_{k+1}+l_{k+1} \le p_{j+1} \\
+Del(p_{k+1}-l_1-l_2-...-l_{i-1},l_{k+1}-l_{i+1}-l_{i+2}-...-l_k)    \quad &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\& p_{k+1}+l_{k+1} > P_k+l_k  \\
+Del(p_{k+1}-p_1-p_2...-p_k,l_{k+1}) \quad &p_{k+1} \ge p_k+l_k
+\\&(i \ge j)
+ \end{cases}\\
+\end{equation}
+\section{剩余 OT 函数设计}
+\par 显然，第三类的del命令可以涵盖第一类和第二类的del命令，第二类的ins命令可以涵盖第一类的ins命令，因此我们最后只要考虑set(pos,ele)命令和第二类的ins操作、第三类的del操作之间的OT函数关系，即可覆盖完全所有的OT函数设计。共有2+2=4个函数。
+
+\par Ins操作对于Set操作的转换就是其本身。\\
+\begin{equation}
+OT(Ins(i,s),Set(j,x))= Ins(i,s)\\
+\end{equation}
+
+\par Set操作对于Ins操作的转换,如果插入位置在Set位置之前则Set位置要增加$|s|$单位长度，否则Set操作不变。\\
+\begin{equation}
+OT(Set(i,x),Ins(j,s))= \begin{cases}
+{Set(i,x)}  \quad & i<j \\
+{Set(i+|s|,x)} \quad  &i \ge j \end{cases} \\
+\end{equation}
+
+\par Del操作对于Set操作的转换就是其本身。\\
+$OT(Del(p_1,l_1;p_2,l_2;...;p_k,l_k),Set(p_{k+1},x)) = Del(p_1,l_1;p_2,l_2;...;p_k,l_k)$\\
+
+\par Set操作对于Del操作的转换,如果是Set位置位于删除区间中，则Ins操作转换为NOP，否则插入的位置要减去删除操作在该位置之前删除区间的总长度。\\
+$OT(Set(p_{k+1},x),Del(p_1,l_1;p_2,l_2;...;p_k,l_k))$
+\begin{equation}
+= \begin{cases}
+Ins(p_{k+1},s_{k+1}) \quad & p_{k+1} < p_1 \\
+no-op \quad & p_i \le p_{k+1} < p_i+l_i\\
+Set(p_{k+1}-l_1-l_2-...-l_i,x) \quad & p_i+l_i \le p_{k+1} < p_{i+1}\\
+Set(p_{k+1}-l_1-l_2-...-l_k,x) \quad & p_{k+1} \ge pk+lk \end{cases}\\
+\end{equation}

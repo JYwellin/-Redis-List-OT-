@@ -1,0 +1,33 @@
+\contentsline {chapter}{目\hspace {2em}次}{iii}{chapter*.1}
+\contentsline {chapter}{\numberline {1}前言}{1}{chapter.1}
+\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}应用背景：协同编辑应用}{1}{section.1.1}
+\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}技术背景：Replicated List 规约及其基于OT的 Replicated List 算法}{1}{section.1.2}
+\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}本文研究工作: 面向 Redis List的OT函数的设计、验证与实现}{1}{section.1.3}
+\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}4}论文组织}{1}{section.1.4}
+\contentsline {chapter}{\numberline {2}相关工作}{3}{chapter.2}
+\contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}系统模型}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}转换协议}{3}{subsection.2.1.1}
+\contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}已有OT函数的设计}{3}{section.2.2}
+\contentsline {chapter}{\numberline {3}Redis List OT 函数设计}{4}{chapter.3}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}Redis List API 分类}{4}{section.3.1}
+\contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}Redis List API简介}{4}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}Redis List API分类}{5}{subsection.3.1.2}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第一类 OT 函数的设计}{6}{section.3.2}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}第二类 OT 函数设计}{7}{section.3.3}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}4}第三类 OT 函数设计}{8}{section.3.4}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}5}剩余 OT 函数设计}{10}{section.3.5}
+\contentsline {chapter}{\numberline {4}基于 TLA+ 的 OT函数验证}{12}{chapter.4}
+\contentsline {section}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}TLA+ 简介}{12}{section.4.1}
+\contentsline {section}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}使用 TLA+ 描述 OT 函数}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}调用模块的简单介绍}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}OT函数设计}{13}{subsection.4.2.2}
+\contentsline {paragraph}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}0.1}第一、二类函数的表示}{13}{paragraph.4.2.2.0.1}
+\contentsline {paragraph}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}0.2}第三、四类函数的表示}{13}{paragraph.4.2.2.0.2}
+\contentsline {paragraph}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}0.3}命令执行的表示}{13}{paragraph.4.2.2.0.3}
+\contentsline {section}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}正确性验证}{13}{section.4.3}
+\contentsline {chapter}{\numberline {5}实验结果}{14}{chapter.5}
+\contentsline {chapter}{\numberline {6}结论与未来工作}{15}{chapter.6}
+\contentsline {section}{\numberline {6\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}工作总结}{15}{section.6.1}
+\contentsline {section}{\numberline {6\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}研究展望}{15}{section.6.2}
+\contentsline {chapter}{参考文献}{16}{chapter*.4}
+\contentsline {chapter}{致\hspace {2em}谢}{18}{chapter*.5}
