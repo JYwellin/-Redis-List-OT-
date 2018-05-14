@@ -9,8 +9,26 @@
 \end{figure}
 \section{技术背景：Replicated List 规约及其基于OT的 Replicated List 算法}
 
-\section{本文研究工作: 面向 Redis List的OT函数的设计、验证与实现}
+\subsection{规约}
+List 支持的常见简单操作 (insert, del, read)
+
+规约: convergence (strong eventual consistency)
+Def2 and Def3 of ``SSS''
+
+SIGMOD89 Page 4
+
+\subsection{OT}
+
+\subsection{OT-based 协议}
+
+只简单介绍 Jupiter
+
+\section{本文研究工作: 面向 Redis List的OT函数的设计与验证}
 	\par 本次毕业设计的目标是实现Redis List所支持的14种非阻塞操作的OT(Operational Transformation)函数，并且对实现函数的正确性进行验证。阿里云和RedisLab的团队目前都在对Redis List的操作进行开发，Redis List操作的OT函数实现具有应用前景和商业前途。
+
+	设计: 一小段
+
+	验证: 一小段
 \section{论文组织}
 	\par 本文后续内容组织如下：
 	\par 第2章介绍本文的相关工作，包括系统模型和已有的相关OT函数的设计。

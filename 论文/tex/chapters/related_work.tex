@@ -1,16 +1,35 @@
 \chapter{相关工作}
-\section{系统模型}
-	\par 一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数。控制算法负责决定哪些操作以何种顺序进行转换，而具体的OT函数则实施具体的两个操作之间的变化。OT函数的数量由OT系统的模型所支持的数据和操作类型所决定。这两者由一系列转换条件和属性结合在一起，所以整个OT系统的正确性就是由控制算法和OT函数的正确性以及协议的正确性所共同决定的。
-\subsection{转换协议}
-	\par 已有的OT研究建立了一系列协议作为OT算法正确性的标准，违反任意一种协议都会导致不正确的转换结果，从而使得文档的编辑不能实现一致。有如下协议：
+
+\section{OT-based 协议}
+client-server 结构
+
+
+一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数。
+
+控制算法负责决定哪些操作以何种顺序进行转换，而具体的OT函数则实施具体的两个操作之间的变化。
+OT函数的数量由OT系统的模型所支持的数据和操作类型所决定。
+这两者由一系列转换条件和属性结合在一起，所以整个OT系统的正确性就是由控制算法和OT函数的正确性以及协议的正确性所共同决定的。
+
+由于这种分层结构，我们可以单独考虑OT函数的设计，而不必关心控制算法。
+
+\subsection{OT 函数的性质}
+	OT 函数需要满足的性质:
 	\begin{itemize}
-	\item Convergence Property 1(CP1):
-	\item Convergence Property 2(CP2):
-	\item Inverse Property 1(IP1):
-	\item Inverse Property 2(IP1):
-	\item Inverse Property 3(IP3):
+	  \item Convergence Property 1(CP1): Jupiter 协议正确性的必要条件。
+	  \item Convergence Property 2(CP2):
+	  \item Inverse Property 1(IP1): (IP1,2,3 只提及，不需给定义)
+	  \item Inverse Property 2(IP1):
+	  \item Inverse Property 3(IP3):
 	\end{itemize}
-\section{已有OT函数的设计}
-	\par 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现,ins,del单个区间的OT函数也已经基本上设计完成，详见第三章中的第一类和第二类OT函数设计。
+
+\section{OT函数的设计}
+可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现,ins,del单个区间的OT函数也已经基本上设计完成，详见第三章中的第一类和第二类OT函数设计。
 	
+第一类简单例子
+
+第二类简单例子
+
+(第一类、第二类完整例子见附录)
+\section{OT 函数的验证}
+
 	

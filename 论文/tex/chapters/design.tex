@@ -1,7 +1,7 @@
 \chapter{Redis List OT 函数设计}
 \section{Redis List API 分类}
 \subsection{Redis List API简介}
-\par 由于本次毕业设计是针对Redis系统的List命令进行的，首先对Redis中的列表(List)及其相关命令进行一个简要的介绍。
+\par 本文针对Redis系统的List命令进行的，首先对Redis中的列表(List)及其相关命令进行一个简要的介绍。
 Redis中的列表是字符串列表，按照插入的顺序进行排序，一个列表可以包含的最多元素为$2^{32}-1(4294967295)$个。
 
 \par 列表相关的基本命令共有17个，其中3个为阻塞性操作（即没有元素时会阻塞列表直至等待到有元素可以执行该命令），即其余14种为非阻塞性操作，即下面列出的14个命令。\\
@@ -27,6 +27,7 @@ Redis中的列表是字符串列表，按照插入的顺序进行排序，一个
 \par 而其中LRANGE,LLEN和LINDEX这三个命令与list的内容修改无关，因此在本文中不考虑这两个命令的相关OT操作。本文中只考虑剩余这11个命令的OT函数的设计和验证。
 \subsection{Redis List API分类}
 \par 经过分析，这12个命令可以根据操作类型和作用范围分为以下这三类。
+(可使用表格)
 \begin{itemize}
 \item 单个元素的删除、修改、插入：$ Ins(pos,ele),Del(pos),Set(pos,ele)$\\
 \item 单个区间的删除、插入：$Ins(pos,str),Del(pos,len)$\\
@@ -49,7 +50,7 @@ Redis中的列表是字符串列表，按照插入的顺序进行排序，一个
 	\item $LPUSH -> Ins(0,str)$
 	\item $RPUSH -> Ins(len,str)$
 	\end{itemize}
-\item 第三类命令：
+\item 第三类命令： 
 	\begin{itemize}
 	\item $LTRIM -> Del(0,pos1-1;pos2+1,len-pos2-1)$
 	\item $LREM ->  Del(pos1,len1;pos2,len2;...;posk,lenk)$
@@ -57,7 +58,9 @@ Redis中的列表是字符串列表，按照插入的顺序进行排序，一个
 \end{itemize}
 
 \section{第一类 OT 函数的设计}
-\par 我们定义第一类函数为第一类命令之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
+(放到related work 中)
+
+我们定义第一类函数为第一类命令之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
 \begin{equation}
 \begin{aligned}
 Set \begin{cases}
@@ -109,6 +112,8 @@ OT(del (i), del (j)) =\begin{cases}
 \end{equation}
 
 \section{第二类 OT 函数设计}
+(放到related work 中)
+
 我们定义第二类函数为第二类命令之间的OT函数，即Ins,Del两种命令之间的OT函数，共2*2=4个。
 \begin{equation}
 OT(Ins(p1,s1),Ins(p1,s2))= \begin{cases}
@@ -144,6 +149,7 @@ Del(p1-l2,l1) \quad & p1 \ge p2+l2  \end{cases}\\
 \end{equation}
 
 \section{第三类 OT 函数设计}
+(画图/做表格)
 \par 我们定义第三类函数为第三类的Del命令与第二类命令中的Ins操作之间的OT函数，以及第三类Del命令自身的OT函数，共2+1=3个。
 \par 首先考虑第三类的Del命令与第二类命令中的Ins操作之间的OT函数，显然，我们需要按Ins操作的插入位置和Del操作的删除区间之间的关系进行分类，进行函数的设计。
 \par Ins操作对于Del操作的转换，如果是插入位置位于删除区间中，则Ins操作转换为NOP，否则插入的位置要减去删除操作在该位置之前删除区间的总长度。\\
@@ -192,7 +198,7 @@ Del(p_{k+1}-p_1-p_2...-p_k,l_{k+1}) \quad &p_{k+1} \ge p_k+l_k
 \\&(i \ge j)
  \end{cases}\\
 \end{equation}
-\section{剩余 OT 函数设计}
+\section{其它 OT 函数设计}
 \par 显然，第三类的del命令可以涵盖第一类和第二类的del命令，第二类的ins命令可以涵盖第一类的ins命令，因此我们最后只要考虑set(pos,ele)命令和第二类的ins操作、第三类的del操作之间的OT函数关系，即可覆盖完全所有的OT函数设计。共有2+2=4个函数。
 
 \par Ins操作对于Set操作的转换就是其本身。\\
