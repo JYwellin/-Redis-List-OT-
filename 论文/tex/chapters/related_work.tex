@@ -4,12 +4,13 @@
 \subsection{转换协议}
 	\par 已有的OT研究建立了一系列协议作为OT算法正确性的标准，违反任意一种协议都会导致不正确的转换结果，从而使得文档的编辑不能实现一致。有如下协议：
 	\begin{itemize}
-	\item Convergence Property 1(CP1):
-	\item Convergence Property 2(CP2):
-	\item Inverse Property 1(IP1):
-	\item Inverse Property 2(IP1):
-	\item Inverse Property 3(IP3):
+	\item Convergence Property 1(CP1):对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
+	\item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT（OT(O1,O2),OT(O3,O2)) = OT（OT(O1,O3),OT(O2,O3))$
+	\item Inverse Property 1(IP1):对于定义在文档状态S上的操作，!O为操作O的相反操作，满足IP1等式:$S \circ O \circ !O = S$，也就是说在S上执行O,!O操作后文档状态不发生改变。
+	\item Inverse Property 2(IP2):对于定义在文档状态S上的给定操作O1和O2，!O2为操作O2的相反操作，满足IP2等式：$OT(OT(O1,O2),!O2) = O1$,也就是说O1按顺序对照O2,!O2进行转换后仍未O1本身。
+	\item Inverse Property 3(IP3):对于定义在文档状态S上的给定操作O1和O2，!O为操作O的相反操作，满足IP3等式:$OT(!O2,O1)=!(O2,O1)$
 	\end{itemize}
+	
 \section{已有OT函数的设计}
 	\par 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现,ins,del单个区间的OT函数也已经基本上设计完成，详见第三章中的第一类和第二类OT函数设计。
 	

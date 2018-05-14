@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  14 MAY 2018 00:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  14 MAY 2018 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2766,19 +2766,38 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 4.
 
+Missing character: There is no （ in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+Missing character: There is no （ in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+
+Overfull \hbox (42.39981pt too wide) in paragraph at lines 8--9
+\TU/TimesNewRoman(0)/m/n/12.05 O2\TU/SimSun(0)/m/n/12.05 ，|  满 足 \TU/TimesNewRo
+man(0)/m/n/12.05 CP2 \TU/SimSun(0)/m/n/12.05 等 式：| $\OML/txmi/m/it/12.05 OT[]OT
+\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 O\OT1/cmr/m/n/12 1\OML/txmi/m/it/12.05 ; 
+O\OT1/cmr/m/n/12 2)\OML/txmi/m/it/12.05 ; OT\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.
+05 O\OT1/cmr/m/n/12 3\OML/txmi/m/it/12.05 ; O\OT1/cmr/m/n/12 2)) = \OML/txmi/m/
+it/12.05 OT[]OT\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 O\OT1/cmr/m/n/12 1\OML/txm
+i/m/it/12.05 ; O\OT1/cmr/m/n/12 3)\OML/txmi/m/it/12.05 ; OT\OT1/cmr/m/n/12 (\OM
+L/txmi/m/it/12.05 O\OT1/cmr/m/n/12 2\OML/txmi/m/it/12.05 ; O\OT1/cmr/m/n/12 3))
+$ 
+ []
+
+Missing character: There is no （ in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 13.
+(hyperref)                removed on input line 14.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 13.
+(hyperref)                removed on input line 14.
 
-) (./chapters/design.tex [3
+[3
 
-]
+]) (./chapters/design.tex [4]
 {第\CJKnumber {3}章} 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2815,7 +2834,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[4
+[5
 
 ]
 
@@ -2853,18 +2872,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[5]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 59.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 59.
-
 [6]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 59.
+
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
@@ -2883,7 +2902,7 @@ Overfull \hbox (80.76822pt too wide) detected at line 144
 /m/n/12 2\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n/12 2)) = [] [] 
  []
 
-[7]
+[8]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
@@ -2909,12 +2928,12 @@ Overfull \hbox (112.52005pt too wide) detected at line 169
 [] \OT1/cmr/m/n/12 = [] [] 
  []
 
-[8]
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
@@ -2939,7 +2958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-[10]
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
@@ -2949,7 +2968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--212
 
  []
 
-) (./chapters/proof.tex [11]
+) (./chapters/proof.tex [12]
 {第\CJKnumber {4}章} 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2993,7 +3012,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 15.
 
-[12
+[13
 
 ]
 
@@ -3037,9 +3056,9 @@ txmi/m/it/12.05 apply\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 list; op\OT1/cmr/m/n
 cmr/m/n/12 1\OML/txmi/m/it/12.05 ; op\OT1/cmr/m/n/12 2))$ 
  []
 
-) (./chapters/experiment.tex [13]
+) (./chapters/experiment.tex [14]
 {第\CJKnumber {5}章} 5.
-) (./chapters/conclusion_future_work.tex [14
+) (./chapters/conclusion_future_work.tex [15
 
 ]
 {第\CJKnumber {6}章} 6.
@@ -3063,14 +3082,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 5.
 
-) (./thesis.bbl [15
+) (./thesis.bbl [16
 
-] [16
+] [17
 
-]) (./chapters/acknowledgement.tex [17])
+]) (./chapters/acknowledgement.tex [18])
 
 AED: lastpage setting LastPage
-[18
+[19
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
@@ -3098,10 +3117,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
 Here is how much of TeX's memory you used:
  44602 strings out of 493005
  835537 string characters out of 6137957
- 950875 words of memory out of 5000000
+ 950877 words of memory out of 5000000
  47802 multiletter control sequences out of 15000+600000
  38626 words of font info for 194 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,19n,77p,10445b,11180s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (25 pages).
+Output written on thesis.pdf (26 pages).
