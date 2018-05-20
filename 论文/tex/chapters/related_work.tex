@@ -1,17 +1,104 @@
 \chapter{相关工作}
-\section{系统模型}
-	\par 一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数。控制算法负责决定哪些操作以何种顺序进行转换，而具体的OT函数则实施具体的两个操作之间的变化。OT函数的数量由OT系统的模型所支持的数据和操作类型所决定。这两者由一系列转换条件和属性结合在一起，所以整个OT系统的正确性就是由控制算法和OT函数的正确性以及协议的正确性所共同决定的。
-\subsection{转换协议}
-	\par 已有的OT研究建立了一系列协议作为OT算法正确性的标准，违反任意一种协议都会导致不正确的转换结果，从而使得文档的编辑不能实现一致。有如下协议：
+\section{OT 函数的性质}
+	OT 函数需要满足的性质:
 	\begin{itemize}
-	\item Convergence Property 1(CP1):对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
-	\item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT（OT(O1,O2),OT(O3,O2)) = OT（OT(O1,O3),OT(O2,O3))$
-	\item Inverse Property 1(IP1):对于定义在文档状态S上的操作，!O为操作O的相反操作，满足IP1等式:$S \circ O \circ !O = S$，也就是说在S上执行O,!O操作后文档状态不发生改变。
-	\item Inverse Property 2(IP2):对于定义在文档状态S上的给定操作O1和O2，!O2为操作O2的相反操作，满足IP2等式：$OT(OT(O1,O2),!O2) = O1$,也就是说O1按顺序对照O2,!O2进行转换后仍未O1本身。
-	\item Inverse Property 3(IP3):对于定义在文档状态S上的给定操作O1和O2，!O为操作O的相反操作，满足IP3等式:$OT(!O2,O1)=!(O2,O1)$
+	  \item Convergence Property 1(CP1): 这是Jupiter 协议正确性的必要条件。对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
+	  \item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT(OT(O1,O2),OT(O3,O2)) = OT(OT(O1,O3),OT(O2,O3))$
+	  \item Inverse Property 1(IP1)
+	  \item Inverse Property 2(IP1)
+	  \item Inverse Property 3(IP3)
 	\end{itemize}
 	
-\section{已有OT函数的设计}
-	\par 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现,ins,del单个区间的OT函数也已经基本上设计完成，详见第三章中的第一类和第二类OT函数设计。
-	
+\section{OT函数的设计}
+可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现,ins,del单个区间的OT函数也已经基本上设计完成。
+\subsection{第一类 OT 函数的设计}
+我们定义第一类函数为第一类命令之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
+\begin{equation}
+\begin{aligned}
+Set \begin{cases}
+OT(set (i,x), set (j,y)) =\begin{cases}
+    no-op \quad &pr1 > pr2 \quad i=j\\
+	{set (i,x)} \quad &else \end{cases} \\ 
+OT(Set(i,x),Ins(j,y))=\begin{cases}
+{Set(i,x)}  \quad &i<j\\
+{Set(i+1,x)} \quad  &i\ge j \end{cases} \\
+OT(Set(i,x),Del(j))=\begin{cases}
+{Set(i,x)} \quad &i<j\\
+{no-op} \quad & i=j\\
+{Set(i-1,x)} \quad &i>j \end{cases} \\
+\end{cases}
+\end{aligned}
+\end{equation}
+\begin{equation}
+\begin{aligned}
+Ins \begin{cases}
+OT(Ins(i,x), set (j,y)) =
+{Ins(i,x)}\\
+OT(ins (i,x), ins (j,y)) =\begin{cases}
+	{ins(i+1, x)}   \quad & i > j\\
+	{ins(i, x)}    \quad & i < j\\
+	{ins(i+1, x)}   \quad  & i = j \quad pr1 < pr2\\
+	{ins(i, x)}   \quad  & i = j \quad pr1 > pr2 \end{cases} \\
+OT(Ins(i,x),Del(j))=\begin{cases}
+{Ins(i,x)}  \quad i \le j\\
+{Ins(i-1,x)} \quad i>j \end{cases}\\
+\end{cases}
+\end{aligned}
+\end{equation}
+
+
+\begin{equation}
+\begin{aligned}
+Del \begin{cases}
+OT(Del (i), Set (j,x)) =
+	{Del(i)}\\
+OT(Del (i), Ins (j,x)) =\begin{cases}
+	{Del (i+1)}  \quad &i \ge j\\
+	{Del (i)}   \quad &i < j\\ \end{cases}\\
+OT(del (i), del (j)) =\begin{cases}
+	{Del (i-1)} \quad &i > j\\
+	{Del (i)} \quad &i < j\\
+	{no-op}   \quad &i = j \end{cases}\\
+\end{cases}
+\end{aligned}
+\end{equation}
+
+\subsection{第二类 OT 函数设计}
+我们定义第二类函数为第二类命令之间的OT函数，即Ins,Del两种命令之间的OT函数，共2*2=4个。
+\begin{equation}
+OT(Ins(p1,s1),Ins(p1,s2))= \begin{cases}
+Ins(p1,s1) \quad & p1<p2 \\
+Ins(p1+ |s2|,s1) \quad & p1>p2 \\
+Ins(p1+ |s2|,s1) \quad & p1=p2 \quad pr1<pr2 \\
+Ins(p1,s1) \quad & p1=p2 \quad pr1>pr2
+ \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Ins(p1,s1),Del(p2,l1))= \begin{cases}
+Ins(p1,s1) \quad & p1 \le p2 \\
+no-op \quad & p2<p1<p2+l1\\
+Ins(p1-l1,s1) \quad & p1 \ge p2+l1 \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Del(p1,l1),Ins(p2,s1))= \begin{cases}
+Del(p1,l1) \quad & p1 + l1 \le p2 \\
+Del(p1,l1+|s1|) \quad & p1<p2<p1+l1 \\
+Ins(p1+ |s1|,l1) \quad & p1 \ge p2 \end{cases}\\
+\end{equation}
+
+\begin{equation}
+OT(Del(p1,l1),Del(p2,l2))= \begin{cases}
+Del(p1,l1) \quad & p1<p2 \quad p1+l1 \le p2 \\
+Del(p1,p2-p1) \quad & p1<p2 \quad p2<p1+l1 \le p2+l2\\
+Del(p1,l1-l2) \quad & p1<p2 \quad p2+l2<p1+l1\\
+no-op \quad & p2 \le p1 < p2+l2 \quad p1+l1 \le p2+l2\\
+Del(p2,p1+l1-p2-l2) \quad & p2 \le p1 <p2+l2 \quad  p1+l1>p2+l2\\
+Del(p1-l2,l1) \quad & p1 \ge p2+l2  \end{cases}\\
+\end{equation}
+第二类简单例子
+
+\section{OT 函数的验证}
+
 	

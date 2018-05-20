@@ -5,29 +5,37 @@
 \BOOKMARK [0][-]{chapter.1}{1 前言}{}% 5
 \BOOKMARK [1][-]{section.1.1}{1.1 应用背景：协同编辑应用}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{1.2 技术背景：Replicated List 规约及其基于OT的 Replicated List 算法}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{1.3 本文研究工作: 面向 Redis List的OT函数的设计、验证与实现}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.4}{1.4 论文组织}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{2 相关工作}{}% 10
-\BOOKMARK [1][-]{section.2.1}{2.1 系统模型}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 转换协议}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{2.2 已有OT函数的设计}{chapter.2}% 13
-\BOOKMARK [0][-]{chapter.3}{3 Redis List OT 函数设计}{}% 14
-\BOOKMARK [1][-]{section.3.1}{3.1 Redis List API 分类}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Redis List API简介}{section.3.1}% 16
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Redis List API分类}{section.3.1}% 17
-\BOOKMARK [1][-]{section.3.2}{3.2 第一类 OT 函数的设计}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.3}{3.3 第二类 OT 函数设计}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.4}{3.4 第三类 OT 函数设计}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.5}{3.5 剩余 OT 函数设计}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{4 基于 TLA+ 的 OT函数验证}{}% 22
-\BOOKMARK [1][-]{section.4.1}{4.1 TLA+ 简介}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{4.2 使用 TLA+ 描述 OT 函数}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 调用模块的简单介绍}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 OT函数设计}{section.4.2}% 26
-\BOOKMARK [1][-]{section.4.3}{4.3 正确性验证}{chapter.4}% 27
-\BOOKMARK [0][-]{chapter.5}{5 实验结果}{}% 28
-\BOOKMARK [0][-]{chapter.6}{6 结论与未来工作}{}% 29
-\BOOKMARK [1][-]{section.6.1}{6.1 工作总结}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.2}{6.2 研究展望}{chapter.6}% 31
-\BOOKMARK [0][-]{chapter*.4}{参考文献}{}% 32
-\BOOKMARK [0][-]{chapter*.5}{致 谢}{}% 33
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 规约}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2\040OT}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{1.3 OT-based 协议}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{1.4 本文研究工作: 面向 Redis List的OT函数的设计与验证}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.5}{1.5 论文组织}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{2 相关工作}{}% 13
+\BOOKMARK [1][-]{section.2.1}{2.1 OT 函数的性质}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{2.2 OT函数的设计}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 第一类 OT 函数的设计}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 第二类 OT 函数设计}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{2.3 OT 函数的验证}{chapter.2}% 18
+\BOOKMARK [0][-]{chapter.3}{3 Redis List OT 函数设计}{}% 19
+\BOOKMARK [1][-]{section.3.1}{3.1 Redis List API 分类}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Redis List API简介}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Redis List API分类}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{3.2 第三类 OT 函数设计}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{3.3 其它 OT 函数设计}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{4 基于 TLA+ 的 OT函数验证}{}% 25
+\BOOKMARK [1][-]{section.4.1}{4.1 TLA+ 简介}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1\040TLA+\040Modules}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{4.2 使用 TLA+ 描述 OT 函数}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 LIST相关操作表示}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 命令执行的表示}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 OT函数的描述}{section.4.2}% 31
+\BOOKMARK [1][-]{section.4.3}{4.3 正确性验证}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 TLA+ Model Checker 设置及实验环境}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 实验结果}{section.4.3}% 34
+\BOOKMARK [0][-]{chapter.5}{5 结论与未来工作}{}% 35
+\BOOKMARK [1][-]{section.5.1}{5.1 工作总结}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 OT函数的实现}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 验证代码的改进}{section.5.2}% 39
+\BOOKMARK [0][-]{chapter*.9}{参考文献}{}% 40
+\BOOKMARK [0][-]{chapter*.10}{致 谢}{}% 41
