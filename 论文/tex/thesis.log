@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  20 MAY 2018 20:12
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  22 MAY 2018 01:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2222,6 +2222,49 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(c:/texlive/2017/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
+
+(c:/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(c:/texlive/2017/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: xetex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
+
+(c:/texlive/2017/texmf-dist/tex/latex/pict2e/p2e-xetex.def
+File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks63
+\@arclen=\dimen353
+\@arcrad=\dimen354
+\@tempdimd=\dimen355
+)
+(c:/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count350
+\calc@Bcount=\count351
+\calc@Adimen=\dimen356
+\calc@Bdimen=\dimen357
+\calc@Askip=\skip123
+\calc@Bskip=\skip124
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count352
+\calc@Cskip=\skip125
+)
+\diagbox@boxa=\box88
+\diagbox@boxb=\box89
+\diagbox@boxm=\box90
+\diagbox@wd=\dimen358
+\diagbox@ht=\dimen359
+\diagbox@insepl=\dimen360
+\diagbox@insepr=\dimen361
+\diagbox@outsepl=\dimen362
+\diagbox@outsepr=\dimen363
+)
 
 LaTeX Warning: Unused global option(s):
     [doubleside].
@@ -2229,56 +2272,56 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 73.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 73.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 74.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 74.
 
  (c:/texlive/2017/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 74.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 74.
 
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 74.
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 73.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 74.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 74.
 
 (c:/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
-LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 73.
+(lastpage)             ! on input line 74.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2331,67 +2374,67 @@ Package caption Info: End \AtBeginDocument code.
 .................................................
 \symlegacymaths=\mathgroup15
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 73.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 73.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 73.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 73.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 73.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 73.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 73.
-LaTeX Font Info:    Redeclaring math accent \check on input line 73.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 73.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 73.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 73.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 73.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 74.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 74.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 74.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 74.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 74.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 74.
+LaTeX Font Info:    Redeclaring math accent \check on input line 74.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 74.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 74.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 74.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 74.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 73.
+(Font)              `operators' in the math version `normal' on input line 74.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/txr/m/n --> TU/TimesNewRoman(0)/m/n on input line 7
-3.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 73.
+(Font)              `operators' in the math version `bold' on input line 74.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-73.
+74.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 73.
+input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/txr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 73.
+ 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/txr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 73.
+ 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/txss/m/n --> TU/Arial(0)/m/n on input line 73.
+(Font)                  OT1/txss/m/n --> TU/Arial(0)/m/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/txtt/m/n --> TU/CourierNew(0)/m/n on input line 73.
+(Font)                  OT1/txtt/m/n --> TU/CourierNew(0)/m/n on input line 74.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 73.
+ input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/txr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 73.
+ne 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/b/n --> TU/Arial(0)/bx/n on input line 73.
+(Font)                  OT1/txss/b/n --> TU/Arial(0)/bx/n on input line 74.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/b/n --> TU/CourierNew(0)/bx/n on input line 73
+(Font)                  OT1/txtt/b/n --> TU/CourierNew(0)/bx/n on input line 74
 .
-\AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring OFF on input line 73.
+\AtBeginShipoutBox=\box91
+Package hyperref Info: Link coloring OFF on input line 74.
 
 (c:/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2399,11 +2442,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count350
+\c@section@level=\count353
 )
-LaTeX Info: Redefining \ref on input line 73.
-LaTeX Info: Redefining \pageref on input line 73.
-LaTeX Info: Redefining \nameref on input line 73.
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
@@ -2416,19 +2459,19 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 )
 
 Package hyperref Warning: pdfproducer: xdvipdfmx will use its own setting
-(hyperref)                instead of the value given on input line 73.
+(hyperref)                instead of the value given on input line 74.
 
 ABD: EveryShipout initializing macros
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \Pifont with sig. 'm' on line 73.
+. Redefining command \Pifont with sig. 'm' on line 74.
 .................................................
 File: njulogo.eps Graphic file (type eps)
  <njulogo.eps>
 File: njuname.eps Graphic file (type eps)
  <njuname.eps>
-\g__fontspec_family_KaiTi_int=\count351
+\g__fontspec_family_KaiTi_int=\count354
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2459,114 +2502,114 @@ File: njuname.eps Graphic file (type eps)
 
 
 LaTeX Font Warning: Font shape `TU/KaiTi(0)/bx/n' undefined
-(Font)              using `TU/KaiTi(0)/m/n' instead on input line 76.
+(Font)              using `TU/KaiTi(0)/m/n' instead on input line 77.
 
 
-Underfull \hbox (badness 5359) detected at line 76
+Underfull \hbox (badness 5359) detected at line 77
 \TU/KaiTi(0)/m/n/26.1 本 科 生 毕 业 论 文
  []
 
-LaTeX Font Info:    Try loading font information for U+txsya on input line 76.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 77.
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 76.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 77.
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 76.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 77.
 (c:/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
-LaTeX Font Info:    Try loading font information for U+wasy on input line 76.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 77.
 (c:/texlive/2017/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 77.
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 76.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 77.
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 76.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 77.
 
 (c:/texlive/2017/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16.06> not available
-(Font)              size <17.28> substituted on input line 76.
+(Font)              size <17.28> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.54> not available
-(Font)              size <10.95> substituted on input line 76.
+(Font)              size <10.95> substituted on input line 77.
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/16.06 论 文 题 目
  []
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/16.06 作 者 姓 名
  []
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/16.06 指 导 教 师
  []
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/16.06 研 究 方 向
  []
 
 
-Overfull \hbox (15.82759pt too wide) in paragraph at lines 76--76
+Overfull \hbox (15.82759pt too wide) in paragraph at lines 77--77
  [][] 
  []
 
@@ -2575,57 +2618,57 @@ Overfull \hbox (15.82759pt too wide) in paragraph at lines 76--76
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15.06> not available
-(Font)              size <14.4> substituted on input line 76.
+(Font)              size <14.4> substituted on input line 77.
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/15.06 学 号
  []
 
 
-Overfull \hbox (12.04805pt too wide) in paragraph at lines 76--76
+Overfull \hbox (12.04805pt too wide) in paragraph at lines 77--77
 []|[]\TU/KaiTi(0)/bx/n/15.06 ：|| 
  []
 
 
-Overfull \hbox (12.04805pt too wide) in paragraph at lines 76--76
+Overfull \hbox (12.04805pt too wide) in paragraph at lines 77--77
 []|[]\TU/KaiTi(0)/bx/n/15.06 ：|| 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 76
+Underfull \hbox (badness 10000) detected at line 77
 \TU/KaiTi(0)/bx/n/15.06 指 导 教 师
  []
 
 
-Overfull \hbox (12.04805pt too wide) in paragraph at lines 76--76
+Overfull \hbox (12.04805pt too wide) in paragraph at lines 77--77
 []|[]\TU/KaiTi(0)/bx/n/15.06 ：|| 
  []
 
 [2
 
 ]
-\g__fontspec_family_SimHei_int=\count352
+\g__fontspec_family_SimHei_int=\count355
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2745,50 +2788,54 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 15.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 18.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 18.
-
-[1
+File: figures/exm1.bmp Graphic file (type QTm)
+<use  "figures/exm1.bmp" > [1
 
 
 ]
+File: figures/exm2.bmp Graphic file (type QTm)
+ <use  "figures/exm2.bmp" > [2]
 
-LaTeX Warning: File `figures/OT structure.jpg' not found on input line 24.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 32.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 32.
+
+
+LaTeX Warning: File `figures/OT structure.jpg' not found on input line 38.
 
 File: figures/OT structure.jpg Graphic file (type QTm)
 <use  "figures/OT structure.jpg" >
-Overfull \hbox (46.06248pt too wide) in paragraph at lines 24--25
+Overfull \hbox (46.06248pt too wide) in paragraph at lines 38--39
  [] 
  []
 
+[3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 34.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 34.
+(hyperref)                removed on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 40.
+(hyperref)                removed on input line 50.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 40.
+(hyperref)                removed on input line 56.
 
-[2]) (./chapters/related_work.tex [3]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 56.
+
+) (./chapters/related_work.tex [4]
 {第\CJKnumber {2}章} 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2826,48 +2873,48 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 14.
+(hyperref)                removed on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 14.
+(hyperref)                removed on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 14.
+(hyperref)                removed on input line 15.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 14.
+(hyperref)                removed on input line 15.
 
-[4
+[5
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 66.
+(hyperref)                removed on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 66.
+(hyperref)                removed on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 66.
+(hyperref)                removed on input line 67.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 66.
+(hyperref)                removed on input line 67.
 
-[5]
-Overfull \hbox (80.76822pt too wide) detected at line 99
+[6]
+Overfull \hbox (80.76822pt too wide) detected at line 100
 []\OML/txmi/m/it/12.05 OT\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 Del\OT1/cmr/m/n/
 12 (\OML/txmi/m/it/12.05 p\OT1/cmr/m/n/12 1\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n
 /12 1)\OML/txmi/m/it/12.05 ; Del\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 p\OT1/cmr
@@ -2877,14 +2924,14 @@ Overfull \hbox (80.76822pt too wide) detected at line 99
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 102.
+(hyperref)                removed on input line 103.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 102.
+(hyperref)                removed on input line 103.
 
-) (./chapters/design.tex [6]
+) (./chapters/design.tex [7]
 {第\CJKnumber {3}章} 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2921,7 +2968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[7
+[8
 
 ]
 
@@ -2959,73 +3006,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[8]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 60.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 60.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
-
- []
-
-
-Overfull \hbox (112.52005pt too wide) detected at line 84
-[] \OT1/cmr/m/n/12 = [] [] 
- []
-
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 60.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 60.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+
+Overfull \hbox (112.52005pt too wide) detected at line 83
+[] \OT1/cmr/m/n/12 = [] [] 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 
-Overfull \hbox (64.27951pt too wide) detected at line 109
+Overfull \hbox (64.27951pt too wide) detected at line 108
 [] \OT1/cmr/m/n/12 = [] [] 
  []
 
 
+Overfull \hbox (30.74623pt too wide) in paragraph at lines 134--165
+ [][] 
+ []
+
+[12]
+
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 110.
+(hyperref)                removed on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 110.
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
+(hyperref)                removed on input line 168.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-) (./chapters/proof.tex [12]
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
+
+ []
+
+) (./chapters/proof.tex [14]
 {第\CJKnumber {4}章} 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3059,183 +3112,183 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 19.
 
-[13
+[15
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 37.
+(hyperref)                removed on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 37.
+(hyperref)                removed on input line 38.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 39.
+(hyperref)                removed on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 39.
+(hyperref)                removed on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 39.
+(hyperref)                removed on input line 40.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 39.
+(hyperref)                removed on input line 40.
 
-[14] [15]
-Overfull \hbox (34.69008pt too wide) in paragraph at lines 71--71
+[16] [17]
+Overfull \hbox (34.69008pt too wide) in paragraph at lines 72--72
 [] 
  []
 
-[16]
+[18]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 92.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 92.
+(hyperref)                removed on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 92.
+(hyperref)                removed on input line 93.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 92.
+(hyperref)                removed on input line 93.
 
 
-Overfull \hbox (40.86882pt too wide) in paragraph at lines 97--97
-[] 
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 93.
 
 
-Overfull \hbox (7.27068pt too wide) in paragraph at lines 105--105
+Overfull \hbox (40.86882pt too wide) in paragraph at lines 98--98
 [] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 108.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 108.
-
-[17] [18]
-Overfull \hbox (38.06546pt too wide) in paragraph at lines 151--151
-[] 
- []
-
-
-Overfull \hbox (33.6326pt too wide) in paragraph at lines 168--168
-[] 
- []
-
-[19]
-Overfull \hbox (32.47528pt too wide) in paragraph at lines 185--185
+Overfull \hbox (7.27068pt too wide) in paragraph at lines 106--106
 [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 188.
+(hyperref)                removed on input line 109.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 188.
+(hyperref)                removed on input line 109.
 
 
-Overfull \hbox (13.4686pt too wide) in paragraph at lines 196--196
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 109.
+
+[19] [20]
+Overfull \hbox (38.06546pt too wide) in paragraph at lines 152--152
 [] 
  []
 
-[20]
-Overfull \hbox (50.80476pt too wide) in paragraph at lines 205--205
+
+Overfull \hbox (33.6326pt too wide) in paragraph at lines 169--169
+[] 
+ []
+
+[21]
+Overfull \hbox (32.47528pt too wide) in paragraph at lines 186--186
 [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 209.
+(hyperref)                removed on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 209.
+(hyperref)                removed on input line 189.
+
+
+Overfull \hbox (13.4686pt too wide) in paragraph at lines 197--197
+[] 
+ []
+
+[22]
+Overfull \hbox (50.80476pt too wide) in paragraph at lines 206--206
+[] 
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 209.
+(hyperref)                removed on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 209.
+(hyperref)                removed on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 221.
+(hyperref)                removed on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 221.
+(hyperref)                removed on input line 210.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 221.
+(hyperref)                removed on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 221.
+(hyperref)                removed on input line 222.
 
-File: figures/runtime1.jpg Graphic file (type QTm)
-<use  "figures/runtime1.jpg" > [21]
-File: figures/runtime2.jpg Graphic file (type QTm)
- <use  "figures/runtime2.jpg" > [22]
-File: figures/runtime3.jpg Graphic file (type QTm)
 
-<use  "figures/runtime3.jpg" >
-File: figures/runtime4.jpg Graphic file (type QTm)
- <use  "figures/runtime4.jpg" > [23]
-File: figures/runtimeall.jpg Graphic file (type QTm)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 222.
 
-<use  "figures/runtimeall.jpg" >) (./chapters/conclusion_future_work.tex
-[24]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 222.
+
+File: figures/runtime1.bmp Graphic file (type QTm)
+<use  "figures/runtime1.bmp" > [23]
+File: figures/runtime2.bmp Graphic file (type QTm)
+ <use  "figures/runtime2.bmp" > [24]
+File: figures/runtime3.bmp Graphic file (type QTm)
+
+<use  "figures/runtime3.bmp" >
+File: figures/runtime4.bmp Graphic file (type QTm)
+ <use  "figures/runtime4.bmp" > [25]
+File: figures/runtimeall.bmp Graphic file (type QTm)
+
+<use  "figures/runtimeall.bmp" >) (./chapters/conclusion_future_work.tex
+[26]
 {第\CJKnumber {5}章} 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3297,21 +3350,83 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 9.
 
-) (./thesis.bbl [25
+) (./thesis.bbl [27
 
-] [26
+]) (./chapters/acknowledgement.tex [28
 
-]) (./chapters/acknowledgement.tex [27])
-
-AED: lastpage setting LastPage
-[28
+])
+(./chapters/appendix.tex [29
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 2.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 3.
+
+[30
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 55.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 55.
+
+
+Overfull \hbox (80.76822pt too wide) detected at line 88
+[]\OML/txmi/m/it/12.05 OT\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 Del\OT1/cmr/m/n/
+12 (\OML/txmi/m/it/12.05 p\OT1/cmr/m/n/12 1\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n
+/12 1)\OML/txmi/m/it/12.05 ; Del\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 p\OT1/cmr
+/m/n/12 2\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n/12 2)) = [] [] 
+ []
+
+[31]) 
+AED: lastpage setting LastPage
+[32]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./thesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3323,19 +3438,19 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 110.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44631 strings out of 493005
- 836707 string characters out of 6137957
- 951502 words of memory out of 5000000
- 47830 multiletter control sequences out of 15000+600000
- 38618 words of font info for 193 fonts, out of 8000000 for 9000
+ 44936 strings out of 493005
+ 842091 string characters out of 6137957
+ 963509 words of memory out of 5000000
+ 48112 multiletter control sequences out of 15000+600000
+ 38626 words of font info for 194 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,19n,77p,10445b,11250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,77p,10445b,11472s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (35 pages).
+Output written on thesis.pdf (39 pages).

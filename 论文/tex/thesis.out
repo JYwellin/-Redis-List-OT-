@@ -37,5 +37,8 @@
 \BOOKMARK [1][-]{section.5.2}{5.2 研究展望}{chapter.5}% 37
 \BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 OT函数的实现}{section.5.2}% 38
 \BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 验证代码的改进}{section.5.2}% 39
-\BOOKMARK [0][-]{chapter*.9}{参考文献}{}% 40
-\BOOKMARK [0][-]{chapter*.10}{致 谢}{}% 41
+\BOOKMARK [0][-]{chapter*.11}{参考文献}{}% 40
+\BOOKMARK [0][-]{chapter*.12}{致 谢}{}% 41
+\BOOKMARK [1][-]{section.5.3}{5.3 OT函数的设计}{chapter*.12}% 42
+\BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 第一类 OT 函数的设计}{section.5.3}% 43
+\BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 第二类 OT 函数设计}{section.5.3}% 44

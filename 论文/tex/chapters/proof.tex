@@ -30,9 +30,10 @@ operator& operation& example \\
  Tail& Sequence aside from head &Tail(<<1, 2>>) = <<2>>\\
  Append& Add element to end of sequence &Append(<<1>>, 2) = <<1, 2>>\\ 
  Len& Length of sequence &Len(<<1, 2>>) = 2\\
+ $\backslash o$& Connect two sequences &<<1>>\ $\backslash o$\ <<2>> = <<1, 2>>\\
 \hline % 
 \end{tabular}
-以上的操作都不会使原有的操作序列发生变化。
+\par 以上的操作都不会使原有的操作序列发生变化。
 
 \section{使用 TLA+ 描述 OT 函数}
 解释同时描述并验证OT 函数。	 	
@@ -221,7 +222,7 @@ Fraction of physical memory allocated to TLC: 16173 mb
 \subsection{实验结果}
 \begin{figure}[H]
 \centering
-\includegraphics{figures/runtime1.jpg}
+\includegraphics{figures/runtime1.bmp}
 \caption{验证第一类函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：若列表长度为n，则第一类操作的个数:$5*2*n(ins)+5*2*n(set)+2*n(del) = 22n$
@@ -230,7 +231,7 @@ Fraction of physical memory allocated to TLC: 16173 mb
 
 \begin{figure}[H]
 \centering
-\includegraphics{figures/runtime2.jpg}
+\includegraphics{figures/runtime2.bmp}
 \caption{验证第二类函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：若列表长度为n，则第二类操作的个数:$5*2*n(ins))+n*2*n(del) = 2n^2+10n$
@@ -239,7 +240,7 @@ Fraction of physical memory allocated to TLC: 16173 mb
 
 \begin{figure}[H]
 \centering
-\includegraphics{figures/runtime3.jpg}
+\includegraphics{figures/runtime3.bmp}
 \caption{验证第三类函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：目前第三类函数的验证结果只能到LIST长度为7。
@@ -247,7 +248,7 @@ Fraction of physical memory allocated to TLC: 16173 mb
 
 \begin{figure}[H]
 \centering
-\includegraphics{figures/runtime4.jpg}
+\includegraphics{figures/runtime4.bmp}
 \caption{验证其余函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：目前其余函数的验证结果只能到LIST长度为7。
@@ -255,7 +256,7 @@ Fraction of physical memory allocated to TLC: 16173 mb
 
 \begin{figure}[H]
 \centering
-\includegraphics{figures/runtimeall.jpg}
+\includegraphics{figures/runtimeall.bmp}
 \caption{验证所有OT函数正确性与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：时间复杂度与第三类函数的复杂度相同，目前可以验证所设计的OT函数在LIST长度为7之内时的正确性。

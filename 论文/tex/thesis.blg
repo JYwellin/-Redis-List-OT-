@@ -1,17 +1,51 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
 The style file: gbt7714-2005.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thesis.bib
-Warning--string name "sep" is undefined
---line 8 of file thesis.bib
-Warning--string name "apr" is undefined
---line 77 of file thesis.bib
-Warning--string name "may" is undefined
---line 118 of file thesis.bib
-Warning--Require citedate: Armbrust:2010:VCC:1721654.1721672
-Warning--Require citedate: Zhang2014
-Warning--Require address: hunt1994efficient
-Warning--Require address: attiya2004distributed
-Warning--Require citedate: Steinke:2004:UTS:1017460.1017464
-Warning--Require citedate: Attiya:1994:SCV:176575.176576
-Warning--Require address: lipton1988pram
-(There were 10 warnings)
+Warning--Require journal: nichols1995high-latency
+You've used 3 entries,
+            3107 wiz_defined-function locations,
+            724 strings with 6446 characters,
+and the built_in function-call counts, 6093 in all, are:
+= -- 670
+> -- 11
+< -- 25
++ -- 504
+- -- 41
+* -- 153
+:= -- 648
+add.period$ -- 0
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 900
+empty$ -- 247
+format.name$ -- 32
+if$ -- 1599
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 36
+num.names$ -- 3
+pop$ -- 97
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 49
+stack$ -- 0
+substring$ -- 745
+swap$ -- 153
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 84
+width$ -- 4
+write$ -- 64
+(There was 1 warning)

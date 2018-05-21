@@ -1,19 +1,7 @@
-\chapter{相关工作}
-\section{OT 函数的性质}
-	OT 函数需要满足的性质:
-	\begin{itemize}
-	  \item Convergence Property 1(CP1): 这是Jupiter 协议正确性的必要条件。对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
-	  \item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT(OT(O1,O2),OT(O3,O2)) = OT(OT(O1,O3),OT(O2,O3))$
-	  \item Inverse Property 1(IP1)
-	  \item Inverse Property 2(IP1)
-	  \item Inverse Property 3(IP3)
-	\end{itemize}
-	
+\chapter*{附录} 
 \section{OT函数的设计}
-可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性。本文中将Ins（插入）,Del（删除）,Set（设置）单个元素的简单操作称为第一类操作，将Ins,Del单个区间的操作称为第二类操作。
-现在Ins（插入）,Del（删除）,Set（设置）等简单操作相互之间的OT函数已经设计好,Ins,Del单个区间的OT函数也已经基本上设计完成。
 \subsection{第一类 OT 函数的设计}
-我们定义第一类函数为第一类操作之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
+第一类函数为第一类命令之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
 \begin{equation}
 \begin{aligned}
 Set \begin{cases}
@@ -65,7 +53,7 @@ OT(del (i), del (j)) =\begin{cases}
 \end{equation}
 
 \subsection{第二类 OT 函数设计}
-我们定义第二类函数为第二类操作之间的OT函数，即Ins,Del两种区间操作之间的OT函数，共2*2=4个。
+第二类函数为第二类命令之间的OT函数，即Ins,Del两种命令之间的OT函数，共2*2=4个。
 \begin{equation}
 OT(Ins(p1,s1),Ins(p1,s2))= \begin{cases}
 Ins(p1,s1) \quad & p1<p2 \\
@@ -98,8 +86,3 @@ no-op \quad & p2 \le p1 < p2+l2 \quad p1+l1 \le p2+l2\\
 Del(p2,p1+l1-p2-l2) \quad & p2 \le p1 <p2+l2 \quad  p1+l1>p2+l2\\
 Del(p1-l2,l1) \quad & p1 \ge p2+l2  \end{cases}\\
 \end{equation}
-第二类简单例子
-
-\section{OT 函数的验证}
-
-	

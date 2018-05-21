@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 \providecommand{\bibauthor}[1]{#1}
 \providecommand{\bibeditor}[1]{#1}
 \providecommand{\bibtranslator}[1]{#1}
@@ -24,107 +24,24 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
-\bibitem{Armbrust:2010:VCC:1721654.1721672}
-\bibauthor{ARMBRUST M\@, FOX A\@, GRIFFITH R, et~al}\@. \bibtitle{A View of
-  Cloud Computing}\bibmark{[J/OL]}\@. \bibjournal{Commun. ACM}\@,
-  \bibyear{2010}\@, \bibvolume{53}\bibnumber{(4)}\thinspace{}\textnormal{:
-  }\bibpages{50\thinspace{}\textnormal{--}\thinspace{}58}\@.
-  \newline\url{http://doi.acm.org/10.1145/1721654.1721672}\@.
+\bibitem{ellis1989concurrency}
+\bibauthor{ELLIS C~A\@, GIBBS S~J}\@. \bibtitle{Concurrency control in
+  groupware systems}\bibmark{[J]}\@. \bibjournal{international conference on
+  management of data}\@, \bibyear{1989}\@,
+  \bibvolume{18}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{399\thinspace{}\textnormal{--}\thinspace{}407}\@.
 
-\bibitem{Zhang2014}
-\bibauthor{ZHANG I\@, SZEKERES A\@, VAN~AKEN D, et~al}\@.
-  \bibtitle{Customizable and Extensible Deployment for Mobile/Cloud
-  Applications}\bibmark{[C/OL]}
-  //\thinspace{}\bibbooktitle{OSDI'14\thinspace{}\textnormal{: }Proceedings of
-  the 11th USENIX Conference on Operating Systems Design and Implementation}\@.
-  \bibaddress{Berkeley, CA, USA}\thinspace{}\textnormal{: }\bibpublisher{USENIX
-  Association}\@, \bibyear{2014}\thinspace{}\textnormal{:
-  }\bibpages{97\thinspace{}\textnormal{--}\thinspace{}112}\@.
-  \newline\url{http://dl.acm.org/citation.cfm?id=2685048.2685057}\@.
+\bibitem{nichols1995high-latency}
+\bibauthor{NICHOLS D~A\@, CURTIS P\@, DIXON M~D, et~al}\@.
+  \bibtitle{High-latency, low-bandwidth windowing in the Jupiter collaboration
+  system}\bibmark{[J]}\@, \bibyear{1995}\thinspace{}\textnormal{:
+  }\bibpages{111\thinspace{}\textnormal{--}\thinspace{}120}\@.
 
-\bibitem{ardekani2014self}
-\bibauthor{ARDEKANI M~S\@, TERRY D~B}\@. \bibtitle{A self-configurable
-  geo-replicated cloud storage system}\bibmark{[C]}
-  //\thinspace{}\bibbooktitle{11th USENIX Symposium on Operating Systems Design
-  and Implementation (OSDI 14)}\@. \bibyear{2014}\thinspace{}\textnormal{:
-  }\bibpages{367\thinspace{}\textnormal{--}\thinspace{}381}\@.
-
-\bibitem{Moir2004ConcurrentDS}
-\bibauthor{MOIR M\@, SHAVIT N}\@. \bibtitle{Concurrent Data
-  Structures}\bibmark{[C]} //\thinspace{}\bibbooktitle{CRC}\@.
-  \bibyear{2004}\@.
-
-\bibitem{hunt1994efficient}
-\bibauthor{HUNT G~C\@, MICHAEL M~M\@, PARTHASARATHY S, et~al}\@. \bibtitle{An
-  Efficient Algorithm for Concurrent Priority Queue Heaps.}\bibmark{[R]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibinstitution{DTIC
-  Document}\@, \bibyear{1994}\@.
-
-\bibitem{huang1991evaluation}
-\bibauthor{HUANG Q\@, WEIHL W~E}\@. \bibtitle{An evaluation of concurrent
-  priority queue algorithms}\bibmark{[C]} //\thinspace{}\bibbooktitle{Parallel
-  and Distributed Processing, 1991. Proceedings of the Third IEEE Symposium
-  on}\@. \bibyear{1991}\thinspace{}\textnormal{:
-  }\bibpages{518\thinspace{}\textnormal{--}\thinspace{}525}\@.
-
-\bibitem{sundell2003fast}
-\bibauthor{SUNDELL H\@, TSIGAS P}\@. \bibtitle{Fast and lock-free concurrent
-  priority queues for multi-thread systems}\bibmark{[C]}
-  //\thinspace{}\bibbooktitle{Parallel and Distributed Processing Symposium,
-  2003. Proceedings. International}\@. \bibyear{2003}\thinspace{}\textnormal{:
-  }\bibpages{11\thinspace{}\textnormal{--}\thinspace{}pp}\@.
-
-\bibitem{attiya2004distributed}
-\bibauthor{ATTIYA H\@, WELCH J}\@. \bibbooktitle{Distributed computing:
-  fundamentals, simulations, and advanced topics\thinspace{}\textnormal{:
-  }Vol~19}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibpublisher{John Wiley \& Sons}\@, \bibyear{2004}\@.
-
-\bibitem{Steinke:2004:UTS:1017460.1017464}
-\bibauthor{STEINKE R~C\@, NUTT G~J}\@. \bibtitle{A Unified Theory of Shared
-  Memory Consistency}\bibmark{[J/OL]}\@. \bibjournal{J. ACM}\@,
-  \bibyear{2004}\@, \bibvolume{51}\bibnumber{(5)}\thinspace{}\textnormal{:
-  }\bibpages{800\thinspace{}\textnormal{--}\thinspace{}849}\@.
-  \newline\url{http://doi.acm.org/10.1145/1017460.1017464}\@.
-
-\bibitem{lamport1979make}
-\bibauthor{LAMPORT L}\@. \bibtitle{How to make a multiprocessor computer that
-  correctly executes multiprocess programs}\bibmark{[J]}\@.
-  \bibjournal{Computers, IEEE Transactions on}\@, \bibyear{1979}\@,
-  \bibvolume{100}\bibnumber{(9)}\thinspace{}\textnormal{:
-  }\bibpages{690\thinspace{}\textnormal{--}\thinspace{}691}\@.
-
-\bibitem{Attiya:1994:SCV:176575.176576}
-\bibauthor{ATTIYA H\@, WELCH J~L}\@. \bibtitle{Sequential Consistency Versus
-  Linearizability}\bibmark{[J/OL]}\@. \bibjournal{ACM Trans. Comput. Syst.}\@,
-  \bibyear{1994}\@, \bibvolume{12}\bibnumber{(2)}\thinspace{}\textnormal{:
-  }\bibpages{91\thinspace{}\textnormal{--}\thinspace{}122}\@.
-  \newline\url{http://doi.acm.org/10.1145/176575.176576}\@.
-
-\bibitem{lipton1988pram}
-\bibauthor{LIPTON R~J\@, SANDBERG J~S}\@. \bibbooktitle{PRAM: A scalable shared
-  memory}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibpublisher{Princeton University, Department of Computer Science}\@,
-  \bibyear{1988}\@.
-
-\bibitem{herlihy1990linearizability}
-\bibauthor{HERLIHY M~P\@, WING J~M}\@. \bibtitle{Linearizability: A correctness
-  condition for concurrent objects}\bibmark{[J]}\@. \bibjournal{ACM
-  Transactions on Programming Languages and Systems (TOPLAS)}\@,
-  \bibyear{1990}\@, \bibvolume{12}\bibnumber{(3)}\thinspace{}\textnormal{:
-  }\bibpages{463\thinspace{}\textnormal{--}\thinspace{}492}\@.
-
-\bibitem{ahamad1995causal}
-\bibauthor{AHAMAD M\@, NEIGER G\@, BURNS J~E, et~al}\@. \bibtitle{Causal
-  memory: Definitions, implementation, and programming}\bibmark{[J]}\@.
-  \bibjournal{Distributed Computing}\@, \bibyear{1995}\@,
-  \bibvolume{9}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{37\thinspace{}\textnormal{--}\thinspace{}49}\@.
-
-\bibitem{vogels2009eventually}
-\bibauthor{VOGELS W}\@. \bibtitle{Eventually consistent}\bibmark{[J]}\@.
-  \bibjournal{Communications of the ACM}\@, \bibyear{2009}\@,
-  \bibvolume{52}\bibnumber{(1)}\thinspace{}\textnormal{:
-  }\bibpages{40\thinspace{}\textnormal{--}\thinspace{}44}\@.
+\bibitem{sun2014exhaustive}
+\bibauthor{SUN C\@, XU Y\@, AGUSTINA A}\@. \bibtitle{Exhaustive search of
+  puzzles in operational transformation}\bibmark{[J]}\@. \bibjournal{conference
+  on computer supported cooperative work}\@,
+  \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{519\thinspace{}\textnormal{--}\thinspace{}529}\@.
 
 \end{thebibliography}
