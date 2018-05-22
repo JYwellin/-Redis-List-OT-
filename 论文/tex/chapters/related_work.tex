@@ -102,4 +102,29 @@ Del(p1-l2,l1) \quad & p1 \ge p2+l2  \end{cases}\\
 
 \section{OT 函数的验证}
 
-	
+CP1与CP2性质要求OT函数的设计者考虑所有可能的操作组合情况，
+并且，对一种特定的操作组合，还要考虑所有可能的访问位置的组合情况。
+OT函数的设计易于出错。
+因此，有一系列工作致力于如何验证OT函数的正确性。
+Imine 等人~\cite{Imine:TCS06} 基于代数规约框架开发了OT函数自动验证工具 VOTE。
+该工具可以自动验证给定的OT函数的正确性或者给出反例。
+Imine 等人使用该工具检测了 GROVE~\cite{Ellis:SIGMOD89}, 
+Joint Emacs~\cite{Ressel:CSCW96}, REDUCE~\cite{Sun:TOCHI98}, 
+CoWord, SAMS~\cite{Molli:CSCW02} 和 So6~\cite{Sun:CSCW04} 协同编辑器。
+结果发现，这六个协同编辑器所使用的OT函数都不满足CP2性质，
+而且 GROVE 和 Joint Emacs 的OT函数也不满足CP1性质。
+Sun 等人~\cite{Sun:CSCW14} 开发了一套验证框架和一个验证工具，
+能够穷举所有可能的操作转换情况。
+基于此，作者不仅重现了之前已有工作中指出的OT函数设计的错误之处，
+而且揭示了所有可能的OT函数的设计错误。
+在其后续工作中，Sun 等人~\cite{Sun:CSCW17} 推广了该方法，
+用于验证支持字符串插入与字符串删除的列表OT函数的正确性。
+在这两份工作中，作者不仅考虑了CP1和CP2性质，
+还考虑了OT函数可能需要满足的其它性质。
+Randolph 等人~\cite{Randolph:arXiv13} 从理论上考察满足CP1和CP2性质的OT函数的存在性问题。
+作者将该问题转化为 (Controller Synthesis) 合成问题，
+然后尝试借助形式化验证工具 Uppaal-Tiga~\cite{Cassez:CONCUR05} 自动合成OT函数。
+结果表明，在不使用位置(position)之外的信息的情况下，不存在满足CP2性质的OT函数。
+Liu 等人~\cite{Liu:FM04} 利用模型检验技术验证了某些OT函数满足CP1性质，
+也重现了违反CP2性质的OT函数的设计错误。
+此外，作者还第一次验证了一类基于操作上下文 (Operation Context) 概念~\cite{Sun:CSCW06} 的OT控制算法的正确性。
