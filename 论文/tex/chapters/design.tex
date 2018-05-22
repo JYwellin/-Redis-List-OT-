@@ -28,9 +28,9 @@ Redis中的列表是字符串列表，按照插入的顺序进行排序，一个
 \subsection{Redis List API分类}
 \par 经过分析，这11个命令可以根据操作类型和作用范围分为以下这三类。
 \begin{itemize}
-\item 单个元素的删除、修改、插入\\
-\item 单个区间的删除、插入\\
-\item 多个区间的删除\\
+\item 单个元素的删除、修改、插入
+\item 单个区间的删除、插入
+\item 多个区间的删除
 \end{itemize}
 也就是在前一章中提到的三类操作，可以用这三类操作来表示这所有的11个命令，如下表所示：
 
@@ -89,10 +89,14 @@ Ins(p_{k+1}-l_1-l_2-...-l_k,s_{k+1}) \quad & p_{k+1} \ge pk+lk \end{cases}\\
 $OT(Del(p_1,l_1;p_2,l_2;...;p_k,l_k),Ins(p_{k+1},s_{k+1}))$\\
 \begin{equation}
 = \begin{cases}
-Del(p_1+|s_{k+1}|,l_1;p_2+|s_{k+1}|,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) & \quad p_{k+1} \le p_1 \\
-Del(p_1,l_1;p_2,l_2;...;p_{i-1},l_{i-1};p_i,l_i+|s_{k+1}|;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) &\quad p_i<p_{k+1} < pi+li \\
-Del(p_1,l_1;p_2,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) & \quad p_i+l_i \le p_{k+1} \le p_{i+1}\\
-Del(p_1,l_1;p_2,l_2;...;p_k,l_k) &\quad P_k+l_k \le p_{k+1} \\
+Del(p_1+|s_{k+1}|,l_1;p_2+|s_{k+1}|,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k)\\
+  \quad \hfill p_{k+1} \le p_1 \\
+Del(p_1,l_1;p_2,l_2;...;p_{i-1},l_{i-1};p_i,l_i+|s_{k+1}|;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k)\\
+ \quad \hfill p_i<p_{k+1} < pi+li \\
+Del(p_1,l_1;p_2,l_2;...;p_i,l_i;p_{i+1}+|s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k)\\
+  \quad \hfill p_i+l_i \le p_{k+1} \le p_{i+1}\\
+Del(p_1,l_1;p_2,l_2;...;p_k,l_k) \\
+ \quad \hfill P_k+l_k \le p_{k+1} \\
  \end{cases}\\
 \end{equation}
 
@@ -122,7 +126,7 @@ Del(p_{k+1}-p_1-p_2...-p_k,l_{k+1}) \quad &p_{k+1} \ge p_k+l_k
  \end{cases}\\
 \end{equation}
 
-\par 下面两种表格中列出了经过转换后的新区间开始端点和新区间的长度，本文第4章中代码的编写便是参照两张表格进行的。
+\par 下面两种表格中列出了经过转换后的新区间开始端点和新区间的长度，本文第4章中部分代码的编写便是参照这两张表格进行的。
 
 \begin{table}[H]
 \centering

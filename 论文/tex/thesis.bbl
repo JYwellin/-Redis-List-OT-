@@ -133,6 +133,16 @@
   }\bibpages{66\thinspace{}\textnormal{--}\thinspace{}80}\@.
   \newline\url{http://dx.doi.org/10.1007/11539452_9}\@.
 
+\bibitem{Liu:FM14}
+\bibauthor{LIU Y\@, XU Y\@, ZHANG S~J, et~al}\@. \bibtitle{Formal Verification
+  of Operational Transformation}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 19th International Symposium
+  on FM 2014: Formal Methods - Volume 8442}\@. \bibaddress{New York, NY,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{Springer-Verlag New York,
+  Inc.}\@, \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{432\thinspace{}\textnormal{--}\thinspace{}448}\@.
+  \newline\url{http://dx.doi.org/10.1007/978-3-319-06410-9_30}\@.
+
 \bibitem{Sun:CSCW06}
 \bibauthor{SUN D\@, SUN C}\@. \bibtitle{Operation Context and Context-based
   Operational Transformation}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{CSCW

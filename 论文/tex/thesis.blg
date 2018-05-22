@@ -10,7 +10,6 @@ Warning--string name "feb" is undefined
 --line 106 of file thesis.bib
 Warning--string name "mar" is undefined
 --line 199 of file thesis.bib
-Warning--I didn't find a database entry for "Liu:FM04"
 Warning--Require journal: nichols1995high-latency
 Warning--Require citedate: Imine:TCS06
 Warning--Require citedate: Ellis:SIGMOD89
@@ -21,46 +20,47 @@ Warning--Require citedate: Sun:CSCW14
 Warning--Require citedate: Sun:CSCW17
 Warning--Require booktitle: Cassez:CONCUR05
 Warning--Require citedate: Cassez:CONCUR05
+Warning--Require citedate: Liu:FM14
 Warning--Require citedate: Sun:CSCW06
-You've used 14 entries,
+You've used 15 entries,
             3107 wiz_defined-function locations,
-            830 strings with 9740 characters,
-and the built_in function-call counts, 29164 in all, are:
-= -- 3218
-> -- 55
-< -- 127
-+ -- 2528
-- -- 203
-* -- 800
-:= -- 3227
+            837 strings with 10049 characters,
+and the built_in function-call counts, 31140 in all, are:
+= -- 3429
+> -- 59
+< -- 136
++ -- 2683
+- -- 218
+* -- 862
+:= -- 3435
 add.period$ -- 0
-call.type$ -- 14
-change.case$ -- 82
+call.type$ -- 15
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 4199
-empty$ -- 1114
-format.name$ -- 164
-if$ -- 7709
+cite$ -- 27
+duplicate$ -- 4488
+empty$ -- 1201
+format.name$ -- 176
+if$ -- 8225
 int.to.chr$ -- 0
-int.to.str$ -- 14
+int.to.str$ -- 15
 missing$ -- 0
-newline$ -- 69
-num.names$ -- 15
-pop$ -- 452
+newline$ -- 72
+num.names$ -- 16
+pop$ -- 487
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 212
+skip$ -- 226
 stack$ -- 0
-substring$ -- 3498
-swap$ -- 760
+substring$ -- 3733
+swap$ -- 820
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 404
-width$ -- 16
-write$ -- 247
+warning$ -- 12
+while$ -- 434
+width$ -- 17
+write$ -- 265
 (There were 14 warnings)
