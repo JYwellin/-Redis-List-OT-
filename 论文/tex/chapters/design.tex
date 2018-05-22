@@ -26,41 +26,54 @@ Redis中的列表是字符串列表，按照插入的顺序进行排序，一个
 
 \par 而其中LRANGE,LLEN和LINDEX这三个命令与list的内容修改无关，因此在本文中不考虑这两个命令的相关OT操作。本文中只考虑剩余这11个命令的OT函数的设计和验证。
 \subsection{Redis List API分类}
-\par 经过分析，这12个命令可以根据操作类型和作用范围分为以下这三类。
-(可使用表格)
+\par 经过分析，这11个命令可以根据操作类型和作用范围分为以下这三类。
 \begin{itemize}
-\item 单个元素的删除、修改、插入：$ Ins(pos,ele),Del(pos),Set(pos,ele)$\\
-\item 单个区间的删除、插入：$Ins(pos,str),Del(pos,len)$\\
-\item 多个区间的删除：$ Del(pos1,len1;pos2,len2;...;posk,lenk) $\\
+\item 单个元素的删除、修改、插入\\
+\item 单个区间的删除、插入\\
+\item 多个区间的删除\\
 \end{itemize}
-\par 具体来说，就是
-\begin{itemize}
-\item 第一类命令：
-	\begin{itemize}
-	\item $LPUSHX -> Ins(0,ele)$
-	\item $RPUSHX -> Ins(len,ele)$
-	\item $LINSERT -> Ins(pos,ele)$
-	\item $LPOP -> Del(0)$
-	\item $RPOP -> Del(len-1)$
-	\item $RPOPLPUSH  -> Del(len-1)$
-	\item $LSET -> Set(pos,ele)$
-	\end{itemize}
-\item 第二类命令：
-	\begin{itemize}
-	\item $LPUSH -> Ins(0,str)$
-	\item $RPUSH -> Ins(len,str)$
-	\end{itemize}
-\item 第三类命令： 
-	\begin{itemize}
-	\item $LTRIM -> Del(0,pos1-1;pos2+1,len-pos2-1)$
-	\item $LREM ->  Del(pos1,len1;pos2,len2;...;posk,lenk)$
-	\end{itemize}
-\end{itemize}
+也就是在前一章中提到的三类操作，可以用这三类操作来表示这所有的11个命令，如下表所示：
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|} 
+\hline
+操作分类 &LIST命令 &具体操作\\
+\hline
+\multirow{7}*{第一类操作}  &$LPUSHX$  &$Ins(0,ele)$\\ 
+\cline{2-3} 
+&$RPUSHX$ & $Ins(len,ele)$\\
+\cline{2-3}
+&$LINSERT$ & $Ins(pos,ele)$\\
+\cline{2-3}
+&$LPOP$ & $Del(0)$\\
+\cline{2-3}
+&$RPOP$ & $Del(len-1)$\\
+\cline{2-3}
+&$RPOPLPUSH$ & $Del(len-1)$\\
+\cline{2-3}
+&$LSET$ & $Set(pos,ele)$\\
+\hline
+
+\multirow{2}*{第二类操作}  &$LPUSH$  &$Ins(0,str)$\\ 
+\cline{2-3} 
+&$RPUSH$ & $Ins(len,str)$\\
+\hline
+
+\multirow{2}*{第三类操作}  &$LTRIM$  &$Del(0,pos1-1;pos2+1,len-pos2-1)$\\ 
+\cline{2-3} 
+&$LREM$ & $Del(pos1,len1;pos2,len2;...;posk,lenk)$\\
+\hline
+\end{tabular}
+\end{table}
+这样，由于Redis中list相关命令都可以用这三类操作来表示，所以我们只要设计完成这三类操作之间的所有OT函数，即可完成Redis中list相关命令的OT函数设计。
+由于第一类函数和第二类函数已经设计完成，接下来只要完成剩余的OT函数设计即可。
 
 \section{第三类 OT 函数设计}
 \par 我们定义第三类函数为第三类的Del命令与第二类命令中的Ins操作之间的OT函数，以及第三类Del命令自身的OT函数，共2+1=3个。
 \par 首先考虑第三类的Del命令与第二类命令中的Ins操作之间的OT函数，显然，我们需要按Ins操作的插入位置和Del操作的删除区间之间的关系进行分类，进行函数的设计。
-\par Ins操作对于Del操作的转换，如果是插入位置位于删除区间中，则Ins操作转换为NOP，否则插入的位置要减去删除操作在该位置之前删除区间的总长度。\\
+\par Ins操作对于Del操作的转换，如果是插入位置位于删除区间中，则Ins操作转换为NOP，否则插入的位置要减去删除操作在该位置之前删除区间的总长度。
+具体的数学公式如下：\\
 $OT(Ins(p_{k+1},s_{k+1}),Del(p_1,l_1;p_2,l_2;...;p_k,l_k))$\\
 \begin{equation}
 = \begin{cases}
@@ -71,7 +84,8 @@ Ins(p_{k+1}-l_1-l_2-...-l_k,s_{k+1}) \quad & p_{k+1} \ge pk+lk \end{cases}\\
 \end{equation}
 
 \par Del操作对于Del操作的转换，如果是插入位置位于删除区间中，则该区间删除长度增加$|s|$,之前的区间不变，之后的区间都向后移动$|s|$单位长度
-\par 如果插入位置不在删除区间中，那么在插入位置之前的区间不变，之后的区间都向后移动$|s|$单位长度\\
+\par 如果插入位置不在删除区间中，那么在插入位置之前的区间不变，之后的区间都向后移动$|s|$单位长度
+具体的数学公式如下：\\
 $OT(Del(p_1,l_1;p_2,l_2;...;p_k,l_k),Ins(p_{k+1},s_{k+1}))$\\
 \begin{equation}
 = \begin{cases}
@@ -84,7 +98,8 @@ Del(p_1,l_1;p_2,l_2;...;p_k,l_k) &\quad P_k+l_k \le p_{k+1} \\
 
 \par Del操作自身的转换时最为复杂的，一开始想要将要转换的Del操作中所有的区间一起转换，发现这样不仅做起来难度很大，而且写公式和用代码表达都很容易出错，但如果是将每个区间都用某个公式来转换，然后将转换后的新区间合并为新的删除操作，就可以方便的实现第三类Del操作自身的转换了。
 \par 转变思路后，第三类Del自身的转换就可以用第二类Del操作对于第三类Del操作的转换来代替了，减少了公式的复杂度，同时也增加了可读性。
-\par 与前面的设计类似，由删除区间与删除区间之间的位置关系进行函数的设计。\\
+\par 与前面的设计类似，由删除区间与删除区间之间的位置关系进行函数的设计。具体的数学公式如下：\\
+
 \newpage
 $OT(Del(p_{k+1},l_{k+1}),Del(p_1,l_1;p_2,l_2;...;p_k,l_k))$\\
 \begin{equation}
@@ -109,7 +124,7 @@ Del(p_{k+1}-p_1-p_2...-p_k,l_{k+1}) \quad &p_{k+1} \ge p_k+l_k
 
 \par 下面两种表格中列出了经过转换后的新区间开始端点和新区间的长度，本文第4章中代码的编写便是参照两张表格进行的。
 
-\begin{table}[!htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|} 
 \hline
@@ -129,7 +144,7 @@ $p_{k+1} \ge p_k+l_k$  &任意位置  &$p_{k+1}-p_1-p_2...-p_k,l_{k+1}$\\
 \end{table}
 
 
-\begin{table}[!htbp]
+\begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|} 
 \hline

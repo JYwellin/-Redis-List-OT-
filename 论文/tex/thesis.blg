@@ -6,46 +6,61 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thesis.bib
+Warning--string name "feb" is undefined
+--line 106 of file thesis.bib
+Warning--string name "mar" is undefined
+--line 199 of file thesis.bib
+Warning--I didn't find a database entry for "Liu:FM04"
 Warning--Require journal: nichols1995high-latency
-You've used 3 entries,
+Warning--Require citedate: Imine:TCS06
+Warning--Require citedate: Ellis:SIGMOD89
+Warning--Require citedate: Ressel:CSCW96
+Warning--Require citedate: Sun:TOCHI98
+Warning--Require citedate: Sun:CSCW04
+Warning--Require citedate: Sun:CSCW14
+Warning--Require citedate: Sun:CSCW17
+Warning--Require booktitle: Cassez:CONCUR05
+Warning--Require citedate: Cassez:CONCUR05
+Warning--Require citedate: Sun:CSCW06
+You've used 14 entries,
             3107 wiz_defined-function locations,
-            724 strings with 6446 characters,
-and the built_in function-call counts, 6093 in all, are:
-= -- 670
-> -- 11
-< -- 25
-+ -- 504
-- -- 41
-* -- 153
-:= -- 648
+            830 strings with 9740 characters,
+and the built_in function-call counts, 29164 in all, are:
+= -- 3218
+> -- 55
+< -- 127
++ -- 2528
+- -- 203
+* -- 800
+:= -- 3227
 add.period$ -- 0
-call.type$ -- 3
-change.case$ -- 16
+call.type$ -- 14
+change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 900
-empty$ -- 247
-format.name$ -- 32
-if$ -- 1599
+cite$ -- 25
+duplicate$ -- 4199
+empty$ -- 1114
+format.name$ -- 164
+if$ -- 7709
 int.to.chr$ -- 0
-int.to.str$ -- 3
+int.to.str$ -- 14
 missing$ -- 0
-newline$ -- 36
-num.names$ -- 3
-pop$ -- 97
+newline$ -- 69
+num.names$ -- 15
+pop$ -- 452
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 49
+skip$ -- 212
 stack$ -- 0
-substring$ -- 745
-swap$ -- 153
+substring$ -- 3498
+swap$ -- 760
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 84
-width$ -- 4
-write$ -- 64
-(There was 1 warning)
+warning$ -- 11
+while$ -- 404
+width$ -- 16
+write$ -- 247
+(There were 14 warnings)
