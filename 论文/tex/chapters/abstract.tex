@@ -2,7 +2,8 @@
 % 论文的中文摘要
 \begin{abstract}
 	\par 协同编辑系统，可以允许不同地点的用户同时编辑同一份文档。为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
-	\par 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现，本次毕业设计的目标是实现Redis List所支持的14种非阻塞操作的OT函数，并且对实现函数的正确性进行验证。阿里云和RedisLab的团队目前都在对Redis List的操作进行开发，Redis List操作的OT函数实现具有应用前景和商业前途。
+	\par OT(Operational Transformation)是一种为了支持协作功能，在协作软件系统中所采用的技术。一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数，控制算法负责决定哪些操作以何种顺序进行转换，而具体的OT函数则实施具体的两个操作之间的变化。
+	\par 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现，本次毕业设计的目标是实现Redis 系统中List所支持的14种非阻塞操作的OT函数，并且对实现函数的正确性进行验证。阿里云和RedisLab的团队目前都在对Redis List的操作进行开发，Redis List操作的OT函数实现具有应用前景和商业前途。
 	\par 针对上述问题，本文的贡献包括：
 	\par 首先介绍了Redis List的相关命令，并将Redis List的相关命令进行基于坐标和操作方式的分类，能够更方便地实现OT函数的设计。
 	\par 其次对于所有简化后的命令进行了OT函数的数学公式设计。
@@ -14,7 +15,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 论文的英文摘要
 \begin{englishabstract}
-\par To be filled.
+\par Collaborative editing systems allow users edit one document at different sites. The System will replicate the document in different sites or for different users. A user can edit the document in a replica, then propagate the modification to other replicas asynchronously. There is no need to wait for the server to process and respond to user modifications. Local operations can be executed immediately.At the same time, the system must ensure the consistency, that is, after all users complete the editing of the document, all the replica are consistent.
+\par OT(Operational Transformation) is a technology used in collaborative software systems to support collaborative functions.A OT system consists of 2 key parts, the upper control algorithms and the underlying OT functions, and the control algorithm is responsible for determining which operations are transformed in which order, and the specific OT functions implement the changes between two specific operations.
+\par We can design OT functions, which can be called by the control algorithms to guarantee the consistency of the final result. The OT design of some simple operations has been realized. Our purpose is to realize the OT function of 14 non-blocking operations supported by List in Redis system, and verify the correctness of our functions. Alibaba Cloud Computing and RedisLab are currently developing Redis List operations, so the OT function implementation of Redis List operations have application prospects and business prospects.
+\par To address the problems discussed above, the main contribution of this work is:
+\par Firstlt, First, we introduces the related commands of Redis List, and classify the related commands of Redis List on the basis of coordinate and operation mode, which can help us realize the design of OT function more conveniently.
+\par Secondly, we design the mathematical formula of OT function for all simplified commands of Redis List.
+\par Finally, we introduce TLA +, and prove the OT function designed by TLA+ and analyze the experimental results.
 	% 英文关键词。关键词之间用英文半角逗号隔开，末尾无符号。
-	\englishkeywords{}
+	\englishkeywords{collaborative editing,operational transformation,Redis list,TLA+}
 \end{englishabstract}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  23 MAY 2018 01:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  23 MAY 2018 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2713,20 +2713,20 @@ Overfull \hbox (1.1896pt too wide) in paragraph at lines 3--3
 
 
 ]
-Overfull \hbox (1.22795pt too wide) in paragraph at lines 16--16
+Overfull \hbox (1.22795pt too wide) in paragraph at lines 17--17
 \TU/TimesNewRoman(0)/m/n/14.05 SPECIALIZATION: |   [] 
  []
 
 [2
 
-]) (./thesis.toc [3
+] [3]) (./thesis.toc [4
 
 
 ])
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [4] (./chapters/preface.tex
+ [5] (./chapters/preface.tex
 {第\CJKnumber {1}章} 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3483,9 +3483,6 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
  )
 (\end occurred inside a group at level 1)
@@ -3493,12 +3490,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44974 strings out of 493005
- 842828 string characters out of 6137957
- 960931 words of memory out of 5000000
- 48150 multiletter control sequences out of 15000+600000
- 38626 words of font info for 194 fonts, out of 8000000 for 9000
+ 45000 strings out of 493005
+ 843233 string characters out of 6137957
+ 960126 words of memory out of 5000000
+ 48170 multiletter control sequences out of 15000+600000
+ 43387 words of font info for 212 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,19n,77p,10445b,11615s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,77p,10445b,11618s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (43 pages).
+Output written on thesis.pdf (44 pages).
