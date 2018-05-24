@@ -11,9 +11,8 @@
 
 	针对上述问题，本文的贡献包括：
 	\begin{itemize}
-	  \item 第 \ref{section:} 节介绍了Redis List的相关命令，并将Redis List的相关命令进行基于坐标和操作方式的分类，能够更方便地实现OT函数的设计。
-	  \item 第\ref{section:} 节 对于所有简化后的命令进行了OT函数的数学公式设计。
-	  \item 第\ref{section:} 节介绍了TLA+，并通过TLA+实现了对于所设计OT函数的证明，以及对实验结果的分析。
+	  \item 第\ref{chapter:design}章介绍了Redis List的相关命令，并将Redis List的相关命令进行基于坐标和操作方式的分类，能够更方便地实现OT函数的设计。对于所有简化后的命令进行了OT函数的数学公式设计。
+	  \item 第\ref{section:proof} 节介绍了TLA+，并通过TLA+实现了对于所设计OT函数的证明，以及对实验结果的分析。
       \end{itemize}
 	% 中文关键词。关键词之间用中文全角分号隔开，末尾无标点符号。
 	\keywords{协同编辑；操作转换；Redis 系统；TLA+验证}
@@ -26,7 +25,7 @@
 \par OT(Operational Transformation) is a technology used in collaborative software systems to support collaborative functions.A OT system consists of 2 key parts, the upper control algorithms and the underlying OT functions, and the control algorithm is responsible for determining which operations are transformed in which order, and the specific OT functions implement the changes between two specific operations.
 \par We can design OT functions, which can be called by the control algorithms to guarantee the consistency of the final result. The OT design of some simple operations has been realized. Our purpose is to realize the OT function of 14 non-blocking operations supported by List in Redis system, and verify the correctness of our functions. Alibaba Cloud Computing and RedisLab are currently developing Redis List operations, so the OT function implementation of Redis List operations have application prospects and business prospects.
 \par To address the problems discussed above, the main contribution of this work is:
-\par Firstlt, First, we introduces the related commands of Redis List, and classify the related commands of Redis List on the basis of coordinate and operation mode, which can help us realize the design of OT function more conveniently.
+\par Firstly, we introduces the related commands of Redis List, and classify the related commands of Redis List on the basis of coordinate and operation mode, which can help us realize the design of OT function more conveniently.
 \par Secondly, we design the mathematical formula of OT function for all simplified commands of Redis List.
 \par Finally, we introduce TLA +, and prove the OT function designed by TLA+ and analyze the experimental results.
 	% 英文关键词。关键词之间用英文半角逗号隔开，末尾无符号。
