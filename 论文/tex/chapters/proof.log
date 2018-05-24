@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  20 MAY 2018 21:47
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  23 MAY 2018 23:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1099,44 +1099,6 @@ Missing character: There is no > in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 2 in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33  \backslash
-                 o& Connect two sequences &<<1>>>\ \backslash o\ <<2>> = <<1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<template> \unskip \hfil }
-                          \hskip \tabcolsep \endtemplate 
-l.33  \backslash o&
-                    Connect two sequences &<<1>>>\ \backslash o\ <<2>> = <<1...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33  \backslash o&
-                    Connect two sequences &<<1>>>\ \backslash o\ <<2>> = <<1...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.33  \backslash o&
-                    Connect two sequences &<<1>>>\ \backslash o\ <<2>> = <<1...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 Missing character: There is no C in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -1161,93 +1123,26 @@ Missing character: There is no < in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no > in font nullfont!
 Missing character: There is no > in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no > in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 ... Connect two sequences &<<1>>>\ \backslash
-                                                   o\ <<2>> = <<1, 2>>
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.34 \hline
-            %
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.34 \hline
-            %
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.34 \hline
-            %
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! You can't use `\hrule' here except with leaders.
-<recently read> \hrule 
-                       
-l.34 \hline
-            %
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.34 \hline
-            %
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.34 \hline
-            %
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.35 \end{tabular}
-                  
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
+Missing character: There is no > in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 22--36
 []
  []
 
 
-Overfull \hbox (125.80542pt too wide) in paragraph at lines 22--36
+Overfull \hbox (19.69449pt too wide) in paragraph at lines 22--36
 [] 
  []
 
@@ -1675,7 +1570,7 @@ Missing character: There is no ] in font nullfont!
 <recently read> &
                  
 l.48 &
-      OP\_1 \triangleq OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del\\
+      OP\_1 \triangleq OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1688,7 +1583,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
 l.48 &OP\_1 \triangleq
-                       OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del\\
+                       OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1705,7 +1600,7 @@ Missing character: There is no t in font nullfont!
 <inserted text> 
                 $
 l.48 &OP\_1 \triangleq OP\_1\_set \cup
-                                       OP\_1\_ins \cup OP\_1\_del\\
+                                       OP\_1\_ins \cup OP\_1\_del
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1960,7 +1855,7 @@ Missing character: There is no ] in font nullfont!
 <recently read> &
                  
 l.54 &
-      OP\_2 \triangleq  OP\_2\_ins \cup OP\_2\_del \\
+      OP\_2 \triangleq  OP\_2\_ins \cup OP\_2\_del
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1973,7 +1868,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
 l.54 &OP\_2 \triangleq
-                        OP\_2\_ins \cup OP\_2\_del \\
+                        OP\_2\_ins \cup OP\_2\_del
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1990,7 +1885,7 @@ Missing character: There is no s in font nullfont!
 <inserted text> 
                 $
 l.54 &OP\_2 \triangleq  OP\_2\_ins \cup
-                                        OP\_2\_del \\
+                                        OP\_2\_del
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -2031,13 +1926,13 @@ Overfull \hbox (48.18295pt too wide) in paragraph at lines 38--56
 
 
 Overfull \hbox (33.7563pt too wide) in paragraph at lines 38--56
-\OML/cmm/m/it/10 OP[]\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 del[] 
+\OML/cmm/m/it/10 OP[]\OT1/cmr/m/n/10 1[]\OML/cmm/m/it/10 del$
  []
 
 
 Overfull \hbox (40.42299pt too wide) in paragraph at lines 38--56
-\OMS/cmsy/m/n/10 [\OML/cmm/m/it/10 OP[]\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 del[
-] 
+\OMS/cmsy/m/n/10 [\OML/cmm/m/it/10 OP[]\OT1/cmr/m/n/10 2[]\OML/cmm/m/it/10 del$
+ 
  []
 
 ! Undefined control sequence.
@@ -2137,7 +2032,7 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no 3 in font nullfont!
 ! Undefined control sequence.
 l.60 OP\_3 \triangleq
-                      [type:{"del\_m"},ints:NoncoSeq] \\
+                      [type:{"del\_m"},ints:NoncoSeq]
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3568,7 +3463,7 @@ Overfull \hbox (14.16663pt too wide) in paragraph at lines 63--92
 
 Overfull \hbox (79.7702pt too wide) in paragraph at lines 63--92
 \OMS/cmsy/m/n/10 n\OML/cmm/m/it/10 o SetTOSeq\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-T\OMS/cmsy/m/n/10 n\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )[] 
+T\OMS/cmsy/m/n/10 n\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )$
  []
 
 
@@ -9687,5 +9582,5 @@ Here is how much of TeX's memory you used:
  4108 multiletter control sequences out of 15000+600000
  3951 words of font info for 16 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 19i,8n,12p,203b,116s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,7n,12p,203b,116s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on proof.pdf (1 page).

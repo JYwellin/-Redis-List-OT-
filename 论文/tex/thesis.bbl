@@ -24,6 +24,13 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
+\bibitem{citeulike:1087263}
+\bibauthor{LEUF B\@, CUNNINGHAM W}\@. \bibbooktitle{{The Wiki Way: Quick
+  Collaboration on the Web}}\bibmark{[M/OL]}\@. \bibaddress{Boston, MA,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{Addison-Wesley Longman
+  Publishing Co., Inc.}\@, \bibyear{2001}\@.
+  \newline\url{http://portal.acm.org/citation.cfm?id=375211}\@.
+
 \bibitem{ellis1989concurrency}
 \bibauthor{ELLIS C~A\@, GIBBS S~J}\@. \bibtitle{Concurrency control in
   groupware systems}\bibmark{[J]}\@. \bibjournal{international conference on
@@ -43,6 +50,24 @@
   on computer supported cooperative work}\@,
   \bibyear{2014}\thinspace{}\textnormal{:
   }\bibpages{519\thinspace{}\textnormal{--}\thinspace{}529}\@.
+
+\bibitem{sun1998achieving}
+\bibauthor{SUN C\@, JIA X\@, ZHANG Y, et~al}\@. \bibtitle{Achieving
+  convergence, causality preservation, and intention preservation in real-time
+  cooperative editing systems}\bibmark{[J]}\@. \bibjournal{ACM Transactions on
+  Computer-Human Interaction}\@, \bibyear{1998}\@,
+  \bibvolume{5}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{63\thinspace{}\textnormal{--}\thinspace{}108}\@.
+
+\bibitem{Sun:2017:ESR:2998181.2998252}
+\bibauthor{SUN C\@, XU Y\@, NG A}\@. \bibtitle{Exhaustive Search and Resolution
+  of Puzzles in OT Systems Supporting String-Wise Operations}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{CSCW '17\thinspace{}\textnormal{: }Proceedings of
+  the 2017 ACM Conference on Computer Supported Cooperative Work and Social
+  Computing}\@. \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2017}\thinspace{}\textnormal{:
+  }\bibpages{2504\thinspace{}\textnormal{--}\thinspace{}2517}\@.
+  \newline\url{http://doi.acm.org/10.1145/2998181.2998252}\@.
 
 \bibitem{Imine:TCS06}
 \bibauthor{IMINE A\@, RUSINOWITCH M\@, OSTER G, et~al}\@. \bibtitle{Formal

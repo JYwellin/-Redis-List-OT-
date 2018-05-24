@@ -1,6 +1,6 @@
 \chapter{前言}
 \section{应用背景：协同编辑应用}
-	\par 协同编辑系统，如 Google Docs\footnote{https://docs.google.com}, Apache Wave, wikis 等可以允许不同地点的用户同时编辑同一份文档。为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
+	\par 协同编辑系统，如 Google Docs\footnote{https://docs.google.com}, Apache Wave\footnote{https://incubator.apache.org/wave/}, wikis \cite{citeulike:1087263} 等可以允许不同地点的用户同时编辑同一份文档。为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
 
 \section{技术背景：Replicated List 规约及其基于OT的 Replicated List 算法}
 
@@ -35,12 +35,10 @@ OT的基本思想是根据先前执行的并发操作的影响，对正在编辑
 使用OT技术将$Del\ 4$转换为$Del\ 3$,$Del\ 2$转换为$Del\ 2$,这样操作的传递完成后，文档的内容仍然是一致的。
 
 \subsection{OT-based 协议}
-client-server 结构
-
 一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数。
 \begin{figure}[H]
 \centering
-\includegraphics{figures/OT structure.jpg}
+\includegraphics{figures/structure.bmp}
 \caption{OT系统结构}
 \end{figure}
 
@@ -49,11 +47,18 @@ OT函数的数量由OT系统的模型所支持的数据和操作类型所决定�
 这两者由一系列转换条件和属性结合在一起，所以整个OT系统的正确性就是由控制算法和OT函数的正确性以及协议的正确性所共同决定的。
 
 由于这种分层结构，我们可以单独考虑OT函数的设计，而不必关心控制算法。
-\cite{nichols1995high-latency}
-\cite{sun2014exhaustive}
+
+本文中OT函数的设计与验证基于Jupiter协议\cite{nichols1995high-latency}。
+
+Jupiter是一个多用户的多媒体虚拟世界，支持长期的远程协作，支持共享文档、共享工具以及在线的音频视频通信。
+
+Jupiter采用client-server结构，即中央服务器存储虚拟对象的状态和执行相关的程序代码，客户端进行输入输出等工作，Jupiter算法也是基于主从结构来设计和实现的。并且Jupiter采用积极的并发控制算法，即不必要等待服务器处理完再响应用户操作，本地操作可以立即执行，然后再将执行的结构异步地进行传递，如果同时有两个或以上的参与者进行修改，就需要采取冲突解决算法来进行相应的操作调整。与其他gropuware system不同，Jupiter不使用直接建立在客户端之间的同步协议，而是使每个客户端与服务器同步，服务器将某个客户端所做的修改经过转换分享传递给其他用户。
+
+Jupiter算法依赖于OT来修复冲突的消息，保证一致性的实现。可以用状态图来表示server和client的状态，若client处于(x,y)，表示此时client端已经产生并执行x两条自己的操作，并且从server接受并执行了y条操作，server端会为每个client端维护一个这样的二维空间，如果执行顺序一致，则server和client在状态图上行进的路径是一直的，所在位置也相同，但如果发生冲突，行进路径就会发生分歧，此时可以接收来自对方的经过OT转换的操作，使两者达到相同的状态,并且算法可以保证，不管server端和clinet端在状态图上的分歧有多远，只要接收来自对方的经过OT转换的操作，达到相同的状态，那么两者数据的值就一定是相同的，满足一致性的要求。
+
 \section{应用背景：Redis 系统}
 \subsection{Redis简介}
-Redis是一个开源的、可基于内存也可持久化的数据结构存储系统，可以用作数据库、缓存和消息中间件，并且提供多种语言的API。Redis支持多种类型的数据结构，如字符串(string)，散列(hash)，列表（即本文中所关心的lists)，集合(set)，有序集合(sorted set)等
+Redis是一个开源的、可基于内存也可持久化的数据结构存储系统，可以用作数据库、缓存和消息中间件，并且提供多种语言的API。Redis支持多种类型的数据结构，如字符串(string)，散列(hash)，列表（即本文中所关心的lists)，集合(set)，有序集合(sorted set)等。
 \subsection{Redis特点}
 与其他key-value缓存产品相比，Redis具有以下的几个特点：
 \begin{itemize}
@@ -72,5 +77,5 @@ Redis是一个开源的、可基于内存也可持久化的数据结构存储系
 	\par 本文后续内容组织如下：
 	\par 第2章介绍本文的相关工作，包括系统模型和已有的相关OT函数的设计。
 	\par 第3章介绍了Redis列表相关的基本命令，并对其进行了分类，然后进行了对应OT函数的设计。
-	\par 第4章介绍了TLA+,并使用TLA+完成了对上述设计好的OT函数的验证，对实验结果进行了分析
+	\par 第4章介绍了TLA+,并使用TLA+完成了对上述设计好的OT函数的验证，对实验结果进行了分析。
 	\par 第5章是本论文的结论和以后工作的相关展望。

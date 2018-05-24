@@ -1,6 +1,6 @@
 \chapter{相关工作}
 \section{OT 函数的性质}
-	OT 函数需要满足的性质:
+	过去的OT研究已经建立了一套完整的OT算法正确性的性质标准\cite{sun2014exhaustive}，违反任何转换性质会导致错误的转换，从而可能使得文档不一致。我们关注的性质:
 	\begin{itemize}
 	  \item Convergence Property 1(CP1): 这是Jupiter 协议正确性的必要条件。对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
 	  \item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT(OT(O1,O2),OT(O3,O2)) = OT(OT(O1,O3),OT(O2,O3))$
@@ -8,6 +8,7 @@
 	  \item Inverse Property 2(IP1)
 	  \item Inverse Property 3(IP3)
 	\end{itemize}
+	关注这五个特性的原因是CP1,CP2是收敛性的变换性质，IP1、IP2和IP3是与撤销相关的变换性质。CP1和CP2被发现是在OT系统中实现收敛性的充分必要条件，允许操作以任何顺序进行转换，不过并不是所有OT系统都需要满足这两个条件。CP1在某些OT系统中不是必须的，例如GOT\cite{sun1998achieving}，这些OT系统从不以不同的顺序变换两个操作；CP2同样也不是必须的，比如Jupiter和Google Docs等OT系统,这些OT系统会在操作中施加特殊的转换命令。由于是基于Jupiter协议所作的OT函数设计，所以本文中只验证所设计函数的CP1正确性。
 	
 \section{OT函数的设计}
 可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性。本文中将Ins（插入）,Del（删除）,Set（设置）单个元素的简单操作称为第一类操作，将Ins,Del单个区间的操作称为第二类操作，作用于多个区间的操作称为第三类操作（本文中只讨论删除多个区间的操作）。
@@ -37,7 +38,7 @@
 
 现在Ins,Del,Set等简单操作相互之间的OT函数已经设计好,Ins,Del单个区间的OT函数也已经基本上设计完成。
 \subsection{第一类 OT 函数的设计}
-我们定义第一类函数为第一类操作之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。
+我们定义第一类函数为第一类操作之间的OT函数，即Ins,Del,Set三种操作之间的OT函数，共有3*3=9个。\cite{sun2014exhaustive}
 这里列出了Del操作对应于Ins,Del,Set的OT函数，全部9个函数的数学公式详见附录。
 \begin{equation}
 \begin{aligned}
@@ -57,7 +58,7 @@ OT(del (i), del (j)) =\begin{cases}
 套用公式解释前言中举例的OT变换，$OT(del (4), del (2)) = del(3)$,$OT(del (2), del (4)) = del(2)$，与例子相符。
 
 \subsection{第二类 OT 函数设计}
-我们定义第二类函数为第二类操作之间的OT函数，即Ins,Del两种区间操作之间的OT函数，共2*2=4个。
+我们定义第二类函数为第二类操作之间的OT函数，即Ins,Del两种区间操作之间的OT函数，共2*2=4个。\cite{Sun:2017:ESR:2998181.2998252}
 这里列出了Ins操作对应于Ins,Del的OT函数，全部4个函数的数学公式详见附录。
 \begin{equation}
 OT(Ins(p1,s1),Ins(p2,s2))= \begin{cases}

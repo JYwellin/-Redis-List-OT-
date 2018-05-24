@@ -7,11 +7,9 @@
 \par TLA+提供了工具集TLAToolbox/TLC，同时还可以使用TLA+的语法糖PLUSCAL来完成代码的编写，由于本文中并未涉及，在此不做展开。
 TLA+ model checker 与经典的模型检验工具类似，通过遍历系统模型的所有可能的行为，验证其正确性。
 
-figure: assume 删除; 英文注释; 类似宏 删除; 空行
-
-\begin{figure}
+\begin{figure}[H]
 \centering
-\includegraphics{figures/module.jpg}
+\includegraphics{figures/module.png}
 \caption{TLA+编码模板}
 \label{fig:graph}
 \end{figure}
@@ -42,22 +40,22 @@ operator& operation& example \\
 采用record的数据结构来表示具体的操作。
 第一类操作的record分为两种，set和ins有三个域:pos位置，ch操作字符，pr优先级。而del操作少了ch字符域，这样定义可以减少无效重复的操作数量，使验证代码的效率得到提高。
 \begin{align*}
-&OP\_1\_set \triangleq [type: {"set"}, pos: POS, ch: CH, pr:PR] \\
-&OP\_1\_ins \triangleq [type: {"ins"}, pos: POS, ch: CH, pr:PR] \\
-&OP\_1\_del \triangleq [type: {"del"}, pos: POS, pr:PR] \\
-&OP\_1 \triangleq OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del\\
+&OP\_1\_set \triangleq [type: \{"set"\}, pos: POS, ch: CH, pr:PR] \\
+&OP\_1\_ins \triangleq [type: \{"ins"\}, pos: POS, ch: CH, pr:PR] \\
+&OP\_1\_del \triangleq [type: \{"del"\}, pos: POS, pr:PR] \\
+&OP\_1 \triangleq OP\_1\_set \cup OP\_1\_ins \cup OP\_1\_del
 \end{align*}
 第二类操作的record也分为两种,ins操作有三个域:pos插入位置,pr优先级，str要插入的字符串。del操作也有三个域:pos插入位置,pr优先级，len删除区间的长度
 \begin{align*}
-&OP\_2\_ins \triangleq [type: {"ins\_r"}, pos: POS, pr:PR, str:STR] \\
-&OP\_2\_del \triangleq [type: {"del\_r"}, pos: POS, pr:PR, len:LEN] \\
-&OP\_2 \triangleq  OP\_2\_ins \cup OP\_2\_del \\
+&OP\_2\_ins \triangleq [type: \{"ins\_r"\}, pos: POS, pr:PR, str:STR] \\
+&OP\_2\_del \triangleq [type: \{"del\_r"\}, pos: POS, pr:PR, len:LEN] \\
+&OP\_2 \triangleq  OP\_2\_ins \cup OP\_2\_del 
 \end{align*}
 
 \subsubsection{第三类操作的表示}
 第三类操作同样是使用record来表示，包含两个filed，即type类型和ints删除区间的集合。
 \begin{align*}
-OP\_3 \triangleq [type:{"del\_m"},ints:NoncoSeq] \\
+OP\_3 \triangleq [type:\{"del\_m"\},ints:NoncoSeq] 
 \end{align*}
 
 在表示第三类OT函数时，我们首先遇到的问题便是如何表示第三类List命令，由于第三类List命令为删除多个不相交的集合区间，因此我们需要使用TLA+遍历在List长度上所有可以表示出来的区间，一个命令的删除区间即为若干个不相交的符合条件的区间。
@@ -77,13 +75,13 @@ a为区间的起始断点,b为区间长度,因为一个命令的删除区间为�
 RECURSIVE\ SetTOSeq(\_)\\
 SetTOSeq(T) \triangleq &IF\ T =\ \{\}\ THEN <<>>\\
                        & ELSE\ LET\ t \triangleq CHOOSE\ x \in T : TRUE\\
-                        & \quad IN\ <t>\ \backslash o\ SetTOSeq(T \backslash {t})\\
+                        & \quad IN\ <t>\ \backslash o\ SetTOSeq(T \backslash {t})
 \end{align*}
 接下来便可以定义Seqset(T),将二元组的集合的集合T转化为二维数组的集合：
 \begin{align*}
-&RECURSIVE Seqset(\_)\\
+&RECURSIVE\ Seqset(\_)\\
 &Seqset(T) \triangleq  \\
-& \quad IF\ T = {}\ THEN\ {}\\
+& \quad IF\ T = \{\}\ THEN\ \{\}\\
 & \quad ELSE\ LET\ t\triangleq\ CHOOSE\ x\ \in T : TRUE\\
 & \quad IN\ Seqset(T \backslash {t}) \cup {SetTOSeq(t)} \\
 &NoncoSeq\ \triangleq\ Seqset(NoncoIntervals)
@@ -161,13 +159,13 @@ $newpos$:
 \begin{align*}
 & RECURSIVE newpos(\_,\_,\_)\\
 & snewpos(pos,ints,i) \triangleq\\
-&\quad IF  pos < ints[1][1] THEN pos\\
-&\quad ELSE IF i=Len(ints) \land pos \ge ints[i][1] + ints[i][2] THEN pos - Dlen(ints,i,0)\\
-&\quad ELSE IF pos \ge ints[i][1] \land pos < ints[i][1] + ints[i][2] THEN ints[i][1] - Dlen(ints,i-1,0)\\
-&\quad ELSE IF ints[i][1] + ints[i][2] \le pos \land pos < ints[i+1][1] THEN pos - Dlen(ints,i,0)\\
-&\quad ELSE newpos(pos,ints,i+1)
+&\quad IF \ pos < ints[1][1] \ THEN \ pos\\
+&\quad ELSE \ IF \ i=Len(ints) \land pos \ge ints[i][1] + ints[i][2] \ THEN \ pos - Dlen(ints,i,0)\\
+&\quad ELSE \ IF \ pos \ge ints[i][1] \land pos < ints[i][1] + ints[i][2] \ THEN \ ints[i][1] - Dlen(ints,i-1,0)\\
+&\quad ELSE \ IF \ ints[i][1] + ints[i][2] \le pos \land pos < ints[i+1][1] \ THEN \ pos - Dlen(ints,i,0)\\
+&\quad ELSE \ newpos(pos,ints,i+1)
 \end{align*}
-递归变量为i，代表当前在对rdel中第几个区间进行newpos的计算，每递归一次,i的值加一，如果满足条件要求则返回相应newpos的值。其中Dlen的作用为统计rdel中前i个删除区间的长度之和(代码详见附录）。
+递归变量为i，代表当前在对rdel中第几个区间进行newpos的计算，每递归一次,i的值加一，如果满足条件要求则返回相应newpos的值。其中Dlen的作用为统计rdel中前i个删除区间的长度之和。
 $newlen$:
 \begin{align*}  
 &RECURSIVE newlen(\_,\_,\_,\_,\_)     \\
@@ -199,7 +197,7 @@ $newlen$:
 
 因为在本次实验中不涉及系统状态的变化，只需证明等式对于所有操作都成立即可，因此没有behavior spec，即没有初始状态 Init 和状态关系 Next。不过，在TLC中提供了Evaluate Constant Expression的功能，即可以计算常量表达式的值。以第一类函数的CP1验证为例，我们给出如下正确性定义：
 \begin{align*}
- & correctness_1 (list) ==\\
+ & correctness_1 (list) \triangleq \\
  & \quad \forall op1,op2 \in OP_1:\\
  & \quad \quad \lor op1.pr = op2.pr\\
  & \quad \quad \lor apply(apply(list,op1),Xform(op2, op1)) = apply(apply(list,op2),Xform(op1, op2))  
@@ -209,11 +207,11 @@ $newlen$:
 
 \subsection{TLA+ Model Checker 设置及实验环境}
 在本次实验中，我们定义Model Checker中常量的参数值如下：\\
-STR <- {"like","enjoy","fond","love","fantasy"} \\
-CH <- {"a","b","c","d","e"}\\
-PR <- {1,2}\\
+STR <- \{"like","enjoy","fond","love","fantasy"\} \\
+CH <- \{"a","b","c","d","e"\}\\
+PR <- \{1,2\}\\
 STR为第二类插入操作中str域的可选择范围，CH为第二类插入、设置操作中ch域的可选择范围，PR为操作的优先级，在此处我们设定两个操作的优先级不相同，否则为违规操作变换。
-通过调整LIST常量的长度，实验在不同长度的LIST下完成各类函数的验证所需要的时间。
+通过调整LIST常量的长度，实验在不同长度的LIST下完成各类函数的验证所需要的时间。\\
 
 实验环境：\\
 Number of worker threads: 12\\
