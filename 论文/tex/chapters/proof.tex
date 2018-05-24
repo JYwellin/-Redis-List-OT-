@@ -35,7 +35,7 @@ operator& operation& example \\
 
 \section{使用 TLA+ 描述 OT 函数}
 解释同时描述并验证OT 函数。	 	
-\subsection{LIST相关操作表示}
+\subsection{List 相关操作表示}
 \subsubsection{第一、二类操作的表示}
 采用record的数据结构来表示具体的操作。
 第一类操作的record分为两种，set和ins有三个域:pos位置，ch操作字符，pr优先级。而del操作少了ch字符域，这样定义可以减少无效重复的操作数量，使验证代码的效率得到提高。
@@ -258,3 +258,6 @@ Fraction of physical memory allocated to TLC: 16173 mb
 \caption{验证所有OT函数正确性与列表长度（横坐标）的关系}
 \end{figure}
 \par 结果分析：时间复杂度与第三类函数的复杂度相同，目前可以验证所设计的OT函数在LIST长度为7之内时的正确性。
+
+
+Redis List命令的OT函数设计经过验证是成功的，其满足CP1正确性。
