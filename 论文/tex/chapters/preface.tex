@@ -20,20 +20,28 @@ Definition. The Convergence Property states that site objects
 are identical at all sites at quiescence.\cite{ellis1989concurrency}
 
 \subsection{操作转换思想}
-Operational Transformation(OT)是一种为了支持协作功能，在协作软件系统中所采用的技术。OT最早在1989年被提出，是为了在纯文本文档的协同编辑中实现一致性和并发控制所发明的，经过二十余年的研究，OT的能力已经得到了拓展，在2009年OT做为一种核心技术被Apache Wave和Google Docs所采用来实现其合作特点。
+Operational Transformation(OT)是一种为了支持协作功能，在协作软件系统中所采用的技术。
+OT最早在1989年被提出，是为了在纯文本文档的协同编辑中实现一致性和并发控制所发明的，经过二十余年的研究，OT的能力已经得到了拓展，在2009年OT做为一种核心技术被Apache Wave和Google Docs所采用来实现其合作特点。
 OT的基本思想是根据先前执行的并发操作的影响，对正在编辑的操作的参数进行转换或调整，是转换后的操作能够达到正确地操作，并且保持文档的一致性。
 在这里举一个简单的例子说明OT的思想：
+
 \begin{figure}[H]
+\begin{minipage}[t]{0.5\linewidth}
 \centering
-\includegraphics{figures/exm1.bmp}
+\includegraphics[width=2.6in]{figures/exm1.bmp}
 \caption{不使用OT}
-\end{figure}
-在某个状态S时，list内容为”ABCDE"，此时client端执行了一个删除第4个字符的操作，server端执行了一个删除第2个字符的操作，如图所示，client端list的内容变为“ABCE”，server端list的内容变为“ACDE”。如果不进行转换，直接将操作相互传递，则client端接受到的操作是删除第2个字符,server端接受到的操作是删除第4个字符，完成操作后client端list的内容为“ACE”，server端list的内容为“ACD”，此时list的内容不同，不满足一致性。其原因在于client端的删除第4个字符的操作应该是删除D，但是传递到server端时，由于没有进行操作的转换，此时删除第4个字符即删除E，造成了删除内容的不一致。
-\begin{figure}[H]
+\label{fig:side:a}
+\end{minipage}%
+\begin{minipage}[t]{0.5\linewidth}
 \centering
-\includegraphics{figures/exm2.bmp}
+\includegraphics[width=2.6in]{figures/exm2.bmp}
 \caption{使用OT}
+\label{fig:side:b}
+\end{minipage}
 \end{figure}
+
+如图所示，在某个状态S时，list内容为”ABCDE"，此时client端执行了一个删除第4个字符的操作，server端执行了一个删除第2个字符的操作，如图所示，client端list的内容变为“ABCE”，server端list的内容变为“ACDE”。如果不进行转换，直接将操作相互传递，则client端接受到的操作是删除第2个字符,server端接受到的操作是删除第4个字符，完成操作后client端list的内容为“ACE”，server端list的内容为“ACD”，此时list的内容不同，不满足一致性。其原因在于client端的删除第4个字符的操作应该是删除D，但是传递到server端时，由于没有进行操作的转换，此时删除第4个字符即删除E，造成了删除内容的不一致。
+
 使用OT技术将$Del\ 4$转换为$Del\ 3$,$Del\ 2$转换为$Del\ 2$,这样操作的传递完成后，文档的内容仍然是一致的。
 
 \subsection{基于``操作转换''的协议}

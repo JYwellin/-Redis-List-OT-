@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}技术背景}{1}{section.1.2}
 \contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}复制列表的规约}{1}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}操作转换思想}{1}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}基于``操作转换''的协议}{3}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}基于``操作转换''的协议}{2}{subsection.1.2.3}
 \contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}应用背景：Redis 系统}{4}{section.1.3}
 \contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}Redis简介}{4}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}Redis特点}{4}{subsection.1.3.2}
-\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}4}本文研究工作: 面向 Redis List的OT函数的设计与验证}{5}{section.1.4}
+\contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}4}本文研究工作: 面向 Redis List的OT函数的设计与验证}{4}{section.1.4}
 \contentsline {section}{\numberline {1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}5}论文组织}{5}{section.1.5}
 \contentsline {chapter}{\numberline {2}相关工作}{6}{chapter.2}
 \contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}OT 函数的性质}{6}{section.2.1}
@@ -42,8 +42,8 @@
 \contentsline {section}{\numberline {5\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}研究展望}{29}{section.5.2}
 \contentsline {subsection}{\numberline {5\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}OT函数的实现}{29}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}验证代码的改进}{30}{subsection.5.2.2}
-\contentsline {chapter}{参考文献}{31}{chapter*.11}
-\contentsline {chapter}{致\hspace {2em}谢}{34}{chapter*.12}
+\contentsline {chapter}{参考文献}{31}{chapter*.10}
+\contentsline {chapter}{致\hspace {2em}谢}{34}{chapter*.11}
 \contentsline {chapter}{\numberline {A}附录}{35}{appendix.A}
 \contentsline {section}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}OT函数的设计}{35}{section.A.1}
 \contentsline {subsection}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}第一类 OT 函数的设计}{35}{subsection.A.1.1}
