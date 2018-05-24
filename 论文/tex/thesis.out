@@ -4,10 +4,10 @@
 \BOOKMARK [0][-]{chapter*.1}{目 次}{}% 4
 \BOOKMARK [0][-]{chapter.1}{1 前言}{}% 5
 \BOOKMARK [1][-]{section.1.1}{1.1 应用背景：协同编辑应用}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{1.2 技术背景：Replicated List 规约及其基于OT的 Replicated List 算法}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 规约}{section.1.2}% 8
-\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2\040OT}{section.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 OT-based 协议}{section.1.2}% 10
+\BOOKMARK [1][-]{section.1.2}{1.2 技术背景}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 复制列表的规约}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 操作转换思想}{section.1.2}% 9
+\BOOKMARK [2][-]{subsection.1.2.3}{1.2.3 基于``操作转换''的协议}{section.1.2}% 10
 \BOOKMARK [1][-]{section.1.3}{1.3 应用背景：Redis 系统}{chapter.1}% 11
 \BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 Redis简介}{section.1.3}% 12
 \BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Redis特点}{section.1.3}% 13
@@ -29,7 +29,7 @@
 \BOOKMARK [1][-]{section.4.1}{4.1 TLA+ 简介}{chapter.4}% 29
 \BOOKMARK [2][-]{subsection.4.1.1}{4.1.1\040TLA+\040Modules}{section.4.1}% 30
 \BOOKMARK [1][-]{section.4.2}{4.2 使用 TLA+ 描述 OT 函数}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 LIST相关操作表示}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 List 相关操作表示}{section.4.2}% 32
 \BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 命令执行的表示}{section.4.2}% 33
 \BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 OT函数的描述}{section.4.2}% 34
 \BOOKMARK [1][-]{section.4.3}{4.3 正确性验证}{chapter.4}% 35
@@ -42,7 +42,7 @@
 \BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 验证代码的改进}{section.5.2}% 42
 \BOOKMARK [0][-]{chapter*.11}{参考文献}{}% 43
 \BOOKMARK [0][-]{chapter*.12}{致 谢}{}% 44
-\BOOKMARK [0][-]{chapter.6}{6 附录}{}% 45
-\BOOKMARK [1][-]{section.6.1}{6.1 OT函数的设计}{chapter.6}% 46
-\BOOKMARK [2][-]{subsection.6.1.1}{6.1.1 第一类 OT 函数的设计}{section.6.1}% 47
-\BOOKMARK [2][-]{subsection.6.1.2}{6.1.2 第二类 OT 函数设计}{section.6.1}% 48
+\BOOKMARK [0][-]{appendix.A}{A 附录}{}% 45
+\BOOKMARK [1][-]{section.A.1}{A.1 OT函数的设计}{appendix.A}% 46
+\BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 第一类 OT 函数的设计}{section.A.1}% 47
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 第二类 OT 函数设计}{section.A.1}% 48
