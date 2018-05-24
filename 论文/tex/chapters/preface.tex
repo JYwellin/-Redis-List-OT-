@@ -66,7 +66,7 @@ Jupiter采用client-server结构，即中央服务器存储虚拟对象的状态
 
 Jupiter算法依赖于OT来修复冲突的消息，保证一致性的实现。可以用状态图来表示server和client的状态，若client处于(x,y)，表示此时client端已经产生并执行x两条自己的操作，并且从server接受并执行了y条操作，server端会为每个client端维护一个这样的二维空间，如果执行顺序一致，则server和client在状态图上行进的路径是一直的，所在位置也相同，但如果发生冲突，行进路径就会发生分歧，此时可以接收来自对方的经过OT转换的操作，使两者达到相同的状态,并且算法可以保证，不管server端和clinet端在状态图上的分歧有多远，只要接收来自对方的经过OT转换的操作，达到相同的状态，那么两者数据的值就一定是相同的，满足一致性的要求。
 
-\section{应用背景：Redis 系统}
+\section{Redis 系统}
 \subsection{Redis简介}
 Redis是一个开源的、可基于内存也可持久化的数据结构存储系统，可以用作数据库、缓存和消息中间件，并且提供多种语言的API。Redis支持多种类型的数据结构，如字符串(string)，散列(hash)，列表（即本文中所关心的lists)，集合(set)，有序集合(sorted set)等。
 \subsection{Redis特点}
