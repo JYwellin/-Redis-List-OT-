@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  24 MAY 2018 19:50
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  24 MAY 2018 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3065,44 +3065,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removed on input line 74.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-
-Overfull \hbox (64.27951pt too wide) detected at line 129
-[] \OT1/cmr/m/n/12 = [] [] 
- []
-
-[14]
-Overfull \hbox (30.74623pt too wide) in paragraph at lines 155--186
+Overfull \hbox (30.74623pt too wide) in paragraph at lines 140--171
  [][] 
  []
 
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Overfull \hbox (64.27951pt too wide) detected at line 194
+[] \OT1/cmr/m/n/12 = [] [] 
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 189.
+(hyperref)                removed on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 189.
+(hyperref)                removed on input line 198.
 
 [15]) (./chapters/proof.tex [16]
 {第\CJKnumber {4}章} 4.
@@ -3466,6 +3461,9 @@ LaTeX Font Warning: Size substitutions with differences
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  )

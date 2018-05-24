@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  13 MAY 2018 21:24
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  24 MAY 2018 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -43,7 +43,7 @@ Missing character: There is no 数 in font nullfont!
 Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 ! Undefined control sequence.
-l.2 \section
+l.3 \section
             {Redis List API 分类}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -66,7 +66,7 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 类 in font nullfont!
 ! Undefined control sequence.
-l.3 \subsection
+l.4 \subsection
                {Redis List API简介}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -89,7 +89,7 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no 简 in font nullfont!
 Missing character: There is no 介 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--5
 []
  []
 
@@ -100,21 +100,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \par 由
-            于本次毕业设计是针对Redis系统的List命令进行的�...
+l.5 \par 本
+            文针对Redis系统的List命令进行的，首先对Redis中�...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no 由 in font nullfont!
-Missing character: There is no 于 in font nullfont!
 Missing character: There is no 本 in font nullfont!
-Missing character: There is no 次 in font nullfont!
-Missing character: There is no 毕 in font nullfont!
-Missing character: There is no 业 in font nullfont!
-Missing character: There is no 设 in font nullfont!
-Missing character: There is no 计 in font nullfont!
-Missing character: There is no 是 in font nullfont!
+Missing character: There is no 文 in font nullfont!
 Missing character: There is no 针 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no R in font nullfont!
@@ -212,23 +205,23 @@ Missing character: There is no 元 in font nullfont!
 Missing character: There is no 素 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 6.
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 4--6
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--7
 []
  []
 
 
-Overfull \hbox (21.25008pt too wide) in paragraph at lines 4--6
+Overfull \hbox (21.25008pt too wide) in paragraph at lines 5--7
 \OT1/cmr/m/n/10 2[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (62.77797pt too wide) in paragraph at lines 4--6
+Overfull \hbox (62.77797pt too wide) in paragraph at lines 5--7
 \OT1/cmr/m/n/10 1(4294967295)$ 
  []
 
@@ -239,7 +232,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \par 列
+l.8 \par 列
             表相关的基本命令共有17个，其中3个为阻塞性操�...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -326,7 +319,7 @@ Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--8
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--9
 [] 
  []
 
@@ -337,13 +330,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 \begin{itemize}
-                   
+l.10 \begin{itemize}
+                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 9--9
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--10
 [] 
  []
 
@@ -840,22 +833,22 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 元 in font nullfont!
 Missing character: There is no 素 in font nullfont!
 
-Overfull \hbox (35.06834pt too wide) in paragraph at lines 17--19
+Overfull \hbox (35.06834pt too wide) in paragraph at lines 18--20
 \OML/cmm/m/it/10 count >
  []
 
 
-Overfull \hbox (40.06836pt too wide) in paragraph at lines 17--19
+Overfull \hbox (40.06836pt too wide) in paragraph at lines 18--20
 \OT1/cmr/m/n/10 0$$\OML/cmm/m/it/10 count <
  []
 
 
-Overfull \hbox (40.06836pt too wide) in paragraph at lines 17--19
+Overfull \hbox (40.06836pt too wide) in paragraph at lines 18--20
 \OT1/cmr/m/n/10 0$$\OML/cmm/m/it/10 count \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 17--19
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 18--20
 \OT1/cmr/m/n/10 0$ 
  []
 
@@ -1296,7 +1289,7 @@ Missing character: There is no 验 in font nullfont!
 Missing character: There is no 证 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 ! Undefined control sequence.
-l.28 \subsection
+l.29 \subsection
                 {Redis List API分类}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1319,7 +1312,7 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 类 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 27--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 28--30
 []
  []
 
@@ -1330,7 +1323,7 @@ Missing character: There is no 析 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 这 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
@@ -1356,7 +1349,7 @@ Missing character: There is no 三 in font nullfont!
 Missing character: There is no 类 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
+Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
 [] 
  []
 
@@ -1373,15 +1366,6 @@ Missing character: There is no 改 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 插 in font nullfont!
 Missing character: There is no 入 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (157.03506pt too wide) in paragraph at lines 31--32
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; ele\OT1/cmr/m/n/10 )
-\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 )\OM
-L/cmm/m/it/10 ; Set\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; ele\OT1/cmr/m/n/10 )$
- 
- []
-
 Missing character: There is no 单 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 区 in font nullfont!
@@ -1392,14 +1376,6 @@ Missing character: There is no 除 in font nullfont!
 Missing character: There is no 、 in font nullfont!
 Missing character: There is no 插 in font nullfont!
 Missing character: There is no 入 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (117.21214pt too wide) in paragraph at lines 32--33
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; str\OT1/cmr/m/n/10 )
-\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; len\OT1/cmr/m/n/10
- )$ 
- []
-
 Missing character: There is no 多 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 区 in font nullfont!
@@ -1407,917 +1383,291 @@ Missing character: There is no 间 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 删 in font nullfont!
 Missing character: There is no 除 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (175.42867pt too wide) in paragraph at lines 33--34
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 1\OML/
-cmm/m/it/10 ; len\OT1/cmr/m/n/10 1; \OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 2\OML/c
-mm/m/it/10 ; len\OT1/cmr/m/n/10 2; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/c
-mm/m/it/10 posk; lenk\OT1/cmr/m/n/10 )$ 
- []
-
-Missing character: There is no 具 in font nullfont!
-Missing character: There is no 体 in font nullfont!
-Missing character: There is no 来 in font nullfont!
-Missing character: There is no 说 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 也 in font nullfont!
 Missing character: There is no 就 in font nullfont!
 Missing character: There is no 是 in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
-[] 
- []
-
-Missing character: There is no 第 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 前 in font nullfont!
 Missing character: There is no 一 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 命 in font nullfont!
-Missing character: There is no 令 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (65.76866pt too wide) in paragraph at lines 39--40
-\OML/cmm/m/it/10 LPUSHX\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (45.58572pt too wide) in paragraph at lines 39--40
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; ele\OT1/cmr/m/n/10 )$ 
-
- []
-
-
-Overfull \hbox (66.63324pt too wide) in paragraph at lines 40--41
-\OML/cmm/m/it/10 RPUSHX\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (54.4249pt too wide) in paragraph at lines 40--41
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len; ele\OT1/cmr/m/n/10 )
-$ 
- []
-
-
-Overfull \hbox (69.01382pt too wide) in paragraph at lines 41--42
-\OML/cmm/m/it/10 LINSERT\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (55.15169pt too wide) in paragraph at lines 41--42
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; ele\OT1/cmr/m/n/10 )
-$ 
- []
-
-
-Overfull \hbox (48.6625pt too wide) in paragraph at lines 42--43
-\OML/cmm/m/it/10 LPOP\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (29.1716pt too wide) in paragraph at lines 42--43
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (0)$ 
- []
-
-
-Overfull \hbox (49.52708pt too wide) in paragraph at lines 43--44
-\OML/cmm/m/it/10 RPOP\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (41.89967pt too wide) in paragraph at lines 43--44
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 43--44
-\OT1/cmr/m/n/10 1)$ 
- []
-
-
-Overfull \hbox (87.893pt too wide) in paragraph at lines 44--45
-\OML/cmm/m/it/10 RPOPLPUSH\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (41.89967pt too wide) in paragraph at lines 44--45
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 44--45
-\OT1/cmr/m/n/10 1)$ 
- []
-
-
-Overfull \hbox (47.03816pt too wide) in paragraph at lines 45--46
-\OML/cmm/m/it/10 LSET\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (54.25699pt too wide) in paragraph at lines 45--46
-\OML/cmm/m/it/10 Set\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos; ele\OT1/cmr/m/n/10 )
-$ 
- []
-
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 命 in font nullfont!
-Missing character: There is no 令 in font nullfont!
-Missing character: There is no ： in font nullfont!
-
-Overfull \hbox (56.69923pt too wide) in paragraph at lines 49--50
-\OML/cmm/m/it/10 LPUSH\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (46.1806pt too wide) in paragraph at lines 49--50
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; str\OT1/cmr/m/n/10 )$ 
-
- []
-
-
-Overfull \hbox (57.56381pt too wide) in paragraph at lines 50--51
-\OML/cmm/m/it/10 RPUSH\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (55.01978pt too wide) in paragraph at lines 50--51
-\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 len; str\OT1/cmr/m/n/10 )
-$ 
- []
-
-Missing character: There is no 第 in font nullfont!
+Missing character: There is no 章 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 提 in font nullfont!
+Missing character: There is no 到 in font nullfont!
+Missing character: There is no 的 in font nullfont!
 Missing character: There is no 三 in font nullfont!
 Missing character: There is no 类 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 个 in font nullfont!
 Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 示 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (56.01389pt too wide) in paragraph at lines 54--55
-\OML/cmm/m/it/10 LTRIM\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
+! LaTeX Error: Environment table undefined.
 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \begin{table}
+                  [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-Overfull \hbox (57.0709pt too wide) in paragraph at lines 54--55
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; pos\OT1/cmr/m/n/10 1 \
-OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (36.78822pt too wide) in paragraph at lines 54--55
-\OT1/cmr/m/n/10 1; \OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 2 +
- []
-
-
-Overfull \hbox (31.06142pt too wide) in paragraph at lines 54--55
-\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; len \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (27.3438pt too wide) in paragraph at lines 54--55
-\OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^@
- []
-
-
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 54--55
-\OT1/cmr/m/n/10 1)$ 
- []
-
-
-Overfull \hbox (51.559pt too wide) in paragraph at lines 55--56
-\OML/cmm/m/it/10 LREM\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 >
- []
-
-
-Overfull \hbox (175.42867pt too wide) in paragraph at lines 55--56
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 1\OML/
-cmm/m/it/10 ; len\OT1/cmr/m/n/10 1; \OML/cmm/m/it/10 pos\OT1/cmr/m/n/10 2\OML/c
-mm/m/it/10 ; len\OT1/cmr/m/n/10 2; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/c
-mm/m/it/10 posk; lenk\OT1/cmr/m/n/10 )$ 
- []
-
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 体 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
 ! Undefined control sequence.
-l.59 \section
-             {第一类 OT 函数的设计}
+<recently read> \multirow 
+                          
+l.44 \multirow
+              {7}*{第一类操作}  &$LPUSHX$  &$Ins(0,ele)$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no * in font nullfont!
 Missing character: There is no 第 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no 类 in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+! Undefined control sequence.
+l.59 \multirow
+              {2}*{第二类操作}  &$LPUSH$  &$Ins(0,str)$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+! Undefined control sequence.
+l.64 \multirow
+              {2}*{第三类操作}  &$LTRIM$  &$Del(0,pos1-1;pos2+1,len-pos...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 注 in font nullfont!
+Missing character: There is no ： in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 表 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no 设 in font nullfont!
-Missing character: There is no 计 in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 59--60
-[]
- []
-
-Missing character: There is no 我 in font nullfont!
-Missing character: There is no 们 in font nullfont!
-Missing character: There is no 定 in font nullfont!
-Missing character: There is no 义 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 一 in font nullfont!
-Missing character: There is no 类 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 样 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 关 in font nullfont!
 Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 间 in font nullfont!
-Missing character: There is no 的 in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 即 in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no D in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 这 in font nullfont!
 Missing character: There is no 三 in font nullfont!
-Missing character: There is no 种 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 示 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 我 in font nullfont!
+Missing character: There is no 们 in font nullfont!
+Missing character: There is no 只 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 三 in font nullfont!
+Missing character: There is no 类 in font nullfont!
 Missing character: There is no 操 in font nullfont!
 Missing character: There is no 作 in font nullfont!
 Missing character: There is no 之 in font nullfont!
 Missing character: There is no 间 in font nullfont!
 Missing character: There is no 的 in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no ， in font nullfont!
-Missing character: There is no 共 in font nullfont!
+Missing character: There is no 所 in font nullfont!
 Missing character: There is no 有 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no * in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 个 in font nullfont!
-Missing character: There is no 。 in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 60--61
-[] 
- []
-
-
-! LaTeX Error: Environment aligned undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \begin{aligned}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.65     no-op \quad &
-                      pr1 > pr2 \quad i=j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.66 ^^I{set (i,x)} \quad &
-                           else \end{cases} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.68 {Set(i,x)}  \quad &
-                        i<j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.69 {Set(i+1,x)} \quad  &
-                          i\ge j \end{cases} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.71 {Set(i,x)} \quad &
-                       i<j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.72 {no-op} \quad &
-                     i=j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.73 {Set(i-1,x)} \quad &
-                         i>j \end{cases} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{equation} on input line 61 ended by \end{aligned}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.75 \end{aligned}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (849.47444pt too wide) detected at line 76
-\OML/cmm/m/it/10 Set [] T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 set\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 i; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; set\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 j; y\OT1/cmr/m/n/10 )) = [] \OML/cmm/m/it/10 o \OMS/cmsy/m/n/10 
-^^@ \OML/cmm/m/it/10 op pr\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 > pr\OT1/cmr/m/n/1
-0 2 \OML/cmm/m/it/10 i \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 j[] [] else[] OT\OT1/
-cmr/m/n/10 (\OML/cmm/m/it/10 Set\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; x\OT1/cmr/
-m/n/10 )\OML/cmm/m/it/10 ; Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j; y\OT1/cmr/m/
-n/10 )) = []  \OML/cmm/m/it/10 i < j[] [] i \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/
-10 j[] OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Set\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
- i; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j
-\OT1/cmr/m/n/10 )) = []  \OML/cmm/m/it/10 i < j[] [] i \OT1/cmr/m/n/10 = \OML/c
-mm/m/it/10 j[] [] i > j[] 
- []
-
-
-! LaTeX Error: Environment aligned undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \begin{aligned}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.83 ^^I{ins(i+1, x)}   \quad &
-                                i > j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.84 ^^I{ins(i, x)}    \quad &
-                               i < j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.85 ^^I{ins(i+1, x)}   \quad  &
-                                 i = j \quad pr1 < pr2\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.86 ^^I{ins(i, x)}   \quad  &
-                               i = j \quad pr1 > pr2 \end{cases} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{equation} on input line 77 ended by \end{aligned}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 \end{aligned}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (897.68861pt too wide) detected at line 92
-\OML/cmm/m/it/10 Ins [] T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 i; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; set\OT1/cmr/m/n/10 (\O
-ML/cmm/m/it/10 j; y\OT1/cmr/m/n/10 )) = [][] \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10
- (\OML/cmm/m/it/10 ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; x\OT1/cmr/m/n/10 )\O
-ML/cmm/m/it/10 ; ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j; y\OT1/cmr/m/n/10 )) = 
-[]  \OML/cmm/m/it/10 i > j[] [] i < j[] [] i \OT1/cmr/m/n/10 = \OML/cmm/m/it/10
- j pr\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < pr\OT1/cmr/m/n/10 2[] [] \OML/cmm/m/i
-t/10 i \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 j pr\OT1/cmr/m/n/10 1 \OML/cmm/m/it/1
-0 > pr\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; De
-l\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )) = []  \OML/cmm/m/it/10 i
- \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 j[] [] i > j[] 
- []
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 95--95
-[] 
- []
-
-
-! LaTeX Error: Environment aligned undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 \begin{aligned}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.101 ^^I{Del (i+1)}  \quad &
-                             i \ge j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.102 ^^I{Del (i)}   \quad &
-                            i < j\\ \end{cases}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.104 ^^I{Del (i-1)} \quad &
-                            i > j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.105 ^^I{Del (i)} \quad &
-                          i < j\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.106 ^^I{no-op}   \quad &
-                          i = j \end{cases}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{equation} on input line 95 ended by \end{aligned}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 \end{aligned}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (661.56236pt too wide) detected at line 109
-\OML/cmm/m/it/10 Del [] T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (
-\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Set\OT1/cmr/m/n/10 (\OML/
-cmm/m/it/10 j; x\OT1/cmr/m/n/10 )) = [][] \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 )\OML/cmm
-/m/it/10 ; Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j; x\OT1/cmr/m/n/10 )) = []  \O
-ML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/10 j[] [] i < j[] [] OT\OT1
-/cmr/m/n/10 (\OML/cmm/m/it/10 del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i\OT1/cmr/m/
-n/10 )\OML/cmm/m/it/10 ; del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 j\OT1/cmr/m/n/10 
-)) = []  \OML/cmm/m/it/10 i > j[] [] i < j[] [] i \OT1/cmr/m/n/10 = \OML/cmm/m/
-it/10 j[] 
- []
-
-! Undefined control sequence.
-l.111 \section
-              {第二类 OT 函数设计}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no 设 in font nullfont!
-Missing character: There is no 计 in font nullfont!
-Missing character: There is no 我 in font nullfont!
-Missing character: There is no 们 in font nullfont!
-Missing character: There is no 定 in font nullfont!
-Missing character: There is no 义 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 函 in font nullfont!
-Missing character: There is no 数 in font nullfont!
-Missing character: There is no 为 in font nullfont!
-Missing character: There is no 第 in font nullfont!
-Missing character: There is no 二 in font nullfont!
-Missing character: There is no 类 in font nullfont!
-Missing character: There is no 命 in font nullfont!
-Missing character: There is no 令 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 间 in font nullfont!
-Missing character: There is no 的 in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 即 in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no D in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 中 in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no 两 in font nullfont!
-Missing character: There is no 种 in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 关 in font nullfont!
 Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
-Missing character: There is no 之 in font nullfont!
-Missing character: There is no 间 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 类 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 已 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 共 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 个 in font nullfont!
+Missing character: There is no 接 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 只 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 剩 in font nullfont!
+Missing character: There is no 余 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 计 in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 可 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 111--113
+Overfull \hbox (20.0pt too wide) in paragraph at lines 38--73
 []
  []
 
-! Misplaced alignment tab character &.
-l.115 Ins(p1,s1) \quad &
-                         p1<p2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-! Misplaced alignment tab character &.
-l.116 Ins(p1+ |s2|,s1) \quad &
-                               p1>p2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.117 Ins(p1+ |s2|,s1) \quad &
-                               p1=p2 \quad pr1<pr2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.118 Ins(p1,s1) \quad &
-                         p1=p2 \quad pr1>pr2
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (602.66898pt too wide) detected at line 120
-\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1)\OML/cmm/m/i
-t/10 ; Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 
-; s\OT1/cmr/m/n/10 2)) = [] \OML/cmm/m/it/10 ns\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\O
-T1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 Ins\OT
-1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 + \OMS/cmsy/m/n/10 j\OML/cmm/
-m/it/10 s\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10
- 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 > p\OT1/cmr/m/n/10 2[]
- \OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 + \OM
-S/cmsy/m/n/10 j\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 2\OMS/cmsy/m/n/10 j\OML/cmm/m/
-it/10 ; s\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 = \OML/cmm/m/it
-/10 p\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 pr\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < 
-pr\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\O
-T1/cmr/m/n/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cm
-r/m/n/10 1 = \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 pr\OT1/cmr/m/
-n/10 1 \OML/cmm/m/it/10 > pr\OT1/cmr/m/n/10 2[] 
+Overfull \hbox (248.4903pt too wide) in paragraph at lines 38--73
+[]
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 122--122
-[] 
- []
-
-! Misplaced alignment tab character &.
-l.124 Ins(p1,s1) \quad &
-                         p1 \le p2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.125 no-op \quad &
-                    p2<p1<p2+l1\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.126 Ins(p1-l1,s1) \quad &
-                            p1 \ge p2+l1 \end{cases}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (440.42168pt too wide) detected at line 127
-\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1)\OML/cmm/m/i
-t/10 ; Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
-; l\OT1/cmr/m/n/10 1)) = [] \OML/cmm/m/it/10 ns\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\O
-T1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2[] \OML
-/cmm/m/it/10 no \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 op p\OT1/cmr/m/n/10 2 \OM
-L/cmm/m/it/10 < p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 2 + \OML
-/cmm/m/it/10 l\OT1/cmr/m/n/10 1[] \OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 p\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l\OT1/cmr/m/n
-/10 1\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1
- \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\
-OT1/cmr/m/n/10 1[] 
- []
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 129--129
-[] 
- []
-
-! Misplaced alignment tab character &.
-l.131 Del(p1,l1) \quad &
-                         p1 + l1 \le p2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.132 Del(p1,l1+|s1|) \quad &
-                              p1<p2<p1+l1 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.133 Ins(p1+ |s1|,l1) \quad &
-                               p1 \ge p2 \end{cases}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (486.3366pt too wide) detected at line 134
-\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1)\OML/cmm/m/i
-t/10 ; Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
-; s\OT1/cmr/m/n/10 1)) = [] \OML/cmm/m/it/10 el\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\O
-T1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML
-/cmm/m/it/10 p\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm
-/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1 + \OMS/cmsy/m/
-n/10 j\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ) \O
-ML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 2 \OML/cm
-m/m/it/10 < p\OT1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1[] \OML/cmm
-/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 + \OMS/cmsy/m/
-n/10 j\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 1\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l
-\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^U \OM
-L/cmm/m/it/10 p\OT1/cmr/m/n/10 2[] 
- []
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 136--136
-[] 
- []
-
-! Misplaced alignment tab character &.
-l.138 Del(p1,l1) \quad &
-                         p1<p2 \quad p1+l1 \le p2 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.139 Del(p1,p2-p1) \quad &
-                            p1<p2 \quad p2<p1+l1 \le p2+l2\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.140 Del(p1,l1-l2) \quad &
-                            p1<p2 \quad p2+l2<p1+l1\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.141 no-op \quad &
-                    p2 \le p1 < p2+l2 \quad p1+l1 \le p2+l2\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.142 Del(p2,p1+l1-p2-l2) \quad &
-                                  p2 \le p1 <p2+l2 \quad  p1+l1>p2+l2\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.143 Del(p1-l2,l1) \quad &
-                            p1 \ge p2+l2  \end{cases}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (1138.62816pt too wide) detected at line 144
-\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1)\OML/cmm/m/i
-t/10 ; Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 
-; l\OT1/cmr/m/n/10 2)) = [] \OML/cmm/m/it/10 el\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\O
-T1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 p\OT1/cm
-r/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OML/cmm/
-m/it/10 p\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it
-/10 p\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; p\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^
-@ \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML
-/cmm/m/it/10 < p\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 \OML/cmm/
-m/it/10 < p\OT1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/
-n/10 ^^T \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/1
-0 2[] \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1\
-OML/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l\OT
-1/cmr/m/n/10 2) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cm
-r/m/n/10 2 \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\OT1/cmr/m/n
-/10 2 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10
- 1[] \OML/cmm/m/it/10 no \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 op p\OT1/cmr/m/n
-/10 2 \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10
- < p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 p\
-OT1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^T \OM
-L/cmm/m/it/10 p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 2[] \OML/c
-mm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2\OML/cmm/m/it
-/10 ; p\OT1/cmr/m/n/10 1 + \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10
- ^^@ \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 
-l\OT1/cmr/m/n/10 2) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^T \O
-ML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 < p\OT1/cmr/m/n/10 2 + \OML/
-cmm/m/it/10 l\OT1/cmr/m/n/10 2 \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 + \OML/cmm/m
-/it/10 l\OT1/cmr/m/n/10 1 \OML/cmm/m/it/10 > p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it
-/10 l\OT1/cmr/m/n/10 2[] \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 
-p\OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l\OT1/cmr/m/n/10 2\OML
-/cmm/m/it/10 ; l\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 1 \OMS/cms
-y/m/n/10 ^^U \OML/cmm/m/it/10 p\OT1/cmr/m/n/10 2 + \OML/cmm/m/it/10 l\OT1/cmr/m
-/n/10 2[] 
+Overfull \hbox (13.83919pt too wide) in paragraph at lines 38--73
+\OML/cmm/m/it/10 len$
  []
 
 ! Undefined control sequence.
-l.146 \section
-              {第三类 OT 函数设计}
+l.74 \section
+             {第三类 OT 函数设计}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2334,7 +1684,7 @@ Missing character: There is no 数 in font nullfont!
 Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 146--147
+Overfull \hbox (20.0pt too wide) in paragraph at lines 74--75
 []
  []
 
@@ -2405,7 +1755,7 @@ Missing character: There is no 3 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 147--148
+Overfull \hbox (20.0pt too wide) in paragraph at lines 75--76
 [] 
  []
 
@@ -2491,7 +1841,7 @@ Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 148--149
+Overfull \hbox (20.0pt too wide) in paragraph at lines 77--78
 [] 
  []
 
@@ -2568,13 +1918,23 @@ Missing character: There is no 总 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 体 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 公 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 149--151
+Overfull \hbox (20.0pt too wide) in paragraph at lines 78--81
 [] 
  []
 
 
-Overfull \hbox (206.2636pt too wide) in paragraph at lines 149--151
+Overfull \hbox (206.2636pt too wide) in paragraph at lines 78--81
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 p[]; s[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML
 /cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10
@@ -2583,8 +1943,8 @@ mm/m/it/10 p[]; s[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML
  []
 
 ! Misplaced alignment tab character &.
-l.153 Ins(p_{k+1},s_{k+1}) \quad &
-                                   p_{k+1} \le p_1 \\
+l.83 Ins(p_{k+1},s_{k+1}) \quad &
+                                  p_{k+1} \le p_1 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2593,8 +1953,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.154 no-op \quad &
-                    p_i<p_{k+1}<p_i+l_i\\
+l.84 no-op \quad &
+                   p_i<p_{k+1}<p_i+l_i\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2603,8 +1963,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.155 Ins(p_{k+1}-l_1-l_2-...-l_i,s_{k+1}) \quad &
-                                                   p_i+l_i \le p_{k+1} \le p...
+l.85 Ins(p_{k+1}-l_1-l_2-...-l_i,s_{k+1}) \quad &
+                                                  p_i+l_i \le p_{k+1} \le p_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2613,8 +1973,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.156 Ins(p_{k+1}-l_1-l_2-...-l_k,s_{k+1}) \quad &
-                                                   p_{k+1} \ge pk+lk \end{ca...
+l.86 Ins(p_{k+1}-l_1-l_2-...-l_k,s_{k+1}) \quad &
+                                                  p_{k+1} \ge pk+lk \end{cas...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2623,7 +1983,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (643.88866pt too wide) detected at line 157
+Overfull \hbox (643.88866pt too wide) detected at line 87
 \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 ns\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; 
 s[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10
  p[][] no \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 op p[] < p[] < p[] \OT1/cmr/m/n
@@ -2704,7 +2064,7 @@ Missing character: There is no 位 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 
-Overfull \hbox (40.48615pt too wide) in paragraph at lines 159--160
+Overfull \hbox (40.48615pt too wide) in paragraph at lines 89--90
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s\OMS/cmsy/m/n/10 j$$j\OML/cmm/m/it/10 s\
 OMS/cmsy/m/n/10 j$ 
  []
@@ -2752,13 +2112,23 @@ Missing character: There is no 单 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 体 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 公 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (30.24307pt too wide) in paragraph at lines 160--162
+Overfull \hbox (30.24307pt too wide) in paragraph at lines 90--93
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s\OMS/cmsy/m/n/10 j$ 
  []
 
 
-Overfull \hbox (206.2636pt too wide) in paragraph at lines 160--162
+Overfull \hbox (206.2636pt too wide) in paragraph at lines 90--93
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
  \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10
@@ -2766,48 +2136,8 @@ mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
 10 ))$ 
  []
 
-! Misplaced alignment tab character &.
-l.164 ...s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) &
-                                                   \quad p_{k+1} \le p_1 \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-! Misplaced alignment tab character &.
-l.165 ...s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) &
-                                                  \quad p_i<p_{k+1} < pi+li \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.166 ...s_{k+1}|,l_{i+1};...;p_k+|s_{k+1}|,l_k) &
-                                                   \quad p_i+l_i \le p_{k+1}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.167 Del(p_1,l_1;p_2,l_2;...;p_k,l_k) &
-                                        \quad P_k+l_k \le p_{k+1} \\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (1315.20415pt too wide) detected at line 169
+Overfull \hbox (1315.20415pt too wide) detected at line 104
 \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 el\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \
 OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OML/c
 mm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/c
@@ -2817,28 +2147,28 @@ cmr/m/n/10 ; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/
 m/it/10 s[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m
 /it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/
 n/10 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/
-10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/c
-mr/m/n/10 (\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]
-\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l
-[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/1
-0 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]
- \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OML
-/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/
-cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OMS/cm
-sy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[] <
- pi \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 li[] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/1
-0 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm
-/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/c
-mm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OMS/cms
-y/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/
-m/n/10 ; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it
-/10 s[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/
-10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/i
-t/10 p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\OML/c
-mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
- \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10
- ) \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10
- ^^T \OML/cmm/m/it/10 p[][] [] 
+10 )[]   \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\O
+T1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[];
+ l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[
+]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[] \OT1/cmr/m/n/10 + \OMS/cmsy/m
+/n/10 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10
+ p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j
+\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \
+OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OM
+S/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 )[]   \OML/cmm/m/it/10 p[]
+ < p[] < pi \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 li[] Del\OT1/cmr/m/n/10 (\OML/cm
+m/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; 
+\OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 
+; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]
+\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\
+OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/
+cmm/m/it/10 s[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ; l[]\OT1/cmr/m/n/10 )[]   \O
+ML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T 
+\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/
+n/10 (\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/
+cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT
+1/cmr/m/n/10 )[]   \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] 
+\OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] [] 
  []
 
 Missing character: There is no D in font nullfont!
@@ -2978,9 +2308,167 @@ Missing character: There is no 转 in font nullfont!
 Missing character: There is no 换 in font nullfont!
 Missing character: There is no 了 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 显 in font nullfont!
+Missing character: There is no 然 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 肯 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 减 in font nullfont!
+Missing character: There is no 少 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 未 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 若 in font nullfont!
+Missing character: There is no 该 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 已 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 执 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 需 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 考 in font nullfont!
+Missing character: There is no 虑 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 问 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 果 in font nullfont!
+Missing character: There is no 将 in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 独 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 之 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 会 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 会 in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 互 in font nullfont!
+Missing character: There is no 影 in font nullfont!
+Missing character: There is no 响 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 互 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 复 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 容 in font nullfont!
+Missing character: There is no 互 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 干 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 因 in font nullfont!
+Missing character: There is no 此 in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 以 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 独 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 简 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 地 in font nullfont!
+Missing character: There is no 将 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 并 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 171--172
-[] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--109
+[]
  []
 
 Missing character: There is no 转 in font nullfont!
@@ -3051,7 +2539,7 @@ Missing character: There is no 读 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 172--173
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--111
 [] 
  []
 
@@ -3089,9 +2577,493 @@ Missing character: There is no 的 in font nullfont!
 Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 。 in font nullfont!
+Missing character: There is no 我 in font nullfont!
+Missing character: There is no 们 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 妨 in font nullfont!
+Missing character: There is no 假 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 目 in font nullfont!
+Missing character: There is no 前 in font nullfont!
+Missing character: There is no 待 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 完 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 操 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no 地 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 待 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 没 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no ； in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 地 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 析 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no 之 in font nullfont!
+Missing character: There is no 前 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 总 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 待 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 没 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 样 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 未 in font nullfont!
+Missing character: There is no 被 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 删 in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 173--174
+Overfull \hbox (20.0pt too wide) in paragraph at lines 112--115
+[]
+ []
+
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 种 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 了 in font nullfont!
+Missing character: There is no 经 in font nullfont!
+Missing character: There is no 过 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 本 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 章 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 代 in font nullfont!
+Missing character: There is no 码 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 编 in font nullfont!
+Missing character: There is no 写 in font nullfont!
+Missing character: There is no 便 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 照 in font nullfont!
+Missing character: There is no 这 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 张 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 116--117
 [] 
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 \begin{table}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 118--136
+[]
+ []
+
+
+Overfull \hbox (251.23929pt too wide) in paragraph at lines 118--136
+[]
+ []
+
+
+! LaTeX Error: Environment table undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.138 \begin{table}
+                   [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+! Undefined control sequence.
+<recently read> \multirow 
+                          
+l.146 \multirow
+               {4}*{$p_{k+1} < p_1$}  &$p_{k+1}+l_{k+1} \le p_1$  &$l_{k+1}$\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.155 \multirow
+               {3}*{$p_i \le p_{k+1} < p_i+l_i$}  &$p_j < p_{k+1}+l_{k+1} \l...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no * in font nullfont!
+! Undefined control sequence.
+l.162 \multirow
+               {3}*{$p_i+l_i \le p_{k+1} < p_{i+1}$}  &$p_j < p_{k+1}+l_{k+1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no * in font nullfont!
+Missing character: There is no 任 in font nullfont!
+Missing character: There is no 意 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.171 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no 从 in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 难 in font nullfont!
+Missing character: There is no 发 in font nullfont!
+Missing character: There is no 现 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 进 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 转 in font nullfont!
+Missing character: There is no 换 in font nullfont!
+Missing character: There is no 后 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 而 in font nullfont!
+Missing character: There is no 新 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 区 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 具 in font nullfont!
+Missing character: There is no 体 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 公 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no 如 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 138--174
+[]
+ []
+
+
+Overfull \hbox (375.9398pt too wide) in paragraph at lines 138--174
+[]
  []
 
 
@@ -3102,14 +3074,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 \newpage
+l.175 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1]
-Overfull \hbox (225.08328pt too wide) in paragraph at lines 175--176
+[1
+! Undefined control sequence.
+<write> \newlabel{chapter:design}{{}{\thepage 
+                                              }}
+l.175 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{chapter:design}{{}{}}
+]
+Overfull \hbox (225.08328pt too wide) in paragraph at lines 176--177
 []$\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OM
 L/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\
 OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n
@@ -3118,8 +3103,8 @@ OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n
  []
 
 ! Misplaced alignment tab character &.
-l.178 Del(p_{k+1},l_{k+1}) \quad &
-                                  p_{k+1} < p_1 \quad p_{k+1}+l_{k+1} \le p_...
+l.179 Del(p_{k+1},l_{k+1}) \quad &
+                                  p_{k+1} < p_1 \quad \\ &p_{k+1}+l_{k+1} \l...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3128,8 +3113,10 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.179 ...,p_j-l_1-l_2-...-l_{j-1}-p_{k+1}) \quad &
-                                                  p_{k+1} < p_1 \quad p_j < ...
+<recently read> &
+                 
+l.179 ...,l_{k+1}) \quad &p_{k+1} < p_1 \quad \\ &
+                                                  p_{k+1}+l_{k+1} \le p_1 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3138,8 +3125,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.180 Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_j) \quad &
-                                                  p_{k+1} < p_1 \quad p_j+l_...
+l.180 ...,p_j-l_1-l_2-...-l_{j-1}-p_{k+1}) \quad &
+                                                  p_{k+1} < p_1 \quad \\ &p_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3148,8 +3135,54 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.181 Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_k) \quad &
-                                                  p_{k+1} < p_1 \quad p_{k+1...
+<recently read> &
+                 
+l.180 ...-p_{k+1}) \quad &p_{k+1} < p_1 \quad \\ &
+                                                  p_j < p_{k+1}+l_{k+1} \le ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.181 Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_j) \quad &
+                                                  p_{k+1} < p_1 \quad \\& p_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.181 ...2-...-l_j) \quad &p_{k+1} < p_1 \quad \\&
+                                                   p_j+l_j < p_{k+1}+l_{k+1}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.182 Del(p_{k+1},l_{k+1}-l_1-l_2-...-l_k) \quad &
+                                                  p_{k+1} < p_1 \quad \\& p_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.182 ...2-...-l_k) \quad &p_{k+1} < p_1 \quad \\&
+                                                   p_{k+1}+l_{k+1} > P_k+l_k...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3160,7 +3193,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.182 
+l.183 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3168,7 +3201,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.182 
+l.183 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3179,31 +3212,31 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \par 
-l.182 
+l.183 
       
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 
-Overfull \hbox (1050.56749pt too wide) detected at line 182
+Overfull \hbox (1050.56749pt too wide) detected at line 183
 \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 el\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; 
-l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[] p[] \OT1/cmr/m/n/10 + \OML/cmm/
-m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\OM
-L/cmm/m/it/10 p[]; p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/
-10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy
-/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p[]\OT1/
-cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[] p[] < p[] \OT1/cmr/m/n/10 + \OML/cmm/m/
-it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/
-m/it/10 l[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/10 ^^
-@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/
-10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/cmr/m
-/n/10 ) \OML/cmm/m/it/10 p[] < p[] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] <
- p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/
-10 p[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/10 ^^@ \OM
-L/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^
-@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10
- ) \OML/cmm/m/it/10 p[] < p[] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] > P[] 
-\OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[][] 
+l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\
+OML/cmm/m/it/10 p[]; p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/
+n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cm
+sy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p[]\OT
+1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] < p[] \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/
+cmm/m/it/10 l[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/1
+0 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/
+m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/c
+mr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10
+ l[] < p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm
+/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/10 ^
+^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n
+/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/cmr/
+m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[
+] > P[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[][] 
  []
 
 Missing character: There is no D in font nullfont!
@@ -3214,13 +3247,13 @@ Missing character: There is no p in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 Del(p_
+l.184 Del(p_
             i-l_1-l_2-...-l_{i-1},p_j-p_i-l_i-l_{i+1}...-l_{j-1})        \qu...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.183 ..._i-l_i-l_{i+1}...-l_{j-1})        \quad &
+l.184 ..._i-l_i-l_{i+1}...-l_{j-1})        \quad &
                                                   p_i \le p_{k+1} < p_i+l_i ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3232,7 +3265,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.183 ...uad &p_i \le p_{k+1} < p_i+l_i \quad \\ &
+l.184 ...uad &p_i \le p_{k+1} < p_i+l_i \quad \\ &
                                                   p_j < p_{k+1}+l_{k+1} \le ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3242,29 +3275,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.184 ...+l_{k+1}-p_i-l_i-l_{i+1}-...-l_j) \quad &
-                                                  p_i \le p_{k+1} < p_i+l_i ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.184 ...quad &p_i \le p_{k+1} < p_i+l_i \quad \\&
-                                                   p_j+l_j < p_{k+1}+l_{k+1}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.185 ...+l_{k+1}-p_i-l_i-l_{i+1}-...-l_k) \quad &
+l.185 ...+l_{k+1}-p_i-l_i-l_{i+1}-...-l_j) \quad &
                                                   p_i \le p_{k+1} < p_i+l_i ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3277,6 +3288,28 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.185 ...quad &p_i \le p_{k+1} < p_i+l_i \quad \\&
+                                                   p_j+l_j < p_{k+1}+l_{k+1}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.186 ...+l_{k+1}-p_i-l_i-l_{i+1}-...-l_k) \quad &
+                                                  p_i \le p_{k+1} < p_i+l_i ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.186 ...quad &p_i \le p_{k+1} < p_i+l_i \quad \\&
                                                    p_{k+1}+l_{k+1} > P_k+l_k...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3288,281 +3321,281 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.186 
+l.187 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (31.10709pt too wide) in paragraph at lines 183--186
+Overfull \hbox (31.10709pt too wide) in paragraph at lines 184--187
 []$[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (38.01625pt too wide) in paragraph at lines 183--186
+Overfull \hbox (38.01625pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]; p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (14.09088pt too wide) in paragraph at lines 183--186
+Overfull \hbox (14.09088pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (32.54929pt too wide) in paragraph at lines 183--186
+Overfull \hbox (32.54929pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (40.23845pt too wide) in paragraph at lines 183--186
+Overfull \hbox (40.23845pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T
 
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 183--186
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (6.31308pt too wide) in paragraph at lines 183--186
+Overfull \hbox (6.31308pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (19.80032pt too wide) in paragraph at lines 183--186
+Overfull \hbox (19.80032pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 183--186
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 183--186
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 183--186
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (7.19736pt too wide) in paragraph at lines 183--186
+Overfull \hbox (7.19736pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (36.42102pt too wide) in paragraph at lines 183--186
+Overfull \hbox (36.42102pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (48.8479pt too wide) in paragraph at lines 183--186
+Overfull \hbox (48.8479pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]; p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (25.80681pt too wide) in paragraph at lines 183--186
+Overfull \hbox (25.80681pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (14.09088pt too wide) in paragraph at lines 183--186
+Overfull \hbox (14.09088pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 183--186
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (30.0023pt too wide) in paragraph at lines 183--186
+Overfull \hbox (30.0023pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T
 
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 183--186
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (6.31308pt too wide) in paragraph at lines 183--186
+Overfull \hbox (6.31308pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 183--186
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (17.75287pt too wide) in paragraph at lines 183--186
+Overfull \hbox (17.75287pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] <
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 183--186
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 183--186
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (19.36986pt too wide) in paragraph at lines 183--186
+Overfull \hbox (19.36986pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[][] 
  []
 
 
-Overfull \hbox (36.42102pt too wide) in paragraph at lines 183--186
+Overfull \hbox (36.42102pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 183--186
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (48.8479pt too wide) in paragraph at lines 183--186
+Overfull \hbox (48.8479pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]; p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (25.80681pt too wide) in paragraph at lines 183--186
+Overfull \hbox (25.80681pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (14.09088pt too wide) in paragraph at lines 183--186
+Overfull \hbox (14.09088pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 183--186
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (30.70891pt too wide) in paragraph at lines 183--186
+Overfull \hbox (30.70891pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^T
 
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 183--186
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 183--186
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (6.31308pt too wide) in paragraph at lines 183--186
+Overfull \hbox (6.31308pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 183--186
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 183--186
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[] >
  []
 
 
-Overfull \hbox (19.1181pt too wide) in paragraph at lines 183--186
+Overfull \hbox (19.1181pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (7.90396pt too wide) in paragraph at lines 183--186
+Overfull \hbox (7.90396pt too wide) in paragraph at lines 184--187
 \OML/cmm/m/it/10 l[][] 
  []
 
@@ -3574,35 +3607,13 @@ Missing character: There is no p in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.188 Del(p_
+l.189 Del(p_
             {k+1}-l_1-l_2-...-l_{i-1},p_j-p_{k+1}-l_{i+1}-l_{i+2}-...-l_{j-1...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.188 ...}-l_{i+1}-l_{i+2}-...-l_{j-1})    \quad &
-                                                  p_i+l_i \le p_{k+1} < p_{i...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.188 ... &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\&
-                                                   p_j < p_{k+1}+l_{k+1} \le...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.189 ...{k+1}-l_{i+1}-l_{i+2}-...-l_j)    \quad &
+l.189 ...}-l_{i+1}-l_{i+2}-...-l_{j-1})    \quad &
                                                   p_i+l_i \le p_{k+1} < p_{i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3615,7 +3626,7 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.189 ... &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\&
-                                                   p_j+l_j < p_{k+1}+l_{k+1}...
+                                                   p_j < p_{k+1}+l_{k+1} \le...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3624,7 +3635,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.190 ...{k+1}-l_{i+1}-l_{i+2}-...-l_k)    \quad &
+l.190 ...{k+1}-l_{i+1}-l_{i+2}-...-l_j)    \quad &
                                                   p_i+l_i \le p_{k+1} < p_{i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3637,6 +3648,28 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.190 ... &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\&
+                                                   p_j+l_j < p_{k+1}+l_{k+1}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.191 ...{k+1}-l_{i+1}-l_{i+2}-...-l_k)    \quad &
+                                                  p_i+l_i \le p_{k+1} < p_{i...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.191 ... &p_i+l_i \le p_{k+1} < p_{i+1} \quad \\&
                                                    p_{k+1}+l_{k+1} > P_k+l_k...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3646,7 +3679,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.191 Del(p_{k+1}-p_1-p_2...-p_k,l_{k+1}) \quad &
+l.192 Del(p_{k+1}-l_1-l_2...-l_k,l_{k+1}) \quad &
                                                  p_{k+1} \ge p_k+l_k
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3658,7 +3691,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.192 \\&
+l.193 \\&
          (i \ge j)
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3668,13 +3701,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 176 ended by \end{cases}.
+! LaTeX Error: \begin{equation} on input line 177 ended by \end{cases}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193  \end{cases}
+l.194  \end{cases}
                   \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3683,7 +3716,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.193  \end{cases}
+l.194  \end{cases}
                   \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3694,7 +3727,7 @@ my insertion and my current dilemma will both disappear.
 ! You can't use `\eqno' in horizontal mode.
 \endequation ->\eqno 
                      \hbox {\@eqnnum }$$\@ignoretrue 
-l.194 \end{equation}
+l.195 \end{equation}
                     
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -3702,303 +3735,303 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-Overfull \hbox (42.82301pt too wide) in paragraph at lines 188--194
+Overfull \hbox (42.82301pt too wide) in paragraph at lines 189--195
 []$[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (38.01625pt too wide) in paragraph at lines 188--194
+Overfull \hbox (38.01625pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]; p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (37.46074pt too wide) in paragraph at lines 188--194
+Overfull \hbox (37.46074pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (16.86859pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.86859pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 188--194
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (18.48558pt too wide) in paragraph at lines 188--194
+Overfull \hbox (18.48558pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[][] 
  []
 
 
-Overfull \hbox (19.80032pt too wide) in paragraph at lines 188--194
+Overfull \hbox (19.80032pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 188--194
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 188--194
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (7.19736pt too wide) in paragraph at lines 188--194
+Overfull \hbox (7.19736pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (48.13695pt too wide) in paragraph at lines 188--194
+Overfull \hbox (48.13695pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (46.80045pt too wide) in paragraph at lines 188--194
+Overfull \hbox (46.80045pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]; l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (27.2246pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.2246pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (16.86859pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.86859pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 188--194
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (18.48558pt too wide) in paragraph at lines 188--194
+Overfull \hbox (18.48558pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[][] 
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 188--194
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (17.75287pt too wide) in paragraph at lines 188--194
+Overfull \hbox (17.75287pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] <
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 188--194
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (19.36986pt too wide) in paragraph at lines 188--194
+Overfull \hbox (19.36986pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[][] 
  []
 
 
-Overfull \hbox (48.13695pt too wide) in paragraph at lines 188--194
+Overfull \hbox (48.13695pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (15.24773pt too wide) in paragraph at lines 188--194
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (46.80045pt too wide) in paragraph at lines 188--194
+Overfull \hbox (46.80045pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]; l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (24.21593pt too wide) in paragraph at lines 188--194
+Overfull \hbox (24.21593pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (27.9312pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.9312pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (16.86859pt too wide) in paragraph at lines 188--194
+Overfull \hbox (16.86859pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T
  []
 
 
-Overfull \hbox (30.63197pt too wide) in paragraph at lines 188--194
+Overfull \hbox (30.63197pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] <
  []
 
 
-Overfull \hbox (18.48558pt too wide) in paragraph at lines 188--194
+Overfull \hbox (18.48558pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[][] 
  []
 
 
-Overfull \hbox (27.85426pt too wide) in paragraph at lines 188--194
+Overfull \hbox (27.85426pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (28.58452pt too wide) in paragraph at lines 188--194
+Overfull \hbox (28.58452pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[] >
  []
 
 
-Overfull \hbox (19.1181pt too wide) in paragraph at lines 188--194
+Overfull \hbox (19.1181pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 P[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (7.90396pt too wide) in paragraph at lines 188--194
+Overfull \hbox (7.90396pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (48.13695pt too wide) in paragraph at lines 188--194
+Overfull \hbox (48.13695pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (17.29518pt too wide) in paragraph at lines 188--194
-\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@
+Overfull \hbox (15.24773pt too wide) in paragraph at lines 189--195
+\OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (25.62854pt too wide) in paragraph at lines 188--194
-\OML/cmm/m/it/10 p[]::: \OMS/cmsy/m/n/10 ^^@
+Overfull \hbox (23.58109pt too wide) in paragraph at lines 189--195
+\OML/cmm/m/it/10 l[]::: \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (66.94571pt too wide) in paragraph at lines 188--194
-\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/1
+Overfull \hbox (64.89825pt too wide) in paragraph at lines 189--195
+\OML/cmm/m/it/10 l[]; l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/1
 0 ^^U
  []
 
 
-Overfull \hbox (17.72922pt too wide) in paragraph at lines 188--194
+Overfull \hbox (17.72922pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (7.90396pt too wide) in paragraph at lines 188--194
+Overfull \hbox (7.90396pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 l[][] 
  []
 
 
-Overfull \hbox (17.88954pt too wide) in paragraph at lines 188--194
+Overfull \hbox (17.88954pt too wide) in paragraph at lines 189--195
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^U
  []
 
 
-Overfull \hbox (8.57939pt too wide) in paragraph at lines 188--194
+Overfull \hbox (8.57939pt too wide) in paragraph at lines 189--195
 \OML/cmm/m/it/10 j\OT1/cmr/m/n/10 )$ 
  []
 
 
-Overfull \hbox (17.78pt too wide) in paragraph at lines 188--194
+Overfull \hbox (12.78pt too wide) in paragraph at lines 189--195
 [] 
  []
 
@@ -4009,7 +4042,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 \end{equation}
+l.195 \end{equation}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4018,7 +4051,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.194 \end{equation}
+l.195 \end{equation}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4029,7 +4062,7 @@ my insertion and my current dilemma will both disappear.
 ! Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.194 \end{equation}
+l.195 \end{equation}
                     
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
@@ -4037,27 +4070,32 @@ So I shall assume that you typed `$$' both times.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.194 \end{equation}
+l.195 \end{equation}
                     
 Things are pretty mixed up, but I think the worst is over.
 
 ! Undefined control sequence.
-l.195 \section
-              {剩余 OT 函数设计}
+l.199 \section
+              {其它 OT 函数设计}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no 剩 in font nullfont!
-Missing character: There is no 余 in font nullfont!
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 它 in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 199--200
+[]
+ []
+
 Missing character: There is no 显 in font nullfont!
 Missing character: There is no 然 in font nullfont!
 Missing character: There is no ， in font nullfont!
@@ -4193,7 +4231,7 @@ Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 196--197
+Overfull \hbox (20.0pt too wide) in paragraph at lines 200--201
 [] 
  []
 
@@ -4219,12 +4257,12 @@ Missing character: There is no 本 in font nullfont!
 Missing character: There is no 身 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 198--199
+Overfull \hbox (20.0pt too wide) in paragraph at lines 202--203
 [] 
  []
 
 
-Overfull \hbox (150.19221pt too wide) detected at line 201
+Overfull \hbox (150.19221pt too wide) detected at line 205
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 i; s\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Set\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 j; x\OT1/cmr/m/n/10 )) = \OML/cmm/m/it/10 Ins\OT1/cmr/m/n/10 (\OML/cmm
@@ -4286,12 +4324,12 @@ Missing character: There is no 不 in font nullfont!
 Missing character: There is no 变 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (30.24307pt too wide) in paragraph at lines 203--204
+Overfull \hbox (30.24307pt too wide) in paragraph at lines 207--208
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s\OMS/cmsy/m/n/10 j$ 
  []
 
 ! Misplaced alignment tab character &.
-l.206 {Set(i,x)}  \quad &
+l.210 {Set(i,x)}  \quad &
                           i<j \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4301,7 +4339,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.207 {Set(i+|s|,x)} \quad  &
+l.211 {Set(i+|s|,x)} \quad  &
                              i \ge j \end{cases} \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4311,7 +4349,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (261.61975pt too wide) detected at line 208
+Overfull \hbox (261.61975pt too wide) detected at line 212
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Set\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 i; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Ins\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 j; s\OT1/cmr/m/n/10 )) = []  \OML/cmm/m/it/10 i < j[] [] i \OMS/cmsy/m
@@ -4340,24 +4378,19 @@ Missing character: There is no 本 in font nullfont!
 Missing character: There is no 身 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 210--212
+Overfull \hbox (20.0pt too wide) in paragraph at lines 214--215
 [] 
  []
 
 
-Overfull \hbox (201.90697pt too wide) in paragraph at lines 210--212
+Overfull \hbox (315.68608pt too wide) detected at line 217
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
  \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10
  )\OML/cmm/m/it/10 ; Set\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; x\OT1/cmr/m/n/10
- )) =
- []
-
-
-Overfull \hbox (111.0014pt too wide) in paragraph at lines 210--212
-\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
- \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/m/n/10
- ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 )$ 
+ )) = \OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/
+n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 :::\OT1/cmr/
+m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 )[] 
  []
 
 Missing character: There is no S in font nullfont!
@@ -4435,12 +4468,12 @@ Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 213--215
-[] 
+Overfull \hbox (20.0pt too wide) in paragraph at lines 219--221
+[]
  []
 
 
-Overfull \hbox (191.35146pt too wide) in paragraph at lines 213--215
+Overfull \hbox (191.35146pt too wide) in paragraph at lines 219--221
 \OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Set\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 p[]; x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\OML/c
 mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
@@ -4449,7 +4482,7 @@ mm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ;
  []
 
 ! Misplaced alignment tab character &.
-l.217 Ins(p_{k+1},s_{k+1}) \quad &
+l.223 Ins(p_{k+1},s_{k+1}) \quad &
                                    p_{k+1} < p_1 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4459,7 +4492,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.218 no-op \quad &
+l.224 no-op \quad &
                     p_i \le p_{k+1} < p_i+l_i\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4469,7 +4502,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.219 Set(p_{k+1}-l_1-l_2-...-l_i,x) \quad &
+l.225 Set(p_{k+1}-l_1-l_2-...-l_i,x) \quad &
                                              p_i+l_i \le p_{k+1} < p_{i+1}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4479,7 +4512,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.220 Set(p_{k+1}-l_1-l_2-...-l_k,x) \quad &
+l.226 Set(p_{k+1}-l_1-l_2-...-l_k,x) \quad &
                                              p_{k+1} \ge pk+lk \end{cases}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -4489,7 +4522,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (614.06438pt too wide) detected at line 221
+Overfull \hbox (614.06438pt too wide) detected at line 227
 \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 ns\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; 
 s[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] no \OMS/cmsy/m/n/10 ^^@ \OML/
 cmm/m/it/10 op p[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[] < p[] \OT1/cmr/m/n
@@ -4512,11 +4545,11 @@ ML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^
 
  
 Here is how much of TeX's memory you used:
- 18 strings out of 493005
- 228 string characters out of 6137957
- 74634 words of memory out of 5000000
- 4088 multiletter control sequences out of 15000+600000
+ 17 strings out of 493005
+ 214 string characters out of 6137957
+ 78634 words of memory out of 5000000
+ 4087 multiletter control sequences out of 15000+600000
  3648 words of font info for 15 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 18i,6n,12p,174b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,8n,12p,174b,127s stack positions out of 5000i,500n,10000p,200000b,80000s
 Output written on design.pdf (1 page).

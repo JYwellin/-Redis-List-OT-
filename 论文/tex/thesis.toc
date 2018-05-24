@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}Redis List API简介}{10}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}Redis List API分类}{11}{subsection.3.1.2}
 \contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第三类 OT 函数设计}{12}{section.3.2}
-\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}其它 OT 函数设计}{15}{section.3.3}
+\contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}其它 OT 函数设计}{16}{section.3.3}
 \contentsline {chapter}{\numberline {4}基于 TLA+ 的 OT函数验证}{17}{chapter.4}
 \contentsline {section}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}TLA+ 简介}{17}{section.4.1}
 \contentsline {subsection}{\numberline {4\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}TLA+ Modules}{18}{subsection.4.1.1}
