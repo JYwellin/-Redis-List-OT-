@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: thesis.aux
 The style file: gbt7714-2005.bst
@@ -6,14 +6,6 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thesis.bib
-Warning--entry type for "GoogleDocs" isn't style-file defined
---line 4 of file thesis.bib
-Warning--entry type for "GoogleDocsJupiter" isn't style-file defined
---line 12 of file thesis.bib
-Warning--entry type for "Wave" isn't style-file defined
---line 21 of file thesis.bib
-Warning--entry type for "WaveOT" isn't style-file defined
---line 51 of file thesis.bib
 Warning--string name "dec" is undefined
 --line 110 of file thesis.bib
 Warning--string name "mar" is undefined
@@ -24,21 +16,6 @@ Warning--string name "feb" is undefined
 --line 258 of file thesis.bib
 Warning--string name "oct" is undefined
 --line 294 of file thesis.bib
-Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "sun2014exhaustive"
-Warning--I didn't find a database entry for "sun1998achieving"
-Warning--I didn't find a database entry for "Sun:2017:ESR:2998181.2998252"
-Warning--I didn't find a database entry for "Molli:CSCW02"
-Warning--I didn't find a database entry for "Sun:CSCW04"
-Warning--I didn't find a database entry for "Sun:CSCW17"
-Warning--I didn't find a database entry for "Randolph:arXiv13"
-Warning--I didn't find a database entry for "Cassez:CONCUR05"
-Warning--I didn't find a database entry for "Liu:FM14"
-Warning--I didn't find a database entry for "Sun:CSCW06"
-Warning--Unsupported entry type for GoogleDocs
-Warning--Unsupported entry type for GoogleDocsJupiter
-Warning--Unsupported entry type for Wave
-Warning--Unsupported entry type for WaveOT
 Warning--Require address: Ellis:SIGMOD89
 Warning--Require address: Nichols:UIST95
 Warning--Require address: Attiya:PODC16
@@ -49,45 +26,51 @@ Warning--Require address: Li:ICPADS04
 Warning--Require address: Sun:CSCW14
 Warning--Require address: Shapiro:SSS11
 Warning--Require address: Ressel:CSCW96
-You've used 21 entries,
+Warning--Require citedate: Sun:CSCW04
+Warning--Require citedate: Sun:CSCW17
+Warning--Require booktitle: Cassez:CONCUR05
+Warning--Require citedate: Cassez:CONCUR05
+Warning--Require citedate: Liu:FM14
+Warning--Require citedate: Sun:CSCW06
+You've used 23 entries,
             3107 wiz_defined-function locations,
-            879 strings with 10488 characters,
-and the built_in function-call counts, 30092 in all, are:
-= -- 3198
-> -- 62
-< -- 133
-+ -- 2459
-- -- 209
-* -- 915
-:= -- 3207
+            895 strings with 11592 characters,
+and the built_in function-call counts, 43696 in all, are:
+= -- 4702
+> -- 85
+< -- 196
++ -- 3649
+- -- 311
+* -- 1282
+:= -- 4728
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 82
+call.type$ -- 23
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 4266
-empty$ -- 1302
-format.name$ -- 164
-if$ -- 7974
+cite$ -- 39
+duplicate$ -- 6217
+empty$ -- 1822
+format.name$ -- 248
+if$ -- 11598
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 23
 missing$ -- 0
-newline$ -- 78
-num.names$ -- 17
-pop$ -- 476
+newline$ -- 96
+num.names$ -- 24
+pop$ -- 692
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 282
+skip$ -- 378
 stack$ -- 0
-substring$ -- 3522
-swap$ -- 922
+substring$ -- 5141
+swap$ -- 1262
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 429
-width$ -- 23
-write$ -- 284
-(There were 34 warnings)
+warning$ -- 16
+while$ -- 627
+width$ -- 25
+write$ -- 387
+(There were 21 warnings)
