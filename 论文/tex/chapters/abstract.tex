@@ -1,33 +1,76 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 论文的中文摘要
 \begin{abstract}
-	协同编辑系统，可以允许不同地点的用户同时编辑同一份文档。
-	为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。
-	一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
+  协同编辑系统允许处于不同地点的多用户同时编辑同一份文档。
+  为了获得较快的响应和较高的可用性，该类系统通常采用副本复制技术，
+  即将文档副本存放在不同的节点上。
+  用户可以在某个本地（或就近的）副本节点上编辑文档，并将做出的修改异步地传递给其他副本节点。
+  与此同时，协同编辑系统必须保证文档的一致性。
 
-	OT(Operational Transformation)是一种为了支持协作功能，在协作软件系统中所采用的技术。一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数，控制算法负责决定哪些操作以何种顺序进行转换，而具体的OT函数则实施具体的两个操作之间的变化。
+  复制列表 (Replicated List) 经常被用以建模协同编辑应用的核心功能，如插入字符、删除字符等。
+  收敛性 (Convergence) 是复制列表的一种常用规约，是对文档一致性要求的形式化描述。
+  基于操作转换 (Operational Transformation; 简称 OT) 的思想， 研究者提出了多种实现收敛性的协议。
+  一个基于操作转换的协同编辑系统通常包含两个关键部分: 上层的并发控制算法以及底层的操作转换函数。
+  控制算法负责决定何时对哪些操作进行转换，而操作转换函数则决定如何对两个操作进行转换。
 
-	可以设计OT函数，并通过控制算法的调用来保证最终结果的一致性，现在ins,del,set等简单operation的OT函数已经基本实现，本次毕业设计的目标是实现Redis 系统中List所支持的14种非阻塞操作的OT函数，并且对实现函数的正确性进行验证。阿里云和RedisLab的团队目前都在对Redis List的操作进行开发，Redis List操作的OT函数实现具有应用前景和商业前途。
+  要保证收敛性，底层的操作转换函数需要满足一定的性质，如本文所关心的 CP1 (Convergence Property 1) 性质。
+  现有的针对复制列表的操作转换函数通常仅支持简单的插入、删除等基本操作。
+  这对于实际应用来说是不够的。
+  本文参考 Redis 开源系统中的列表数据结构，
+  实现了14种非阻塞列表操作的操作转换函数，
+  并使用TLA+工具对其正确性进行了验证。
 
-	针对上述问题，本文的贡献包括：
-	\begin{itemize}
-	  \item 第\ref{chapter:design}章介绍了Redis List的相关命令，并将Redis List的相关命令进行基于坐标和操作方式的分类，能够更方便地实现OT函数的设计。对于所有简化后的命令进行了OT函数的数学公式设计。
-	  \item 第\ref{chapter:proof} 章介绍了TLA+，并通过TLA+实现了对于所设计OT函数的证明，以及对实验结果的分析。
-      \end{itemize}
-	% 中文关键词。关键词之间用中文全角分号隔开，末尾无标点符号。
-	\keywords{协同编辑；操作转换；Redis 系统；TLA+验证}
+  本文的主要贡献包括：
+  \begin{itemize}
+    \item 我们基于操作所涉及的列表范围，将 Redis 列表数据结构所支持的14种非阻塞操作分为三类，
+      并针对每一类（尤其是最具广泛性的第三类操作）设计了相应的操作转换函数。
+    \item 我们使用 TLA+ 工具验证（三类操作的）操作转换函数的正确性，即是否满足 CP1 性质。
+      我们对验证的性能也作了统计与分析。
+  \end{itemize}
+
+  % 中文关键词。关键词之间用中文全角分号隔开，末尾无标点符号。
+  \keywords{协同编辑系统；操作转换；Redis 列表数据结构； TLA+}
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 论文的英文摘要
 \begin{englishabstract}
-\par Collaborative editing systems allow users edit one document at different sites. The System will replicate the document in different sites or for different users. A user can edit the document in a replica, then propagate the modification to other replicas asynchronously. There is no need to wait for the server to process and respond to user modifications. Local operations can be executed immediately.At the same time, the system must ensure the consistency, that is, after all users complete the editing of the document, all the replica are consistent.
-\par OT(Operational Transformation) is a technology used in collaborative software systems to support collaborative functions.A OT system consists of 2 key parts, the upper control algorithms and the underlying OT functions, and the control algorithm is responsible for determining which operations are transformed in which order, and the specific OT functions implement the changes between two specific operations.
-\par We can design OT functions, which can be called by the control algorithms to guarantee the consistency of the final result. The OT design of some simple operations has been realized. Our purpose is to realize the OT function of 14 non-blocking operations supported by List in Redis system, and verify the correctness of our functions. Alibaba Cloud Computing and RedisLab are currently developing Redis List operations, so the OT function implementation of Redis List operations have application prospects and business prospects.
-\par To address the problems discussed above, the main contribution of this work is:
-\par Firstly, we introduces the related commands of Redis List, and classify the related commands of Redis List on the basis of coordinate and operation mode, which can help us realize the design of OT function more conveniently.
-\par Secondly, we design the mathematical formula of OT function for all simplified commands of Redis List.
-\par Finally, we introduce TLA +, and prove the OT function designed by TLA+ and analyze the experimental results.
-	% 英文关键词。关键词之间用英文半角逗号隔开，末尾无符号。
-	\englishkeywords{collaborative editing,operational transformation,Redis list,TLA+}
+Collaborative editing systems allow multiple users to concurrently edit the same document.
+For low latency and high availability, such systems often replicate the document at several replicas.
+A user can edit the document at a local or nearby replica, 
+and the updates are propagated to other replicas asynchronously.
+Meanwhile, the documents at different replicas should be kept consistent. 
+
+The replicated list object has been frequently used to model the core functionality 
+(e.g., insertion and deletion) of collaborative editing systems.
+Convergence is a common specification of a replicated list, a formal requirement of document consistency.
+Based on the idea of operational transformation (OT), 
+the researchers have proposed several protocols to achieve convergence.
+A typical OT-based system consists of two layers: 
+the concurrency control algorithm at the top layer and the OT functions at the bottom layer.
+The concurrency control algorithm decides the time to transform and the operations to be transformed,
+while the OT functions decide the way how a pair of operations are transformed.
+
+To achieve convergence, the OT functions are required to satisfy some properties, 
+such as CP1 (Convergence Property 1) we are concerned about in this paper.
+Existing OT functions for replicated lists are often limited to the character-wise operations, 
+i.e., insertion and deletion.
+In this paper, we have designed a complete set of OT functions for 14 non-blocking list operations supported by Redis, 
+a well-known open-source distributed key-value store.
+We have also verified the correctness (with respect to cP1) of these OT functions using TLA+.
+
+We make two main contributions in this paper:
+\begin{itemize}
+  \item We divide all the 14 non-blocking operations of Redis list into 3 categories, 
+    according to the positions involved. 
+    Then we design the OT functions for each category.
+    We focus on the third category, consisting of the most general operations.
+  \item 
+    We verify the correctness of the OT functions of three categories with respect to CP1
+    using TLA+.
+    The performance of verification is also given.
+\end{itemize}
+
+  % 英文关键词。关键词之间用英文半角逗号隔开，末尾无符号。
+  \englishkeywords{collaborative editing system, operational transformation, Redis list, TLA+}
 \end{englishabstract}
