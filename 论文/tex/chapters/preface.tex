@@ -1,23 +1,51 @@
 \chapter{前言}
 \section{应用背景：协同编辑应用}
-	\par 协同编辑系统，如 Google Docs\footnote{https://docs.google.com}, Apache Wave\footnote{https://incubator.apache.org/wave/}, wikis \cite{citeulike:1087263} 等可以允许不同地点的用户同时编辑同一份文档。为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
+
+协同编辑系统，如 Google Docs~\cite{GoogleDocs}、Apache Wave~\cite{Wave}、wikis~\cite{Leuf:Wiki01} 
+等可以允许不同地点的用户同时编辑同一份文档。
+为了获得较快的响应和较高的实用性，系统会在不同的地点或设备进行文档的复制。
+一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。
+不必要等待服务器处理完再响应用户操作，本地操作可以立即执行。
+同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
 
 \section{技术背景}
 
-Replicated List 规约及其基于OT的 Replicated List 算法
+复制列表 (Replicated List) 经常被用以建模协同编辑应用的核心功能，
+如插入字符、删除字符等~\cite{Ellis:SIGMOD89, Nichols:UIST95, Attiya:PODC16}。
+收敛性 (Convergence) 是复制列表的一种常用规约~\cite{Ellis:SIGMOD89}。
+基于操作转换 (Operational Transformation; 简称 OT) 的思想，
+研究者提出了多种实现收敛性的协议~\cite{Ellis:SIGMOD89, Prakash:TOCHI94, Nichols:UIST95, Sun:TOCHI98, Sun:CSCW98, 
+Vidot:CSCW00, Shen:CSCW02, Sun:TOCHI02, Li:ICPADS04, Sun:TPDS09, Sun:CSCW14}。
 
 \subsection{复制列表的规约}
-List 支持的常见简单操作 (insert, del, read)
+复制列表至少需要支持三类常见操作: 
+\begin{inparaenum}[(1)]
+  \item Insert: 在某指定位置插入给定字符;
+  \item Delete: 删除某指定位置上的字符;
+  \item Read: 读取整个列表。
+\end{inparaenum}
 
-规约: convergence (strong eventual consistency)
-Def2 and Def3 of ``SSS''
-Definition. A groupware session is quiescent iff all generated
-operations have been executed at all sites, that is, there
-are no requests in transit or waiting to be executed by a
-site process.\cite{ellis1989concurrency}
+Ellis 等人在1989年提出了复制列表的收敛性规约~\cite{Ellis:SIGMOD89}。
+收敛性规约是对``系统静止状态''~\cite{Ellis:SIGMOD89}的一种约束。
+\begin{definition}
+  对于一个复制系统而言，如果所有操作都已在各个副本节点上得以处理
+  ——换句话说，没有操作仍在传输之中或者等待处理——，则称系统处于静止状态。
+\end{definition}
 
-Definition. The Convergence Property states that site objects
-are identical at all sites at quiescence.\cite{ellis1989concurrency}
+\begin{definition}
+  如果一个复制系统处于静止状态时，
+  所有副本节点的状态（即列表内容）相同，
+  则称该系统满足收敛性。
+\end{definition}
+
+在收敛性的基础上，研究人员提出了另一种稍强的复制列表规约，
+称为强最终一致性 (Strong Eventual Consistency)~\cite{Shapiro:SSS11}。
+\begin{definition}
+  如果两个副本处理了相同的操作集合，那么它们的状态（即列表内容）必须相同。
+\end{definition}
+
+由于大多数的复制列表协议都满足强最终一致性，
+所以下文所提到的收敛性指的都是强最终一致性。
 
 \subsection{操作转换思想}
 操作转换Operational Transformation(OT)是一种为了支持协作功能，在协作软件系统中所采用的技术。
@@ -45,7 +73,8 @@ OT的基本思想是根据先前执行的并发操作的影响，对正在编辑
 使用OT技术将$Del\ 4$转换为$Del\ 3$,$Del\ 2$转换为$Del\ 2$,这样操作的传递完成后，文档的内容仍然是一致的。
 
 \subsection{基于``操作转换''的协议}
-一个OT系统包含2个关键的部分，上层的控制算法和底层的OT函数。
+一个OT系统通常包含2个关键的部分: 上层的控制算法和底层的OT函数~\cite{}。
+
 \begin{figure}[H]
 \centering
 \includegraphics{figures/structure.bmp}
@@ -58,9 +87,9 @@ OT函数的数量由OT系统的模型所支持的数据和操作类型所决定�
 
 由于这种分层结构，我们可以单独考虑OT函数的设计，而不必关心控制算法。
 
-本文中OT函数的设计与验证基于Jupiter协议\cite{nichols1995high-latency}。
+本文中OT函数的设计与验证基于Jupiter协议~\cite{Nichols:UIST95}。
 
-Jupiter是一个多用户的多媒体虚拟世界，支持长期的远程协作，支持共享文档、共享工具以及在线的音频视频通信。
+Jupiter是一个多用户协同软件，支持长期的远程协作，支持共享文档、共享工具以及在线的音频视频通信。
 
 Jupiter采用client-server结构，即中央服务器存储虚拟对象的状态和执行相关的程序代码，客户端进行输入输出等工作，Jupiter算法也是基于主从结构来设计和实现的。并且Jupiter采用积极的并发控制算法，即不必要等待服务器处理完再响应用户操作，本地操作可以立即执行，然后再将执行的结构异步地进行传递，如果同时有两个或以上的参与者进行修改，就需要采取冲突解决算法来进行相应的操作调整。与其他gropuware system不同，Jupiter不使用直接建立在客户端之间的同步协议，而是使每个客户端与服务器同步，服务器将某个客户端所做的修改经过转换分享传递给其他用户。
 
