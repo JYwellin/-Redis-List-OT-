@@ -6,63 +6,88 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: thesis.bib
-Warning--string name "feb" is undefined
---line 164 of file thesis.bib
+Warning--entry type for "GoogleDocs" isn't style-file defined
+--line 4 of file thesis.bib
+Warning--entry type for "GoogleDocsJupiter" isn't style-file defined
+--line 12 of file thesis.bib
+Warning--entry type for "Wave" isn't style-file defined
+--line 21 of file thesis.bib
+Warning--entry type for "WaveOT" isn't style-file defined
+--line 51 of file thesis.bib
+Warning--string name "dec" is undefined
+--line 110 of file thesis.bib
 Warning--string name "mar" is undefined
---line 257 of file thesis.bib
-Warning--Require citedate: citeulike:1087263
-Warning--Require journal: nichols1995high-latency
-Warning--Require citedate: Sun:2017:ESR:2998181.2998252
-Warning--Require citedate: Imine:TCS06
-Warning--Require citedate: Ellis:SIGMOD89
-Warning--Require citedate: Ressel:CSCW96
-Warning--Require citedate: Sun:TOCHI98
-Warning--Require citedate: Sun:CSCW04
-Warning--Require citedate: Sun:CSCW14
-Warning--Require citedate: Sun:CSCW17
-Warning--Require booktitle: Cassez:CONCUR05
-Warning--Require citedate: Cassez:CONCUR05
-Warning--Require citedate: Liu:FM14
-Warning--Require citedate: Sun:CSCW06
-You've used 18 entries,
+--line 146 of file thesis.bib
+Warning--string name "dec" is undefined
+--line 183 of file thesis.bib
+Warning--string name "feb" is undefined
+--line 258 of file thesis.bib
+Warning--string name "oct" is undefined
+--line 294 of file thesis.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "sun2014exhaustive"
+Warning--I didn't find a database entry for "sun1998achieving"
+Warning--I didn't find a database entry for "Sun:2017:ESR:2998181.2998252"
+Warning--I didn't find a database entry for "Molli:CSCW02"
+Warning--I didn't find a database entry for "Sun:CSCW04"
+Warning--I didn't find a database entry for "Sun:CSCW17"
+Warning--I didn't find a database entry for "Randolph:arXiv13"
+Warning--I didn't find a database entry for "Cassez:CONCUR05"
+Warning--I didn't find a database entry for "Liu:FM14"
+Warning--I didn't find a database entry for "Sun:CSCW06"
+Warning--Unsupported entry type for GoogleDocs
+Warning--Unsupported entry type for GoogleDocsJupiter
+Warning--Unsupported entry type for Wave
+Warning--Unsupported entry type for WaveOT
+Warning--Require address: Ellis:SIGMOD89
+Warning--Require address: Nichols:UIST95
+Warning--Require address: Attiya:PODC16
+Warning--Require address: Sun:CSCW98
+Warning--Require address: Vidot:CSCW00
+Warning--Require address: Shen:CSCW02
+Warning--Require address: Li:ICPADS04
+Warning--Require address: Sun:CSCW14
+Warning--Require address: Shapiro:SSS11
+Warning--Require address: Ressel:CSCW96
+You've used 21 entries,
             3107 wiz_defined-function locations,
-            849 strings with 10479 characters,
-and the built_in function-call counts, 35938 in all, are:
-= -- 3933
-> -- 70
-< -- 161
-+ -- 3071
-- -- 256
-* -- 1024
-:= -- 3958
+            879 strings with 10488 characters,
+and the built_in function-call counts, 30092 in all, are:
+= -- 3198
+> -- 62
+< -- 133
++ -- 2459
+- -- 209
+* -- 915
+:= -- 3207
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 104
+call.type$ -- 21
+change.case$ -- 82
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 5157
-empty$ -- 1404
-format.name$ -- 208
-if$ -- 9484
+cite$ -- 31
+duplicate$ -- 4266
+empty$ -- 1302
+format.name$ -- 164
+if$ -- 7974
 int.to.chr$ -- 0
-int.to.str$ -- 18
+int.to.str$ -- 21
 missing$ -- 0
-newline$ -- 81
-num.names$ -- 19
-pop$ -- 565
+newline$ -- 78
+num.names$ -- 17
+pop$ -- 476
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 269
+skip$ -- 282
 stack$ -- 0
-substring$ -- 4280
-swap$ -- 972
+substring$ -- 3522
+swap$ -- 922
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 14
-while$ -- 507
-width$ -- 20
-write$ -- 312
-(There were 16 warnings)
+while$ -- 429
+width$ -- 23
+write$ -- 284
+(There were 34 warnings)

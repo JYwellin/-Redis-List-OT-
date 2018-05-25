@@ -1,9 +1,10 @@
 \chapter{前言}
+本文基于协同编辑的应用背景，出于实际需求，参考 Redis 开源系统中的列表数据结构和Jupiter协议，完成了OT函数的设计和验证。
 \section{应用背景：协同编辑应用}
 
-协同编辑系统，如 Google Docs~\cite{GoogleDocs}、Apache Wave~\cite{Wave}、wikis~\cite{Leuf:Wiki01} 
+协同编辑系统，如 Google Docs~\footnote{https://docs.google.com}、Apache Wave~\footnote{https://incubator.apache.org/wave/}、wikis~\cite{Leuf:Wiki01} 
 等可以允许不同地点的用户同时编辑同一份文档。
-为了获得较快的响应和较高的可用性，系统会在不同的地点或设备进行文档的复制。
+并且为了获得较快的响应和较高的可用性，系统会在不同的地点或设备进行文档的复制。
 一个用户可以在某个副本上进行文档的编辑，并将做出的修改异步地传递给其他副本。
 不必等待服务器处理完再响应用户操作，本地操作可以立即执行。
 同时系统必须保证编辑的一致性，即在所有用户完成文档的编辑后，所有的副本内容一致。
@@ -19,11 +20,11 @@ Vidot:CSCW00, Shen:CSCW02, Sun:TOCHI02, Li:ICPADS04, Sun:TPDS09, Sun:CSCW14}。
 
 \subsection{复制列表的规约}
 复制列表至少需要支持三类常见操作: 
-\begin{inparaenum}[(1)]
-  \item Insert: 在某指定位置插入给定字符;
-  \item Delete: 删除某指定位置上的字符;
-  \item Read: 读取整个列表。
-\end{inparaenum}
+
+(1)Insert: 在某指定位置插入给定字符;
+(2)Delete: 删除某指定位置上的字符;
+(3)Read: 读取整个列表。
+
 
 Ellis 等人在1989年提出了复制列表的收敛性规约~\cite{Ellis:SIGMOD89}。
 收敛性规约是对``系统静止状态''~\cite{Ellis:SIGMOD89}的一种约束。
@@ -73,7 +74,7 @@ OT的基本思想是根据先前执行的并发操作的影响，对正在编辑
 使用OT技术将$Del\ 4$转换为$Del\ 3$,$Del\ 2$转换为$Del\ 2$,这样操作的传递完成后，文档的内容仍然是一致的。
 
 \subsection{基于``操作转换''的协议}
-一个OT系统通常包含2个关键的部分: 上层的控制算法和底层的OT函数~\cite{}。
+一个OT系统通常包含2个关键的部分: 上层的控制算法和底层的OT函数。
 
 \begin{figure}[H]
 \centering
