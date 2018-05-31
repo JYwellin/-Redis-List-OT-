@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.6)  31 MAY 2018 19:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.8.6)  31 MAY 2018 20:12
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1576,12 +1576,25 @@ Package hyperref Warning: Option `pdfpagelabels' has already been used,
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty:351: LaTeX Error
+: Unknown option `sorts' for package `natbib'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.351 \newcommand
+                 \NAT@aysep{,} \newcommand\NAT@yrsep{,}
+The option `sorts' was not declared in package `natbib', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
 \bibhang=\skip91
 \bibsep=\skip92
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count309
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hypernat/hypernat.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hypernat/hypernat.sty
 Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 24 replaced by U+FFFD.
 Package: hypernat 2001/07/09 v1.0b hyperref and natbib compatibility (jb)
@@ -3443,18 +3456,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 12.
 
-) (./thesis.bbl [29
+)
+No file thesis.bbl.
+(./chapters/acknowledgement.tex [29
 
-] [30]
-Underfull \hbox (badness 1478) in paragraph at lines 34--41
-[][]\TU/TimesNewRoman(0)/m/n/12.05 ELLIS C A, GIBBS S J. Concurrency Control in
- Groupware Systems[C]
- []
-
-[31
-
-] [32] [33]) (./chapters/acknowledgement.tex [34]) (./chapters/appendix.tex
-[35
+] [30]) (./chapters/appendix.tex [31
 
 ]
 附录A A.
@@ -3488,7 +3494,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 4.
 
-[36
+[32
 
 ]
 
@@ -3519,9 +3525,9 @@ Overfull \hbox (80.76822pt too wide) detected at line 89
 /m/n/12 2\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n/12 2)) = [] [] 
  []
 
-[37]) 
+[33]) 
 AED: lastpage setting LastPage
-[38]
+[34]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
  (./thesis.aux)
@@ -3535,15 +3541,18 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
  ) 
 Here is how much of TeX's memory you used:
- 45803 strings out of 492998
- 867735 string characters out of 6134492
- 969042 words of memory out of 5000000
- 48980 multiletter control sequences out of 15000+600000
+ 45731 strings out of 492998
+ 866417 string characters out of 6134492
+ 970137 words of memory out of 5000000
+ 48910 multiletter control sequences out of 15000+600000
  569995 words of font info for 217 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,19n,77p,10443b,747s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,77p,10443b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (47 pages).
+Output written on thesis.pdf (43 pages).
