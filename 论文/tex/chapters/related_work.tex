@@ -4,11 +4,9 @@
 	过去的OT研究已经建立了一套完整的OT算法正确性的性质标准~\cite{Sun:CSCW14}，
 	违反任何转换性质会导致错误的转换，从而可能使得文档不一致。我们关注的性质:
 	\begin{itemize}
-	  \item Convergence Property 1(CP1): 这是Jupiter 协议正确性的必要条件。对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
-	  \item Convergence Property 2(CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT(OT(O1,O2),OT(O3,O2)) = OT(OT(O1,O3),OT(O2,O3))$
-	  \item Inverse Property 1(IP1)
-	  \item Inverse Property 2(IP1)
-	  \item Inverse Property 3(IP3)
+	  \item Convergence Property 1 (CP1): 这是Jupiter 协议正确性的必要条件。对于定义在文档状态S上的给定操作O1和O2，满足CP1等式:$S \circ O1 \circ OT(O2,O1) = S \circ O2 \circ OT(O1,O)$,也就是说在S上按顺序实施O1,OT(O2,O1)操作和实施O2,OT(O1,O2)操作效果相同。
+	  \item Convergence Property 2 (CP2):对于定义在文档状态S上的给定操作O1和O2，满足CP2等式：$OT(OT(O1,O2),OT(O3,O2)) = OT(OT(O1,O3),OT(O2,O3))$
+	  \item Inverse Property 1 (IP1)、Inverse Property 2 (IP2)、Inverse Property 3 (IP3)
 	\end{itemize}
 	关注这五个特性的原因是CP1,CP2是收敛性的变换性质，IP1、IP2和IP3是与撤销相关的变换性质。CP1和CP2被发现是在OT系统中实现收敛性的充分必要条件，允许操作以任何顺序进行转换，不过并不是所有OT系统都需要满足这两个条件。CP1在某些OT系统中不是必须的，例如GOT~\cite{Sun:CSCW98}，这些OT系统从不以不同的顺序变换两个操作；CP2同样也不是必须的，比如Jupiter和Google Docs等OT系统,这些OT系统会在操作中施加特殊的转换命令。由于是基于Jupiter协议所作的OT函数设计，所以本文中只验证所设计函数的CP1正确性。
 	
