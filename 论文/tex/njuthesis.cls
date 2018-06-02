@@ -116,7 +116,7 @@
     pdfborder=0 0 0%
 }
 \urlstyle{same}
-\RequirePackage[sorts&compress, numbers]{natbib} % compress
+\RequirePackage[sort&compress,numbers]{natbib}
 \RequirePackage{hypernat}
 \RequirePackage{tabularx}
 \RequirePackage{makeidx}
