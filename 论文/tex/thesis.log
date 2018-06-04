@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  2 JUN 2018 16:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  4 JUN 2018 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2731,142 +2731,66 @@ Overfull \hbox (1.22795pt too wide) in paragraph at lines 37--37
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 6.
+(hyperref)                removed on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 6.
-
-
-Package natbib Warning: Citation `Leuf:Wiki01' on page 1 undefined on input lin
-e 8.
+(hyperref)                removed on input line 7.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 15.
+(hyperref)                removed on input line 16.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 15.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 1 undefined on input 
-line 18.
-
-
-Package natbib Warning: Citation `Nichols:UIST95' on page 1 undefined on input 
-line 18.
-
-
-Package natbib Warning: Citation `Attiya:PODC16' on page 1 undefined on input l
-ine 18.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 1 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 1 undefined on input 
-line 22.
-
-
-Package natbib Warning: Citation `Prakash:TOCHI94' on page 1 undefined on input
- line 22.
-
-
-Package natbib Warning: Citation `Nichols:UIST95' on page 1 undefined on input 
-line 22.
-
-
-Package natbib Warning: Citation `Sun:TOCHI98' on page 1 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Sun:CSCW98' on page 1 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Vidot:CSCW00' on page 1 undefined on input li
-ne 22.
-
-
-Package natbib Warning: Citation `Shen:CSCW02' on page 1 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Sun:TOCHI02' on page 1 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Li:ICPADS04' on page 1 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Sun:TPDS09' on page 1 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Sun:CSCW14' on page 1 undefined on input line
- 22.
+(hyperref)                removed on input line 16.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 24.
+(hyperref)                removed on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 24.
+(hyperref)                removed on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 24.
+(hyperref)                removed on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 24.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 1 undefined on input 
-line 30.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 1 undefined on input 
-line 31.
+(hyperref)                removed on input line 25.
 
 [1
 
 
 ]
 
-Package natbib Warning: Citation `Shapiro:SSS11' on page 2 undefined on input l
-ine 44.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 52.
+(hyperref)                removed on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 52.
+(hyperref)                removed on input line 53.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 52.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 52.
+(hyperref)                removed on input line 53.
 
 File: figures/exm1.bmp Graphic file (type QTm)
 <use  "figures/exm1.bmp" >
@@ -2875,40 +2799,25 @@ File: figures/exm2.bmp Graphic file (type QTm)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 80.
+(hyperref)                removed on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 80.
+(hyperref)                removed on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 80.
+(hyperref)                removed on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 80.
+(hyperref)                removed on input line 81.
 
 File: figures/structure.bmp Graphic file (type QTm)
-<use  "figures/structure.bmp" >
-
-Package natbib Warning: Citation `Nichols:UIST95' on page 3 undefined on input 
-line 95.
-
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 103.
-
+<use  "figures/structure.bmp" > [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
@@ -2922,53 +2831,63 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 104.
+(hyperref)                removed on input line 105.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 104.
+(hyperref)                removed on input line 105.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 106.
+(hyperref)                removed on input line 105.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 106.
+(hyperref)                removed on input line 105.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 106.
+(hyperref)                removed on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 106.
+(hyperref)                removed on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00876pt
+(hyperref)                removed on input line 107.
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 114.
+(hyperref)                removed on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 114.
+(hyperref)                removed on input line 115.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 120.
+(hyperref)                removed on input line 121.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
-(hyperref)                removed on input line 120.
+(hyperref)                removed on input line 121.
 
 ) (./chapters/related_work.tex [5]
 {第\CJKnumber {2}章} 2.
@@ -2983,10 +2902,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removed on input line 3.
 
 
-Package natbib Warning: Citation `Sun:CSCW14' on page 6 undefined on input line
- 4.
-
-
 Overfull \hbox (32.79285pt too wide) in paragraph at lines 8--9
 \TU/TimesNewRoman(0)/m/n/12.05 O2\TU/SimSun(0)/m/n/12.05 ，|  满 足 \TU/TimesNewRo
 man(0)/m/n/12.05 CP2 \TU/SimSun(0)/m/n/12.05 等 式：| $\OML/txmi/m/it/12.05 OT\OT1
@@ -2998,10 +2913,6 @@ T\OT1/cmr/m/n/12 (\OML/txmi/m/it/12.05 O\OT1/cmr/m/n/12 3\OML/txmi/m/it/12.05 ;
 12.05 ; O\OT1/cmr/m/n/12 3)\OML/txmi/m/it/12.05 ; OT\OT1/cmr/m/n/12 (\OML/txmi/
 m/it/12.05 O\OT1/cmr/m/n/12 2\OML/txmi/m/it/12.05 ; O\OT1/cmr/m/n/12 3))$ 
  []
-
-
-Package natbib Warning: Citation `Sun:CSCW98' on page 6 undefined on input line
- 11.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3042,10 +2953,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removed on input line 40.
 
 
-Package natbib Warning: Citation `Sun:CSCW14' on page 7 undefined on input line
- 42.
-
-
 Overfull \hbox (29.09344pt too wide) in paragraph at lines 57--59
 \TU/SimSun(0)/m/n/12.05 套 用 公 式 解 释 前 言 中 举 例 的 \TU/TimesNewRoman(0)/m/n/12.05 
 OT \TU/SimSun(0)/m/n/12.05 变 换，| $\OML/txmi/m/it/12.05 OT\OT1/cmr/m/n/12 (\OML/
@@ -3075,10 +2982,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 60.
 
-
-Package natbib Warning: Citation `Sun:CSCW14' on page 7 undefined on input line
- 62.
-
 [7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3089,54 +2992,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 79.
-
-
-Package natbib Warning: Citation `Imine:TCS06' on page 8 undefined on input lin
-e 85.
-
-
-Package natbib Warning: Citation `Ellis:SIGMOD89' on page 8 undefined on input 
-line 87.
-
-
-Package natbib Warning: Citation `Ressel:CSCW96' on page 8 undefined on input l
-ine 88.
-
-
-Package natbib Warning: Citation `Sun:TOCHI98' on page 8 undefined on input lin
-e 88.
-
-
-Package natbib Warning: Citation `Molli:CSCW02' on page 8 undefined on input li
-ne 89.
-
-
-Package natbib Warning: Citation `Sun:CSCW04' on page 8 undefined on input line
- 89.
-
-
-Package natbib Warning: Citation `Sun:CSCW14' on page 8 undefined on input line
- 92.
-
-
-Package natbib Warning: Citation `Sun:CSCW17' on page 8 undefined on input line
- 96.
-
-
-Package natbib Warning: Citation `Randolph:arXiv13' on page 8 undefined on inpu
-t line 100.
-
-
-Package natbib Warning: Citation `Cassez:CONCUR05' on page 8 undefined on input
- line 102.
-
-
-Package natbib Warning: Citation `Liu:FM14' on page 8 undefined on input line 1
-04.
-
-
-Package natbib Warning: Citation `Sun:CSCW06' on page 8 undefined on input line
- 106.
 
 ) (./chapters/design.tex [8] [9]
 {第\CJKnumber {3}章} 3.
@@ -3481,11 +3336,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 8.
 
-)
-No file thesis.bbl.
-(./chapters/acknowledgement.tex [29
+) (./thesis.bbl [29
 
-] [30]) (./chapters/appendix.tex [31
+] [30]
+Underfull \hbox (badness 1478) in paragraph at lines 34--41
+[]\TU/TimesNewRoman(0)/m/n/12.05 ELLIS C A, GIBBS S J. Concurrency Control in G
+roupware Systems[C]
+ []
+
+[31
+
+] [32] [33]) (./chapters/acknowledgement.tex [34]) (./chapters/appendix.tex
+[35
 
 ]
 附录A A.
@@ -3519,7 +3381,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00876pt
 (hyperref)                removed on input line 4.
 
-[32
+[36
 
 ]
 
@@ -3550,15 +3412,12 @@ Overfull \hbox (80.76822pt too wide) detected at line 89
 /m/n/12 2\OML/txmi/m/it/12.05 ; l\OT1/cmr/m/n/12 2)) = [] [] 
  []
 
-[33]) 
+[37]) 
 AED: lastpage setting LastPage
-[34]
-
-Package natbib Warning: There were undefined citations.
-
+[38]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
-(./thesis.aux)
+ (./thesis.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 114.
 
@@ -3576,12 +3435,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 114.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44975 strings out of 493005
- 843508 string characters out of 6137957
- 962068 words of memory out of 5000000
- 48146 multiletter control sequences out of 15000+600000
- 43395 words of font info for 213 fonts, out of 8000000 for 9000
+ 45046 strings out of 493005
+ 844741 string characters out of 6137957
+ 962488 words of memory out of 5000000
+ 48216 multiletter control sequences out of 15000+600000
+ 43387 words of font info for 212 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,19n,77p,10445b,11412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,77p,10445b,11641s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on thesis.pdf (43 pages).
+Output written on thesis.pdf (47 pages).

@@ -1,0 +1,224 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{Leuf:Wiki01}
+\bibauthor{LEUF B\@, CUNNINGHAM W}\@. \bibbooktitle{The Wiki Way: Quick
+  Collaboration on the Web}\bibmark{[M]}\@. \bibaddress{Boston, MA,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{Addison-Wesley Longman
+  Publishing Co., Inc.}\@, \bibyear{2001}\@.
+
+\bibitem{Ellis:SIGMOD89}
+\bibauthor{ELLIS C~A\@, GIBBS S~J}\@. \bibtitle{Concurrency Control in
+  Groupware Systems}\bibmark{[C]} //\thinspace{}\bibbooktitle{SIGMOD
+  '89\thinspace{}\textnormal{: }Proceedings of the 1989 ACM SIGMOD
+  International Conference on Management of Data}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{1989}\thinspace{}\textnormal{:
+  }\bibpages{399\thinspace{}\textnormal{--}\thinspace{}407}\@.
+
+\bibitem{Nichols:UIST95}
+\bibauthor{NICHOLS D~A\@, CURTIS P\@, DIXON M, et~al}\@.
+  \bibtitle{High-latency, Low-bandwidth Windowing in the Jupiter Collaboration
+  System}\bibmark{[C]} //\thinspace{}\bibbooktitle{UIST
+  '95\thinspace{}\textnormal{: }Proceedings of the 8th Annual ACM Symposium on
+  User Interface and Software Technology}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{1995}\thinspace{}\textnormal{:
+  }\bibpages{111\thinspace{}\textnormal{--}\thinspace{}120}\@.
+
+\bibitem{Attiya:PODC16}
+\bibauthor{ATTIYA H\@, BURCKHARDT S\@, GOTSMAN A, et~al}\@.
+  \bibtitle{Specification and complexity of collaborative text
+  editing}\bibmark{[C]} //\thinspace{}\bibbooktitle{PODC
+  '16\thinspace{}\textnormal{: }Proceedings of the 2016 ACM Symposium on
+  Principles of Distributed Computing}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{259\thinspace{}\textnormal{--}\thinspace{}268}\@.
+
+\bibitem{Prakash:TOCHI94}
+\bibauthor{PRAKASH A\@, KNISTER M~J}\@. \bibtitle{A Framework for Undoing
+  Actions in Collaborative Systems}\bibmark{[J]}\@. \bibjournal{ACM Trans.
+  Comput.-Hum. Interact.}\@, \bibyear{1994}\@,
+  \bibvolume{1}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{295\thinspace{}\textnormal{--}\thinspace{}330}\@.
+
+\bibitem{Sun:TOCHI98}
+\bibauthor{SUN C\@, JIA X\@, ZHANG Y, et~al}\@. \bibtitle{Achieving
+  Convergence, Causality Preservation, and Intention Preservation in Real-time
+  Cooperative Editing Systems}\bibmark{[J]}\@. \bibjournal{ACM Trans.
+  Comput.-Hum. Interact.}\@, \bibyear{1998}\@,
+  \bibvolume{5}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{63\thinspace{}\textnormal{--}\thinspace{}108}\@.
+
+\bibitem{Sun:CSCW98}
+\bibauthor{SUN C\@, ELLIS C}\@. \bibtitle{Operational Transformation in
+  Real-time Group Editors: Issues, Algorithms, and Achievements}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{CSCW '98\thinspace{}\textnormal{: }Proceedings of
+  the 1998 ACM Conference on Computer Supported Cooperative Work}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{1998}\thinspace{}\textnormal{:
+  }\bibpages{59\thinspace{}\textnormal{--}\thinspace{}68}\@.
+
+\bibitem{Vidot:CSCW00}
+\bibauthor{VIDOT N\@, CART M\@, FERRIE J, et~al}\@. \bibtitle{Copies
+  Convergence in a Distributed Real-time Collaborative
+  Environment}\bibmark{[C]} //\thinspace{}\bibbooktitle{CSCW
+  '00\thinspace{}\textnormal{: }Proceedings of the 2000 ACM Conference on
+  Computer Supported Cooperative Work}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2000}\thinspace{}\textnormal{:
+  }\bibpages{171\thinspace{}\textnormal{--}\thinspace{}180}\@.
+
+\bibitem{Shen:CSCW02}
+\bibauthor{SHEN H\@, SUN C}\@. \bibtitle{Flexible Notification for
+  Collaborative Systems}\bibmark{[C]} //\thinspace{}\bibbooktitle{CSCW
+  '02\thinspace{}\textnormal{: }Proceedings of the 2002 ACM Conference on
+  Computer Supported Cooperative Work}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2002}\thinspace{}\textnormal{:
+  }\bibpages{77\thinspace{}\textnormal{--}\thinspace{}86}\@.
+
+\bibitem{Sun:TOCHI02}
+\bibauthor{SUN C}\@. \bibtitle{Undo As Concurrent Inverse in Group
+  Editors}\bibmark{[J]}\@. \bibjournal{ACM Trans. Comput.-Hum. Interact.}\@,
+  \bibyear{2002}\@, \bibvolume{9}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{309\thinspace{}\textnormal{--}\thinspace{}361}\@.
+
+\bibitem{Li:ICPADS04}
+\bibauthor{LI R\@, LI D\@, SUN C}\@. \bibtitle{A Time Interval Based
+  Consistency Control Algorithm for Interactive Groupware
+  Applications}\bibmark{[C]} //\thinspace{}\bibbooktitle{ICPADS
+  '04\thinspace{}\textnormal{: }Proceedings of the 10th International
+  Conference on Parallel and Distributed Systems}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{IEEE Computer
+  Society}\@, \bibyear{2004}\thinspace{}\textnormal{:
+  }\bibpages{429\thinspace{}\textnormal{--}\thinspace{}438}\@.
+
+\bibitem{Sun:TPDS09}
+\bibauthor{SUN D\@, SUN C}\@. \bibtitle{Context-Based Operational
+  Transformation in Distributed Collaborative Editing Systems}\bibmark{[J]}\@.
+  \bibjournal{IEEE Trans. Parallel Distrib. Syst.}\@, \bibyear{2009}\@,
+  \bibvolume{20}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{1454\thinspace{}\textnormal{--}\thinspace{}1470}\@.
+
+\bibitem{Sun:CSCW14}
+\bibauthor{SUN C\@, XU Y\@, AGUSTINA A}\@. \bibtitle{Exhaustive Search of
+  Puzzles in Operational Transformation}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{CSCW '14\thinspace{}\textnormal{: }Proceedings of
+  the 17th ACM Conference on Computer Supported Cooperative Work}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{519\thinspace{}\textnormal{--}\thinspace{}529}\@.
+
+\bibitem{Shapiro:SSS11}
+\bibauthor{SHAPIRO M\@, PREGUICA N\@, BAQUERO C, et~al}\@.
+  \bibtitle{Conflict-free Replicated Data Types}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{SSS'11\thinspace{}\textnormal{: }Proceedings of
+  the 13th International Conference on Stabilization, Safety, and Security of
+  Distributed Systems}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer-Verlag}\@, \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{386\thinspace{}\textnormal{--}\thinspace{}400}\@.
+
+\bibitem{Imine:TCS06}
+\bibauthor{IMINE A\@, RUSINOWITCH M\@, OSTER G, et~al}\@. \bibtitle{Formal
+  Design and Verification of Operational Transformation Algorithms for Copies
+  Convergence}\bibmark{[J]}\@. \bibjournal{Theor. Comput. Sci.}\@,
+  \bibyear{2006}\@, \bibvolume{351}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{167\thinspace{}\textnormal{--}\thinspace{}183}\@.
+
+\bibitem{Ressel:CSCW96}
+\bibauthor{RESSEL M\@, NITSCHE-RUHLAND D\@, GUNZENHAUSER R}\@. \bibtitle{An
+  Integrating, Transformation-oriented Approach to Concurrency Control and Undo
+  in Group Editors}\bibmark{[C]} //\thinspace{}\bibbooktitle{CSCW
+  '96\thinspace{}\textnormal{: }Proceedings of the 1996 ACM Conference on
+  Computer Supported Cooperative Work}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{1996}\thinspace{}\textnormal{:
+  }\bibpages{288\thinspace{}\textnormal{--}\thinspace{}297}\@.
+
+\bibitem{Molli:CSCW02}
+\bibauthor{MOLLI P\@, SKAF-MOLLI H\@, OSTER G, et~al}\@. \bibtitle{Sams:
+  Synchronous, asynchronous, multi-synchronous environments}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{The 7th International Conference on Computer
+  Supported Cooperative Work in Design}\@.
+  \bibyear{2002}\thinspace{}\textnormal{:
+  }\bibpages{80\thinspace{}\textnormal{--}\thinspace{}84}\@.
+
+\bibitem{Sun:CSCW04}
+\bibauthor{SUN D\@, XIA S\@, SUN C, et~al}\@. \bibtitle{Operational
+  Transformation for Collaborative Word Processing}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{CSCW '04\thinspace{}\textnormal{: }Proceedings of
+  the 2004 ACM Conference on Computer Supported Cooperative Work}\@.
+  \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2004}\thinspace{}\textnormal{:
+  }\bibpages{437\thinspace{}\textnormal{--}\thinspace{}446}\@.
+  \newline\url{http://doi.acm.org/10.1145/1031607.1031681}\@.
+
+\bibitem{Sun:CSCW17}
+\bibauthor{SUN C\@, XU Y\@, NG A}\@. \bibtitle{Exhaustive Search and Resolution
+  of Puzzles in OT Systems Supporting String-Wise Operations}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{CSCW '17\thinspace{}\textnormal{: }Proceedings of
+  the 2017 ACM Conference on Computer Supported Cooperative Work and Social
+  Computing}\@. \bibaddress{New York, NY, USA}\thinspace{}\textnormal{:
+  }\bibpublisher{ACM}\@, \bibyear{2017}\thinspace{}\textnormal{:
+  }\bibpages{2504\thinspace{}\textnormal{--}\thinspace{}2517}\@.
+  \newline\url{http://doi.acm.org/10.1145/2998181.2998252}\@.
+
+\bibitem{Randolph:arXiv13}
+\bibauthor{RANDOLPH A\@, BOUCHENEB H\@, IMINE A, et~al}\@. \bibtitle{On
+  consistency of operational transformation approach}\bibmark{[J]}\@.
+  \bibjournal{arXiv preprint arXiv:1302.3292}\@, \bibyear{2013}\@.
+
+\bibitem{Cassez:CONCUR05}
+\bibauthor{CASSEZ F\@, DAVID A\@, FLEURY E, et~al}\@. \bibtitle{CONCUR 2005 -
+  Concurrency Theory}\bibmark{[G/OL]} //\thinspace{}\bibeditor{ABADI M\@, de
+  ALFARO L}\@. \@. \bibaddress{London, UK, UK}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer-Verlag}\@, \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{66\thinspace{}\textnormal{--}\thinspace{}80}\@.
+  \newline\url{http://dx.doi.org/10.1007/11539452_9}\@.
+
+\bibitem{Liu:FM14}
+\bibauthor{LIU Y\@, XU Y\@, ZHANG S~J, et~al}\@. \bibtitle{Formal Verification
+  of Operational Transformation}\bibmark{[C/OL]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 19th International Symposium
+  on FM 2014: Formal Methods - Volume 8442}\@. \bibaddress{New York, NY,
+  USA}\thinspace{}\textnormal{: }\bibpublisher{Springer-Verlag New York,
+  Inc.}\@, \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{432\thinspace{}\textnormal{--}\thinspace{}448}\@.
+  \newline\url{http://dx.doi.org/10.1007/978-3-319-06410-9_30}\@.
+
+\bibitem{Sun:CSCW06}
+\bibauthor{SUN D\@, SUN C}\@. \bibtitle{Operation Context and Context-based
+  Operational Transformation}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{CSCW
+  '06\thinspace{}\textnormal{: }Proceedings of the 2006 20th Anniversary
+  Conference on Computer Supported Cooperative Work}\@. \bibaddress{New York,
+  NY, USA}\thinspace{}\textnormal{: }\bibpublisher{ACM}\@,
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{279\thinspace{}\textnormal{--}\thinspace{}288}\@.
+  \newline\url{http://doi.acm.org/10.1145/1180875.1180918}\@.
+
+\end{thebibliography}
