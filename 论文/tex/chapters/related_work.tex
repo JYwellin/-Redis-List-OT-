@@ -19,16 +19,16 @@
 \hline
 操作分类 &操作类型 &操作效果\\
 \hline
-\multirow{3}*{第一类操作}  &$Del(i)$  &删除第i个元素\\ 
+\multirow{3}*{第一类操作}  &$Del(i)$  &删除第$i$个元素\\ 
 \cline{2-3} 
-&$Ins(i,x)$ &在位置i插入元素x\\
+&$Ins(i,x)$ &在位置$i$插入元素$x$\\
 \cline{2-3}
-&$Set(i,x)$ &将位置i上的元素设为x\\
+&$Set(i,x)$ &将位置$i$上的元素设为$x$\\
 \hline
 
-\multirow{2}*{第二类操作}  &$Ins(p,s)$  &在位置i插入串s\\ 
+\multirow{2}*{第二类操作}  &$Ins(p,s)$  &在位置$i$插入串$s$\\ 
 \cline{2-3} 
-&$Del(p,l)$ &从位置p开始删除长度为l的串\\
+&$Del(p,l)$ &从位置$p$开始删除长度为$l$的串\\
 \hline
 第三类操作 &$Del(p_1,l_1;p_2,l_2;...;p_k,l_k)$ &删除区间$[p_1,p_1+l_1],...,[p_k,p_k+l_k]$内的元素\\
 
@@ -59,7 +59,7 @@ OT(del (i), del (j)) =\begin{cases}
 
 \subsection{第二类 OT 函数设计}
 我们定义第二类函数为第二类操作之间的OT函数，即Ins,Del两种区间操作之间的OT函数，共2*2=4个。
-这里列出了Ins操作对应于Ins,Del的OT函数，全部4个函数的数学公式详见附录。\cite{Sun:CSCW14}
+这里列出了Ins操作对应于Ins,Del的OT函数，全部4个函数的数学公式详见附录。\cite{Sun:CSCW17}
 \begin{equation}
 OT(Ins(p1,s1),Ins(p2,s2))= \begin{cases}
 Ins(p1,s1) \quad & p1<p2 \\
