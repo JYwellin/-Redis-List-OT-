@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  24 MAY 2018 23:39
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.9)  8 JUN 2018 00:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,14 +100,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \par 本
-            文针对Redis系统的List命令进行的，首先对Redis中�...
+l.5 \par 由
+            于本文是针对Redis系统的List命令进行研究的，所�...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
 Missing character: There is no 本 in font nullfont!
 Missing character: There is no 文 in font nullfont!
+Missing character: There is no 是 in font nullfont!
 Missing character: There is no 针 in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no R in font nullfont!
@@ -126,8 +129,12 @@ Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
 Missing character: There is no 进 in font nullfont!
 Missing character: There is no 行 in font nullfont!
+Missing character: There is no 研 in font nullfont!
+Missing character: There is no 究 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no ， in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 以 in font nullfont!
 Missing character: There is no 首 in font nullfont!
 Missing character: There is no 先 in font nullfont!
 Missing character: There is no 对 in font nullfont!
@@ -292,7 +299,6 @@ Missing character: There is no 命 in font nullfont!
 Missing character: There is no 令 in font nullfont!
 Missing character: There is no ） in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 即 in font nullfont!
 Missing character: There is no 其 in font nullfont!
 Missing character: There is no 余 in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -1519,8 +1525,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Missing character: There is no 注 in font nullfont!
-Missing character: There is no ： in font nullfont!
+Missing character: There is no 表 in font nullfont!
+Missing character: There is no 格 in font nullfont!
+Missing character: There is no 中 in font nullfont!
 Missing character: There is no 表 in font nullfont!
 Missing character: There is no 示 in font nullfont!
 Missing character: There is no 列 in font nullfont!
@@ -1528,9 +1535,7 @@ Missing character: There is no 表 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
-Missing character: There is no 这 in font nullfont!
-Missing character: There is no 样 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 由 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no R in font nullfont!
@@ -1611,8 +1616,8 @@ Missing character: There is no 数 in font nullfont!
 Missing character: There is no 设 in font nullfont!
 Missing character: There is no 计 in font nullfont!
 Missing character: There is no 。 in font nullfont!
-Missing character: There is no 由 in font nullfont!
-Missing character: There is no 于 in font nullfont!
+Missing character: There is no 现 in font nullfont!
+Missing character: There is no 在 in font nullfont!
 Missing character: There is no 第 in font nullfont!
 Missing character: There is no 一 in font nullfont!
 Missing character: There is no 类 in font nullfont!
@@ -2063,6 +2068,7 @@ Missing character: There is no 单 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 
 Overfull \hbox (40.48615pt too wide) in paragraph at lines 89--90
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s\OMS/cmsy/m/n/10 j$$j\OML/cmm/m/it/10 s\
@@ -2112,6 +2118,7 @@ Missing character: There is no 单 in font nullfont!
 Missing character: There is no 位 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 具 in font nullfont!
 Missing character: There is no 体 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -2387,7 +2394,6 @@ Missing character: There is no 行 in font nullfont!
 Missing character: There is no 转 in font nullfont!
 Missing character: There is no 换 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no 则 in font nullfont!
 Missing character: There is no 区 in font nullfont!
 Missing character: There is no 间 in font nullfont!
 Missing character: There is no 之 in font nullfont!
@@ -2399,7 +2405,7 @@ Missing character: There is no 相 in font nullfont!
 Missing character: There is no 互 in font nullfont!
 Missing character: There is no 影 in font nullfont!
 Missing character: There is no 响 in font nullfont!
-Missing character: There is no ， in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 由 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no 原 in font nullfont!
@@ -2467,7 +2473,7 @@ Missing character: There is no 即 in font nullfont!
 Missing character: There is no 可 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 106--109
+Overfull \hbox (20.0pt too wide) in paragraph at lines 106--110
 []
  []
 
@@ -2539,7 +2545,7 @@ Missing character: There is no 读 in font nullfont!
 Missing character: There is no 性 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 110--111
+Overfull \hbox (20.0pt too wide) in paragraph at lines 111--112
 [] 
  []
 
@@ -2596,18 +2602,12 @@ Missing character: There is no 间 in font nullfont!
 Missing character: There is no 端 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 区 in font nullfont!
 Missing character: There is no 间 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 转 in font nullfont!
 Missing character: There is no 换 in font nullfont!
@@ -2621,12 +2621,6 @@ Missing character: There is no 间 in font nullfont!
 Missing character: There is no 端 in font nullfont!
 Missing character: There is no 点 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 新 in font nullfont!
 Missing character: There is no 区 in font nullfont!
@@ -2634,20 +2628,11 @@ Missing character: There is no 间 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no ， in font nullfont!
 Missing character: There is no 对 in font nullfont!
 Missing character: There is no 于 in font nullfont!
 Missing character: There is no 操 in font nullfont!
 Missing character: There is no 作 in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 进 in font nullfont!
 Missing character: There is no 行 in font nullfont!
 Missing character: There is no 转 in font nullfont!
@@ -2674,9 +2659,6 @@ Missing character: There is no 间 in font nullfont!
 Missing character: There is no 中 in font nullfont!
 Missing character: There is no 没 in font nullfont!
 Missing character: There is no 被 in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 删 in font nullfont!
 Missing character: There is no 除 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -2691,21 +2673,9 @@ Missing character: There is no 行 in font nullfont!
 Missing character: There is no 分 in font nullfont!
 Missing character: There is no 析 in font nullfont!
 Missing character: There is no ， in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no 即 in font nullfont!
 Missing character: There is no 为 in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 在 in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no 之 in font nullfont!
 Missing character: There is no 前 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -2715,12 +2685,6 @@ Missing character: There is no 总 in font nullfont!
 Missing character: There is no 长 in font nullfont!
 Missing character: There is no 度 in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no 待 in font nullfont!
 Missing character: There is no 转 in font nullfont!
@@ -2731,9 +2695,6 @@ Missing character: There is no 中 in font nullfont!
 Missing character: There is no 没 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 被 in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 删 in font nullfont!
 Missing character: There is no 除 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -2745,35 +2706,10 @@ Missing character: There is no 样 in font nullfont!
 Missing character: There is no 新 in font nullfont!
 Missing character: There is no 区 in font nullfont!
 Missing character: There is no 间 in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no ] in font nullfont!
 Missing character: There is no 即 in font nullfont!
 Missing character: There is no 为 in font nullfont!
 Missing character: There is no 未 in font nullfont!
 Missing character: There is no 被 in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 删 in font nullfont!
 Missing character: There is no 除 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -2782,8 +2718,26 @@ Missing character: There is no 分 in font nullfont!
 Missing character: There is no 了 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 112--115
+Overfull \hbox (20.0pt too wide) in paragraph at lines 113--116
 []
+ []
+
+
+Overfull \hbox (107.86256pt too wide) in paragraph at lines 113--116
+\OML/cmm/m/it/10 pos$$len$$newpos$$newlen$$op\OT1/cmr/m/n/10 2$
+ []
+
+
+Overfull \hbox (204.08606pt too wide) in paragraph at lines 113--116
+\OML/cmm/m/it/10 op\OT1/cmr/m/n/10 2$$\OML/cmm/m/it/10 newpos$$op\OT1/cmr/m/n/1
+0 2$$\OML/cmm/m/it/10 pos$$newlen$$op\OT1/cmr/m/n/10 2$$[\OML/cmm/m/it/10 newpo
+s; newpos \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (49.58234pt too wide) in paragraph at lines 113--116
+\OML/cmm/m/it/10 newlen\OT1/cmr/m/n/10 ]$$\OML/cmm/m/it/10 op\OT1/cmr/m/n/10 2$
+ 
  []
 
 Missing character: There is no 下 in font nullfont!
@@ -2844,7 +2798,7 @@ Missing character: There is no 行 in font nullfont!
 Missing character: There is no 的 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 116--117
+Overfull \hbox (20.0pt too wide) in paragraph at lines 117--118
 [] 
  []
 
@@ -2855,7 +2809,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \begin{table}
+l.119 \begin{table}
                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2895,19 +2849,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \end{table}
+l.136 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 118--136
+Overfull \hbox (20.0pt too wide) in paragraph at lines 119--137
 []
  []
 
 
-Overfull \hbox (251.23929pt too wide) in paragraph at lines 118--136
+Overfull \hbox (251.23929pt too wide) in paragraph at lines 119--137
 []
  []
 
@@ -2918,7 +2872,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138 \begin{table}
+l.139 \begin{table}
                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2938,7 +2892,7 @@ Missing character: There is no 的 in font nullfont!
 ! Undefined control sequence.
 <recently read> \multirow 
                           
-l.146 \multirow
+l.147 \multirow
                {4}*{$p_{k+1} < p_1$}  &$p_{k+1}+l_{k+1} \le p_1$  &$l_{k+1}$\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2949,7 +2903,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.155 \multirow
+l.156 \multirow
                {3}*{$p_i \le p_{k+1} < p_i+l_i$}  &$p_j < p_{k+1}+l_{k+1} \l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2960,7 +2914,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.162 \multirow
+l.163 \multirow
                {3}*{$p_i+l_i \le p_{k+1} < p_{i+1}$}  &$p_j < p_{k+1}+l_{k+1...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2981,7 +2935,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \end{table}
+l.172 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3045,7 +2999,7 @@ Missing character: There is no 都 in font nullfont!
 Missing character: There is no 有 in font nullfont!
 Missing character: There is no 关 in font nullfont!
 Missing character: There is no 系 in font nullfont!
-Missing character: There is no . in font nullfont!
+Missing character: There is no 。 in font nullfont!
 Missing character: There is no 具 in font nullfont!
 Missing character: There is no 体 in font nullfont!
 Missing character: There is no 的 in font nullfont!
@@ -3057,43 +3011,16 @@ Missing character: There is no 如 in font nullfont!
 Missing character: There is no 下 in font nullfont!
 Missing character: There is no ： in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 138--174
+Overfull \hbox (20.0pt too wide) in paragraph at lines 139--175
 []
  []
 
 
-Overfull \hbox (375.9398pt too wide) in paragraph at lines 138--174
+Overfull \hbox (375.9398pt too wide) in paragraph at lines 139--175
 []
  []
 
 
-! LaTeX Error: The font size command \normalsize is not defined:
-               there is probably something wrong with the class file.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 \newpage
-              
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-! Undefined control sequence.
-<write> \newlabel{chapter:design}{{}{\thepage 
-                                              }}
-l.175 \newpage
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-\newlabel{chapter:design}{{}{}}
-]
 Overfull \hbox (225.08328pt too wide) in paragraph at lines 176--177
 []$\OML/cmm/m/it/10 OT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Del\OT1/cmr/m/n/10 (\OM
 L/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; Del\OT1/cmr/m/n/10 (\
@@ -3103,8 +3030,8 @@ OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 p[]; l[]\OT1/cmr/m/n
  []
 
 ! Misplaced alignment tab character &.
-l.179 Del(p_{k+1},l_{k+1}) \quad &
-                                  p_{k+1} < p_1 \quad \\ &p_{k+1}+l_{k+1} \l...
+l.179 Del(p_{k+1},l_{k+1}) \quad  \quad &
+                                         p_{k+1} < p_1 \\ &  p_{k+1}+l_{k+1}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3115,8 +3042,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.179 ...,l_{k+1}) \quad &p_{k+1} < p_1 \quad \\ &
-                                                  p_{k+1}+l_{k+1} \le p_1 \\
+l.179 ...l_{k+1}) \quad  \quad &p_{k+1} < p_1 \\ &
+                                                    p_{k+1}+l_{k+1} \le p_1 \\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3220,23 +3147,23 @@ So I shall assume that you typed `$$' both times.
 
 Overfull \hbox (1050.56749pt too wide) detected at line 183
 \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 el\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; 
-l[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cm
-m/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\
-OML/cmm/m/it/10 p[]; p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/
-n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cm
-sy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p[]\OT
-1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] < p[] \OT1/cmr/m/n/10 + \OML/cm
-m/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/
-cmm/m/it/10 l[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/1
-0 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/
-m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/c
-mr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10
- l[] < p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm
-/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/10 ^
-^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n
-/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/cmr/
-m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[
-] > P[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[][] 
+l[]\OT1/cmr/m/n/10 )  \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/c
+mm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[][] Del\OT1/cmr/m/n/10 (
+\OML/cmm/m/it/10 p[]; p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m
+/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/c
+msy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p[]\O
+T1/cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] < p[] \OT1/cmr/m/n/10 + \OML/c
+mm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML
+/cmm/m/it/10 l[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/
+10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy
+/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/
+cmr/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/1
+0 l[] < p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^T \OML/cm
+m/m/it/10 p[][] Del\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]; l[] \OMS/cmsy/m/n/10 
+^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[] \OMS/cmsy/m/
+n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 l[]\OT1/cmr
+/m/n/10 ) \OML/cmm/m/it/10 p[] < p[][] p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l
+[] > P[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[][] 
  []
 
 Missing character: There is no D in font nullfont!
@@ -4036,6 +3963,34 @@ Overfull \hbox (12.78pt too wide) in paragraph at lines 189--195
  []
 
 
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 \end{equation}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+! Undefined control sequence.
+<write> \newlabel{chapter:design}{{}{\thepage 
+                                              }}
+l.195 \end{equation}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{chapter:design}{{}{}}
+]
+
 ! LaTeX Error: \begin{document} ended by \end{equation}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -4221,18 +4176,23 @@ Missing character: There is no 计 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 Missing character: There is no 共 in font nullfont!
 Missing character: There is no 有 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no + in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no 个 in font nullfont!
 Missing character: There is no 函 in font nullfont!
 Missing character: There is no 数 in font nullfont!
 Missing character: There is no 。 in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 200--201
-[] 
+Overfull \hbox (32.77782pt too wide) in paragraph at lines 200--201
+[]$\OT1/cmr/m/n/10 2 +
+ []
+
+
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 2 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 4$ 
  []
 
 Missing character: There is no I in font nullfont!
@@ -4547,7 +4507,7 @@ ML/cmm/m/it/10 l[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ::: \OMS/cmsy/m/n/10 ^
 Here is how much of TeX's memory you used:
  17 strings out of 493005
  214 string characters out of 6137957
- 78634 words of memory out of 5000000
+ 84634 words of memory out of 5000000
  4087 multiletter control sequences out of 15000+600000
  3648 words of font info for 15 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

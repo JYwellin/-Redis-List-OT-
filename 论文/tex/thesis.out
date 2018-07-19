@@ -17,7 +17,7 @@
 \BOOKMARK [1][-]{section.2.1}{2.1 OT 函数的性质}{chapter.2}% 17
 \BOOKMARK [1][-]{section.2.2}{2.2 OT函数的设计}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 第一类 OT 函数的设计}{section.2.2}% 19
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 第二类 OT 函数设计}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 第二类 OT 函数的设计}{section.2.2}% 20
 \BOOKMARK [1][-]{section.2.3}{2.3 OT 函数的验证}{chapter.2}% 21
 \BOOKMARK [0][-]{chapter.3}{3 Redis List OT 函数设计}{}% 22
 \BOOKMARK [1][-]{section.3.1}{3.1 Redis List API 分类}{chapter.3}% 23
@@ -43,4 +43,4 @@
 \BOOKMARK [0][-]{appendix.A}{A 附录}{}% 43
 \BOOKMARK [1][-]{section.A.1}{A.1 OT函数的设计}{appendix.A}% 44
 \BOOKMARK [2][-]{subsection.A.1.1}{A.1.1 第一类 OT 函数的设计}{section.A.1}% 45
-\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 第二类 OT 函数设计}{section.A.1}% 46
+\BOOKMARK [2][-]{subsection.A.1.2}{A.1.2 第二类 OT 函数的设计}{section.A.1}% 46

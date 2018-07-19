@@ -2,7 +2,8 @@
 \label{chapter:proof}
 \section{TLA+ 简介}
 \par TLA+是一种形式化的规约语言。它是一种设计系统和算法的工具，并且用来验证这些系统有没有关键错误。
-\par 正确性，是一个系统最为重要的性质，同时，正确性是比较难以证明的，特别是并发系统的正确性，因为存在着数目众多的状态变化，而TLA+可以将系统的行为或者状态抽象为时态逻辑，即系统的行为或者状态会随着时间反生变化，然后通过一些数学分析的方法，来判断系统是否正确。
+\par 正确性，是一个系统最为重要的性质，同时，正确性是比较难以证明的，特别是并发系统的正确性，因为存在着数目众多的状态变化。
+TLA+可以将系统的行为或者状态抽象为时态逻辑，即系统的行为或者状态会随着时间反生变化，然后通过一些数学分析的方法，来判断系统是否正确。
 
 \par TLA+并不同于一般传统意义上的编程语言，更类似于一种数学语言，因为其语法大部分来自于实际的数理逻辑。
 \par TLA+提供了工具集TLAToolbox/TLC，同时还可以使用TLA+的语法糖PLUSCAL来完成代码的编写，由于本文中并未涉及，在此不做展开。
@@ -35,7 +36,6 @@ operator& operation& example \\
 \par 以上的操作都不会使原有的操作序列发生变化。
 
 \section{使用 TLA+ 描述 OT 函数}
-解释同时描述并验证OT 函数。	 	
 \subsection{List 相关操作表示}
 \subsubsection{第一、二类操作的表示}
 采用record的数据结构来表示具体的操作。
@@ -87,7 +87,7 @@ SetTOSeq(T) \triangleq &IF\ T =\ \{\}\ THEN <<>>\\
 & \quad IN\ Seqset(T \backslash {t}) \cup {SetTOSeq(t)} \\
 &NoncoSeq\ \triangleq\ Seqset(NoncoIntervals)
 \end{align*}
-得到的集合$NoncoSeq$便为ints域的取值范围，这样遍历时得到的具体操作的ints域便为一个二维数组，该数组中横坐标表示第几个删除区间，纵坐标1的值表示该区间开始端带点，纵坐标为2的值表示区间长度。
+得到的集合$NoncoSeq$便为ints域的取值范围，这样遍历时得到的具体操作的ints域便为一个二维数组，该数组中横坐标表示第几个删除区间，纵坐标1的值表示该区间开始端点，纵坐标为2的值表示区间长度。
 
 \subsection{命令执行的表示}
 命令的执行与LIST和具体操作相关，所以定义中使用的参数便是LIST和具体操作中的参数，使用Sequences模块中的API进行代码的编写。
@@ -184,12 +184,12 @@ $newlen$:
     & \quad ELSE \ newlen(pos,len,ints,i+1,sum)
 \end{align*}
 递归变量为i和sum,i表示当前在对rdel中第几个区间进行newlen的计算,sum表示在当前计算完成的所有区间中len转换为newlen需要减去的长度。
-这样便根据公式(3-10)完成了Del命令自身的OT函数，第三类的Del命令与第二类命令中的Ins操作之间的OT函数可以用类似地方式表示出来，同时，剩余的OT函数也可以用递归或非递归的形式根据公式进行表示，在此不再赘述。
+这样便根据公式(3-10)完成了Del命令自身的OT函数，第三类的Del命令与第二类命令中的Ins操作之间的OT函数可以用类似地方式表示出来。
+同时，剩余的OT函数也可以用递归或非递归的形式根据公式进行表示，在此不再赘述。
 \section{正确性验证}
 上节中已经完成了OT函数的TLA+描述，剩下的就是决定验证的目标和方式。
-验证的目标: CP1 如何用 TLA+ 表示。
 
-我们验证CP1性质的正确性。即同一个List经过OT(OP2,OP1),OP1或者OT(OP1,OP2),OP1这两种操作序列后，最终的结果是一致的。
+我们验证CP1性质的正确性。即同一个List经过OT(OP2,OP1),OP1或者OT(OP1,OP2),OP1这两种操作序列后，最终的结果应该是一致的。
 结合以上给出的定义，用TLA+来描述所设计OT函数的CP1正确性：
 \begin{align*}
   apply(apply(list,op1),Xform(op2, op1)) = apply(apply(list,op2),Xform(op1, op2))
@@ -224,8 +224,8 @@ Fraction of physical memory allocated to TLC: 16173 mb
 \includegraphics{figures/runtime1.bmp}
 \caption{验证第一类函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
-\par 结果分析：若列表长度为n，则第一类操作的个数:$5*2*n(ins)+5*2*n(set)+2*n(del) = 22n$
-任意选取其中两个操作验证CP1正确性，所以验证算法的时间复杂度为$O(n^2)$
+\par 结果分析：若列表长度为n，则第一类操作的个数:$5*2*n(ins)+5*2*n(set)+2*n(del) = 22n$。
+任意选取其中两个操作验证CP1正确性，所以验证算法的时间复杂度为$O(n^2)$。
 从实验结果看，与复杂度的分析相一致。
 
 \begin{figure}[H]
@@ -233,8 +233,8 @@ Fraction of physical memory allocated to TLC: 16173 mb
 \includegraphics{figures/runtime2.bmp}
 \caption{验证第二类函数正确性的运行时间与列表长度（横坐标）的关系}
 \end{figure}
-\par 结果分析：若列表长度为n，则第二类操作的个数:$5*2*n(ins))+n*2*n(del) = 2n^2+10n$
-任意选取其中两个操作验证CP1正确性，所以验证算法的时间副复杂度为$O(n^4)$
+\par 结果分析：若列表长度为n，则第二类操作的个数:$5*2*n(ins))+n*2*n(del) = 2n^2+10n$。
+任意选取其中两个操作验证CP1正确性，所以验证算法的时间复杂度为$O(n^4)$。
 从实验结果看，与复杂度的分析相一致。
 
 \begin{figure}[H]
@@ -260,4 +260,4 @@ Fraction of physical memory allocated to TLC: 16173 mb
 \end{figure}
 \par 结果分析：时间复杂度与第三类函数的复杂度相同，目前可以验证所设计的OT函数在LIST长度为7之内时的正确性。
 
-Redis List命令的OT函数设计经过验证是成功的，其满足CP1正确性。
+经过TLA+的验证，大大提高了我们所设计函数的可信度。

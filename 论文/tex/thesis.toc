@@ -14,7 +14,7 @@
 \contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}OT 函数的性质}{6}{section.2.1}
 \contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}OT函数的设计}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}第一类 OT 函数的设计}{7}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第二类 OT 函数设计}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第二类 OT 函数的设计}{8}{subsection.2.2.2}
 \contentsline {section}{\numberline {2\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}3}OT 函数的验证}{8}{section.2.3}
 \contentsline {chapter}{\numberline {3}Redis List OT 函数设计}{10}{chapter.3}
 \contentsline {section}{\numberline {3\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}Redis List API 分类}{10}{section.3.1}
@@ -45,4 +45,4 @@
 \contentsline {chapter}{\numberline {A}附录}{36}{appendix.A}
 \contentsline {section}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}OT函数的设计}{36}{section.A.1}
 \contentsline {subsection}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1}第一类 OT 函数的设计}{36}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第二类 OT 函数设计}{37}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}1\tmspace +\thinmuskip {.1667em}.\tmspace +\thinmuskip {.1667em}2}第二类 OT 函数的设计}{37}{subsection.A.1.2}
